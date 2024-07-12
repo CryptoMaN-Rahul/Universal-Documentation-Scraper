@@ -1,1 +1,11 @@
-flask
+requests
+beautifulsoup4
+selenium
+pdfkit
+webdriver_manager
+fpdf 
+tqdm
+readability
+Pillow
+cssutils
+xhtml2pdf
