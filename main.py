@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 
 
 class MarketDataFeedDocDownloader:
+    """ """
     def __init__(self, base_url, output_dir, max_pages=100, timeout=30):
         self.base_url = base_url
         self.output_dir = output_dir
@@ -38,11 +39,17 @@ class MarketDataFeedDocDownloader:
         self.driver = webdriver.Chrome(options=chrome_options)
 
     def download_documentation(self):
+        """ """
         self.process_url(self.base_url)
         self.driver.quit()
         self.generate_pdf()
 
     def process_url(self, url):
+        """
+
+        :param url: 
+
+        """
         if url in self.visited_urls or len(self.visited_urls) >= self.max_pages:
             return
 
@@ -66,6 +73,12 @@ class MarketDataFeedDocDownloader:
         self.find_links(url, soup)
 
     def extract_content(self, url, soup):
+        """
+
+        :param url: 
+        :param soup: 
+
+        """
         # Remove script elements
         for script in soup(["script"]):
             script.decompose()
@@ -87,6 +100,12 @@ class MarketDataFeedDocDownloader:
             logger.warning(f"Main content not found on {url}")
 
     def process_image(self, img, base_url):
+        """
+
+        :param img: 
+        :param base_url: 
+
+        """
         src = img.get("src")
         if src:
             if src.startswith("data:image"):
@@ -107,6 +126,12 @@ class MarketDataFeedDocDownloader:
                 img["src"] = ""
 
     def find_links(self, url, soup):
+        """
+
+        :param url: 
+        :param soup: 
+
+        """
         links = soup.find_all("a", href=True)
         for link in links:
             href = link["href"]
@@ -115,6 +140,11 @@ class MarketDataFeedDocDownloader:
                 self.process_url(full_url)
 
     def is_valid_doc_url(self, url):
+        """
+
+        :param url: 
+
+        """
         parsed = urlparse(url)
         return (
             bool(parsed.netloc)
@@ -124,6 +154,7 @@ class MarketDataFeedDocDownloader:
         )
 
     def generate_pdf(self):
+        """ """
         pdf_path = os.path.join(self.output_dir, "market_data_feed_documentation.pdf")
 
         # Combine all HTML content
@@ -154,6 +185,7 @@ class MarketDataFeedDocDownloader:
 
 
 def main():
+    """ """
     parser = argparse.ArgumentParser(
         description="Download Market Data Feed API documentation and convert to PDF"
     )
