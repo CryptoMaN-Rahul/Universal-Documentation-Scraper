@@ -16,8 +16,9 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from xhtml2pdf import pisa
 
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
@@ -51,8 +52,7 @@ class MarketDataFeedDocDownloader:
         :param url:
 
         """
-        if url in self.visited_urls or len(
-                self.visited_urls) >= self.max_pages:
+        if url in self.visited_urls or len(self.visited_urls) >= self.max_pages:
             return
 
         self.visited_urls.add(url)
@@ -61,7 +61,8 @@ class MarketDataFeedDocDownloader:
         try:
             self.driver.get(url)
             WebDriverWait(self.driver, self.timeout).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body")))
+                EC.presence_of_element_located((By.TAG_NAME, "body"))
+            )
         except TimeoutException:
             logger.error(f"Timeout while loading {url}")
             return
@@ -147,15 +148,16 @@ class MarketDataFeedDocDownloader:
 
         """
         parsed = urlparse(url)
-        return (bool(parsed.netloc) and bool(parsed.scheme)
-                and parsed.netloc == urlparse(self.base_url).netloc
-                and "/developer/api-documentation/get-market-data-feed"
-                in parsed.path)
+        return (
+            bool(parsed.netloc)
+            and bool(parsed.scheme)
+            and parsed.netloc == urlparse(self.base_url).netloc
+            and "/developer/api-documentation/get-market-data-feed" in parsed.path
+        )
 
     def generate_pdf(self):
         """ """
-        pdf_path = os.path.join(self.output_dir,
-                                "market_data_feed_documentation.pdf")
+        pdf_path = os.path.join(self.output_dir, "market_data_feed_documentation.pdf")
 
         # Combine all HTML content
         full_html = f"""
@@ -187,20 +189,19 @@ class MarketDataFeedDocDownloader:
 def main():
     """ """
     parser = argparse.ArgumentParser(
-        description="Download Market Data Feed API documentation and convert to PDF")
+        description="Download Market Data Feed API documentation and convert to PDF"
+    )
     parser.add_argument(
         "--url",
         default="https://upstox.com/developer/api-documentation/get-market-data-feed/",
         help="Base URL of the Market Data Feed API documentation",
     )
-    parser.add_argument("--max-pages",
-                        type=int,
-                        default=100,
-                        help="Maximum number of pages to download")
-    parser.add_argument("--timeout",
-                        type=int,
-                        default=30,
-                        help="Timeout for requests in seconds")
+    parser.add_argument(
+        "--max-pages", type=int, default=100, help="Maximum number of pages to download"
+    )
+    parser.add_argument(
+        "--timeout", type=int, default=30, help="Timeout for requests in seconds"
+    )
 
     args = parser.parse_args()
 
@@ -208,10 +209,9 @@ def main():
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
-    downloader = MarketDataFeedDocDownloader(args.url,
-                                             output_dir,
-                                             max_pages=args.max_pages,
-                                             timeout=args.timeout)
+    downloader = MarketDataFeedDocDownloader(
+        args.url, output_dir, max_pages=args.max_pages, timeout=args.timeout
+    )
 
     start_time = time.time()
     downloader.download_documentation()
