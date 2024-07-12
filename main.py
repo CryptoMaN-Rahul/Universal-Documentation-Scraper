@@ -49,7 +49,7 @@ class MarketDataFeedDocDownloader:
     def process_url(self, url):
         """
 
-        :param url: 
+        :param url:
 
         """
         if url in self.visited_urls or len(self.visited_urls) >= self.max_pages:
@@ -78,7 +78,7 @@ class MarketDataFeedDocDownloader:
         """
 
         :param url: param soup:
-        :param soup: 
+        :param soup:
 
         """
         # Remove script elements
@@ -105,7 +105,7 @@ class MarketDataFeedDocDownloader:
         """
 
         :param img: param base_url:
-        :param base_url: 
+        :param base_url:
 
         """
         src = img.get("src")
@@ -131,7 +131,7 @@ class MarketDataFeedDocDownloader:
         """
 
         :param url: param soup:
-        :param soup: 
+        :param soup:
 
         """
         links = soup.find_all("a", href=True)
@@ -144,7 +144,7 @@ class MarketDataFeedDocDownloader:
     def is_valid_doc_url(self, url):
         """
 
-        :param url: 
+        :param url:
 
         """
         parsed = urlparse(url)
