@@ -3,7 +3,8 @@ import base64
 import logging
 import os
 import time
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
+from urllib.parse import urlparse
 
 import requests
 from bs4 import BeautifulSoup
