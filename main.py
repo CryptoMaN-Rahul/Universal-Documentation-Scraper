@@ -187,12 +187,10 @@ class MarketDataFeedDocDownloader:
 def main():
     """ """
     parser = argparse.ArgumentParser(
-        description=
-        "Download Market Data Feed API documentation and convert to PDF")
+        description="Download Market Data Feed API documentation and convert to PDF")
     parser.add_argument(
         "--url",
-        default=
-        "https://upstox.com/developer/api-documentation/get-market-data-feed/",
+        default="https://upstox.com/developer/api-documentation/get-market-data-feed/",
         help="Base URL of the Market Data Feed API documentation",
     )
     parser.add_argument("--max-pages",
