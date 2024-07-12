@@ -1,19 +1,19 @@
+import argparse
+import base64
+import logging
 import os
 import time
-import argparse
 from urllib.parse import urljoin, urlparse
 
+import requests
+from bs4 import BeautifulSoup
 from selenium import webdriver
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
-from bs4 import BeautifulSoup
+from selenium.webdriver.support.ui import WebDriverWait
 from xhtml2pdf import pisa
-import base64
-import requests
-import logging
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
