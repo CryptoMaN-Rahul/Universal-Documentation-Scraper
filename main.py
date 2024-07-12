@@ -15,8 +15,10 @@ import base64
 import requests
 import logging
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
 
 class MarketDataFeedDocDownloader:
     def __init__(self, base_url, output_dir, max_pages=100, timeout=30):
@@ -24,7 +26,7 @@ class MarketDataFeedDocDownloader:
         self.output_dir = output_dir
         self.max_pages = max_pages
         self.timeout = timeout
-        
+
         self.visited_urls = set()
         self.html_content = []
 
@@ -89,10 +91,10 @@ class MarketDataFeedDocDownloader:
             if src.startswith('data:image'):
                 # The image is already a data URL, no need to modify
                 return
-            
+
             # Convert relative URLs to absolute URLs
             img_url = urljoin(base_url, src)
-            
+
             try:
                 response = requests.get(img_url, timeout=self.timeout)
                 response.raise_for_status()
@@ -100,7 +102,8 @@ class MarketDataFeedDocDownloader:
                 img['src'] = f"data:image/png;base64,{img_data}"
             except Exception as e:
                 logger.error(f"Failed to process image {img_url}: {str(e)}")
-                img['src'] = ''  # Remove the src attribute if we can't process the image
+                # Remove the src attribute if we can't process the image
+                img['src'] = ''
 
     def find_links(self, url, soup):
         links = soup.find_all('a', href=True)
@@ -117,8 +120,9 @@ class MarketDataFeedDocDownloader:
                 "/developer/api-documentation/get-market-data-feed" in parsed.path)
 
     def generate_pdf(self):
-        pdf_path = os.path.join(self.output_dir, "market_data_feed_documentation.pdf")
-        
+        pdf_path = os.path.join(
+            self.output_dir, "market_data_feed_documentation.pdf")
+
         # Combine all HTML content
         full_html = f"""
         <html>
@@ -135,22 +139,26 @@ class MarketDataFeedDocDownloader:
         </body>
         </html>
         """
-        
+
         # Convert HTML to PDF
         with open(pdf_path, "wb") as pdf_file:
             pisa_status = pisa.CreatePDF(full_html, dest=pdf_file)
-        
+
         if pisa_status.err:
             logger.error('Error creating PDF')
         else:
             logger.info(f"PDF saved to: {pdf_path}")
 
+
 def main():
-    parser = argparse.ArgumentParser(description="Download Market Data Feed API documentation and convert to PDF")
+    parser = argparse.ArgumentParser(
+        description="Download Market Data Feed API documentation and convert to PDF")
     parser.add_argument("--url", default="https://upstox.com/developer/api-documentation/get-market-data-feed/",
                         help="Base URL of the Market Data Feed API documentation")
-    parser.add_argument("--max-pages", type=int, default=100, help="Maximum number of pages to download")
-    parser.add_argument("--timeout", type=int, default=30, help="Timeout for requests in seconds")
+    parser.add_argument("--max-pages", type=int, default=100,
+                        help="Maximum number of pages to download")
+    parser.add_argument("--timeout", type=int, default=30,
+                        help="Timeout for requests in seconds")
 
     args = parser.parse_args()
 
@@ -171,6 +179,7 @@ def main():
 
     logger.info(f"Download completed in {end_time - start_time:.2f} seconds")
     logger.info(f"Total pages downloaded: {len(downloader.visited_urls)}")
+
 
 if __name__ == "__main__":
     main()
