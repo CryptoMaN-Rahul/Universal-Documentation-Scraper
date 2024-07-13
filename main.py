@@ -117,7 +117,7 @@ class MarketDataFeedDocScraper:
         """
 
         :param content: Tag:
-        :param content: Tag: 
+        :param content: Tag:
 
         """
         code_blocks = content.find_all(["pre", "code"])
@@ -139,7 +139,7 @@ class MarketDataFeedDocScraper:
         """
 
         :param block: Tag:
-        :param block: Tag: 
+        :param block: Tag:
 
         """
         # This method checks if a code block is Node.js related
@@ -170,7 +170,7 @@ class MarketDataFeedDocScraper:
         """
 
         :param url: str:
-        :param url: str: 
+        :param url: str:
 
         """
         parsed = urlparse(url)
