@@ -2,12 +2,16 @@ import argparse
 import asyncio
 import logging
 import os
-from typing import Dict, List, Set
-from urllib.parse import urljoin, urlparse
+from typing import Dict
+from typing import List
+from typing import Set
+from urllib.parse import urljoin
+from urllib.parse import urlparse
 
 import aiohttp
 import html2text
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
+from bs4 import Tag
 
 # Configure logging
 logging.basicConfig(
