@@ -9,3 +9,5 @@ readability
 Pillow
 cssutils
 xhtml2pdf
+playwright
+html2text

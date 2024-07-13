@@ -1,227 +1,182 @@
 import argparse
-import base64
+import asyncio
 import logging
 import os
-import time
-from urllib.parse import urljoin
-from urllib.parse import urlparse
+from typing import List, Set, Dict
+from urllib.parse import urljoin, urlparse
 
-import requests
-from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from xhtml2pdf import pisa
+import aiohttp
+from bs4 import BeautifulSoup, Tag
+import html2text
 
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+# Configure logging
+logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
-
-class MarketDataFeedDocDownloader:
-    """ """
-
-    def __init__(self, base_url, output_dir, max_pages=100, timeout=30):
+class MarketDataFeedDocScraper:
+    def __init__(self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30):
         self.base_url = base_url
         self.output_dir = output_dir
         self.max_pages = max_pages
         self.timeout = timeout
 
-        self.visited_urls = set()
-        self.html_content = []
+        self.visited_urls: Set[str] = set()
+        self.content_list: List[Dict[str, str]] = []
+        self.to_scrape: List[str] = []
 
-        chrome_options = Options()
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument("--no-sandbox")
-        chrome_options.add_argument("--disable-dev-shm-usage")
-        self.driver = webdriver.Chrome(options=chrome_options)
+        self.html_converter = html2text.HTML2Text()
+        self.html_converter.ignore_links = False
+        self.html_converter.ignore_images = False
+        self.html_converter.ignore_tables = False
+        self.html_converter.body_width = 0  # Don't wrap lines
 
-    def download_documentation(self):
-        """ """
-        self.process_url(self.base_url)
-        self.driver.quit()
-        self.generate_pdf()
+    async def scrape_documentation(self):
+        async with aiohttp.ClientSession() as session:
+            # Get initial links
+            await self.get_initial_links(session)
+            
+            # Recursively scrape each link
+            while self.to_scrape:
+                url = self.to_scrape.pop(0)
+                await self.process_url(url, session)
 
-    def process_url(self, url):
-        """
+        # Generate the final Markdown file
+        await self.generate_markdown()
 
-        :param url:
+    async def get_initial_links(self, session: aiohttp.ClientSession):
+        logger.info(f"Getting initial links from: {self.base_url}")
+        async with session.get(self.base_url, timeout=self.timeout) as response:
+            content = await response.text()
+        
+        soup = BeautifulSoup(content, "html.parser")
+        links = soup.find_all("a", href=True)
+        
+        for link in links:
+            full_url = urljoin(self.base_url, link["href"])
+            if self.is_valid_doc_url(full_url) and full_url not in self.visited_urls:
+                self.to_scrape.append(full_url)
+        
+        logger.info(f"Found {len(self.to_scrape)} initial links to scrape")
 
-        """
-        if url in self.visited_urls or len(
-                self.visited_urls) >= self.max_pages:
+    async def process_url(self, url: str, session: aiohttp.ClientSession):
+        if url in self.visited_urls or len(self.visited_urls) >= self.max_pages:
             return
 
         self.visited_urls.add(url)
         logger.info(f"Processing: {url}")
 
         try:
-            self.driver.get(url)
-            WebDriverWait(self.driver, self.timeout).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body")))
-        except TimeoutException:
-            logger.error(f"Timeout while loading {url}")
-            return
+            async with session.get(url, timeout=self.timeout) as response:
+                content = await response.text()
+            
+            soup = BeautifulSoup(content, "html.parser")
+            await self.extract_content(url, soup)
+            await self.find_links(url, soup)
         except Exception as e:
-            logger.error(f"Failed to fetch {url}: {str(e)}")
-            return
+            logger.error(f"Failed to process {url}: {str(e)}")
 
-        soup = BeautifulSoup(self.driver.page_source, "html.parser")
-        self.extract_content(url, soup)
-        self.find_links(url, soup)
+    async def extract_content(self, url: str, soup: BeautifulSoup):
+        # Find the main content area (adjust selectors as needed)
+        main_content = soup.find("main") or soup.find("article") or soup.find("div", class_="content")
+        
+        if not main_content:
+            main_content = soup.find("body")
 
-    def extract_content(self, url, soup):
-        """
-
-        :param url: param soup:
-        :param soup:
-
-        """
-        # Remove script elements
-        for script in soup(["script"]):
-            script.decompose()
-
-        # Find the main content area
-        main_content = soup.find("main")
         if main_content:
-            # Process images
-            for img in main_content.find_all("img"):
-                self.process_image(img, url)
-
-            # Ensure code snippets are preserved
-            for pre in main_content.find_all("pre"):
-                pre["style"] = "white-space: pre-wrap; word-wrap: break-word;"
-
-            # Add the processed HTML to our content list
-            self.html_content.append(str(main_content))
+            title = soup.find("title")
+            title_text = title.text if title else "Untitled"
+            
+            # Process code blocks to keep only Node.js related code
+            self.process_code_blocks(main_content)
+            
+            # Convert HTML to Markdown
+            content_markdown = self.html_converter.handle(str(main_content))
+            
+            self.content_list.append({
+                "url": url,
+                "title": title_text,
+                "content": content_markdown
+            })
         else:
             logger.warning(f"Main content not found on {url}")
 
-    def process_image(self, img, base_url):
-        """
+    def process_code_blocks(self, content: Tag):
+        code_blocks = content.find_all(['pre', 'code'])
+        for block in code_blocks:
+            # Check if the code block is Node.js related
+            if self.is_nodejs_code(block):
+                # If it's Node.js, we keep it and add a label
+                block.insert(0, BeautifulSoup('<p><strong>Node.js Code:</strong></p>', 'html.parser'))
+            else:
+                # If it's not Node.js, we remove the block
+                block.decompose()
 
-        :param img: param base_url:
-        :param base_url:
+    def is_nodejs_code(self, block: Tag) -> bool:
+        # This method checks if a code block is Node.js related
+        # You may need to adjust this based on the specific structure of the documentation
+        text = block.get_text().lower()
+        nodejs_indicators = ['node', 'npm', 'require(', 'module.exports', 'async/await', 'promise']
+        return any(indicator in text for indicator in nodejs_indicators)
 
-        """
-        src = img.get("src")
-        if src:
-            if src.startswith("data:image"):
-                # The image is already a data URL, no need to modify
-                return
-
-            # Convert relative URLs to absolute URLs
-            img_url = urljoin(base_url, src)
-
-            try:
-                response = requests.get(img_url, timeout=self.timeout)
-                response.raise_for_status()
-                img_data = base64.b64encode(response.content).decode("utf-8")
-                img["src"] = f"data:image/png;base64,{img_data}"
-            except Exception as e:
-                logger.error(f"Failed to process image {img_url}: {str(e)}")
-                # Remove the src attribute if we can't process the image
-                img["src"] = ""
-
-    def find_links(self, url, soup):
-        """
-
-        :param url: param soup:
-        :param soup:
-
-        """
+    async def find_links(self, url: str, soup: BeautifulSoup):
         links = soup.find_all("a", href=True)
         for link in links:
-            href = link["href"]
-            full_url = urljoin(url, href)
-            if self.is_valid_doc_url(full_url):
-                self.process_url(full_url)
+            full_url = urljoin(url, link["href"])
+            if self.is_valid_doc_url(full_url) and full_url not in self.visited_urls and full_url not in self.to_scrape:
+                self.to_scrape.append(full_url)
 
-    def is_valid_doc_url(self, url):
-        """
-
-        :param url:
-
-        """
+    def is_valid_doc_url(self, url: str) -> bool:
         parsed = urlparse(url)
-        return (bool(parsed.netloc) and bool(parsed.scheme)
-                and parsed.netloc == urlparse(self.base_url).netloc
-                and "/developer/api-documentation/get-market-data-feed"
-                in parsed.path)
+        base_parsed = urlparse(self.base_url)
+        return (
+            bool(parsed.netloc)
+            and bool(parsed.scheme)
+            and parsed.netloc == base_parsed.netloc
+            and parsed.path.startswith(base_parsed.path)
+        )
 
-    def generate_pdf(self):
-        """ """
-        pdf_path = os.path.join(self.output_dir,
-                                "market_data_feed_documentation.pdf")
+    async def generate_markdown(self):
+        markdown_content = "# Market Data Feed Documentation\n\n"
+        
+        for item in self.content_list:
+            markdown_content += f"## [{item['title']}]({item['url']})\n\n"
+            markdown_content += item['content']
+            markdown_content += "\n\n---\n\n"
 
-        # Combine all HTML content
-        full_html = f"""
-        <html>
-        <head>
-            <meta charset="UTF-8">
-            <style>
-                body {{ font-family: Arial, sans-serif; }}
-                img {{ max-width: 100%; height: auto; }}
-                pre {{ white-space: pre-wrap; word-wrap: break-word; background-color: #f0f0f0; padding: 10px; }}
-            </style>
-        </head>
-        <body>
-            {"<hr>".join(self.html_content)}
-        </body>
-        </html>
-        """
+        markdown_path = os.path.join(self.output_dir, "market_data_feed_documentation.md")
+        with open(markdown_path, "w", encoding="utf-8") as md_file:
+            md_file.write(markdown_content)
 
-        # Convert HTML to PDF
-        with open(pdf_path, "wb") as pdf_file:
-            pisa_status = pisa.CreatePDF(full_html, dest=pdf_file)
+        logger.info(f"Markdown file saved to: {markdown_path}")
 
-        if pisa_status.err:
-            logger.error("Error creating PDF")
-        else:
-            logger.info(f"PDF saved to: {pdf_path}")
-
-
-def main():
-    """ """
+async def main():
     parser = argparse.ArgumentParser(
-        description=
-        "Download Market Data Feed API documentation and convert to PDF")
+        description="Scrape Market Data Feed API documentation and convert to Markdown"
+    )
     parser.add_argument(
         "--url",
-        default=
-        "https://upstox.com/developer/api-documentation/get-market-data-feed/",
+        default="https://upstox.com/developer/api-documentation",
         help="Base URL of the Market Data Feed API documentation",
     )
-    parser.add_argument("--max-pages",
-                        type=int,
-                        default=100,
-                        help="Maximum number of pages to download")
-    parser.add_argument("--timeout",
-                        type=int,
-                        default=30,
-                        help="Timeout for requests in seconds")
+    parser.add_argument(
+        "--max-pages", type=int, default=100, help="Maximum number of pages to scrape"
+    )
+    parser.add_argument(
+        "--timeout", type=int, default=30, help="Timeout for requests in seconds"
+    )
 
     args = parser.parse_args()
 
     output_dir = "market_data_feed_docs"
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    os.makedirs(output_dir, exist_ok=True)
 
-    downloader = MarketDataFeedDocDownloader(args.url,
-                                             output_dir,
-                                             max_pages=args.max_pages,
-                                             timeout=args.timeout)
+    scraper = MarketDataFeedDocScraper(
+        args.url, output_dir, max_pages=args.max_pages, timeout=args.timeout
+    )
 
-    start_time = time.time()
-    downloader.download_documentation()
-    end_time = time.time()
+    await scraper.scrape_documentation()
 
-    logger.info(f"Download completed in {end_time - start_time:.2f} seconds")
-    logger.info(f"Total pages downloaded: {len(downloader.visited_urls)}")
-
+    logger.info(f"Total pages scraped: {len(scraper.visited_urls)}")
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
