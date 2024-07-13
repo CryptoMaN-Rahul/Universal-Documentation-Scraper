@@ -121,6 +121,7 @@ class MarketDataFeedDocScraper:
 
         :param content: Tag:
         :param content: Tag:
+        :param content: Tag:
 
         """
         code_blocks = content.find_all(["pre", "code"])
@@ -140,6 +141,7 @@ class MarketDataFeedDocScraper:
     def is_nodejs_code(self, block: Tag) -> bool:
         """
 
+        :param block: Tag:
         :param block: Tag:
         :param block: Tag:
 
@@ -169,6 +171,7 @@ class MarketDataFeedDocScraper:
     def is_valid_doc_url(self, url: str) -> bool:
         """
 
+        :param url: str:
         :param url: str:
         :param url: str:
 
