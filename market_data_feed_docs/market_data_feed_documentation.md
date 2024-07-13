@@ -998,27 +998,27 @@ On this page
 
   const url = 'https://api.upstox.com/v2/login/authorization/token';
   const headers = {
-   'accept': 'application/json',
-   'Content-Type': 'application/x-www-form-urlencoded',
+  'accept': 'application/json',
+  'Content-Type': 'application/x-www-form-urlencoded',
   };
 
   const data = {
-   'code': '{your_code}',
-   'client_id': '{your_client_id}',
-   'client_secret': '{your_client_secret}',
-   'redirect_uri': '{your_redirect_url}',
-   'grant_type': 'authorization_code',
+  'code': '{your_code}',
+  'client_id': '{your_client_id}',
+  'client_secret': '{your_client_secret}',
+  'redirect_uri': '{your_redirect_url}',
+  'grant_type': 'authorization_code',
   };
 
   axios.post(url, new URLSearchParams(data), { headers })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error.response.status);
-   console.error(error.response.data);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error.response.status);
+  console.error(error.response.data);
+  });
 
   **Node.js Code:**
 
@@ -1029,18 +1029,18 @@ On this page
   let apiInstance = new UpstoxClient.LoginApi();
   let apiVersion = "2.0";
   let opts = {
-   'code': "{your_auth_code}",
-   'clientId': "{your_client_secret}",
-   'clientSecret': "{your_client_secret}",
-   'redirectUri': "{your_redirect_url}",
-   'grantType': "authorization_code"
+  'code': "{your_auth_code}",
+  'clientId': "{your_client_secret}",
+  'clientSecret': "{your_client_secret}",
+  'redirectUri': "{your_redirect_url}",
+  'grantType': "authorization_code"
   };
   apiInstance.token(apiVersion, opts, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousExample Code](/developer/api-documentation/example-code/introduction)[NextLogout](/developer/api-documentation/example-code/login/logout)
@@ -1079,18 +1079,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/user/profile';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error);
+  });
 
   **Node.js Code:**
 
@@ -1103,11 +1103,11 @@ On this page
   let apiInstance = new UpstoxClient.UserApi();
   let apiVersion = "2.0"; // String | API Version Header
   apiInstance.getProfile(apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousLogout](/developer/api-documentation/example-code/login/logout)[NextGet Fund and Margin](/developer/api-documentation/example-code/user/get-fund-and-margin)
@@ -1146,25 +1146,25 @@ On this page
 
   const url = 'https://api.upstox.com/v2/charges/brokerage';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   instrument_token: 'NSE_EQ|INE669E01016',
-   quantity: '10',
-   product: 'D',
-   transaction_type: 'BUY',
-   price: '13.7'
+  instrument_token: 'NSE_EQ|INE669E01016',
+  quantity: '10',
+  product: 'D',
+  transaction_type: 'BUY',
+  price: '13.7'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error.message);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error.message);
+  });
 
   **Node.js Code:**
 
@@ -1184,11 +1184,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get brokerage details for equity intraday orders​
@@ -1210,25 +1210,25 @@ On this page
 
   const url = 'https://api.upstox.com/v2/charges/brokerage';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   instrument_token: 'NSE_EQ|INE669E01016',
-   quantity: '10',
-   product: 'I',
-   transaction_type: 'BUY',
-   price: '13.7'
+  instrument_token: 'NSE_EQ|INE669E01016',
+  quantity: '10',
+  product: 'I',
+  transaction_type: 'BUY',
+  price: '13.7'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error.message);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error.message);
+  });
 
   **Node.js Code:**
 
@@ -1248,11 +1248,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get brokerage details for equity futures and options delivery orders​
@@ -1274,27 +1274,27 @@ On this page
 
   const url = 'https://api.upstox.com/v2/charges/brokerage';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   'instrument_token': 'NSE_FO|35271',
-   'quantity': '10',
-   'product': 'D',
-   'transaction_type': 'BUY',
-   'price': '1400'
+  'instrument_token': 'NSE_FO|35271',
+  'quantity': '10',
+  'product': 'D',
+  'transaction_type': 'BUY',
+  'price': '1400'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error.response.status);
-   console.error(error.response.data);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error.response.status);
+  console.error(error.response.data);
+  });
 
   **Node.js Code:**
 
@@ -1314,11 +1314,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get brokerage details for equity futures and options intraday orders​
@@ -1340,27 +1340,27 @@ On this page
 
   const url = 'https://api.upstox.com/v2/charges/brokerage';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   'instrument_token': 'NSE_FO|35271',
-   'quantity': '10',
-   'product': 'I',
-   'transaction_type': 'BUY',
-   'price': '1400'
+  'instrument_token': 'NSE_FO|35271',
+  'quantity': '10',
+  'product': 'I',
+  'transaction_type': 'BUY',
+  'price': '1400'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error.response.status);
-   console.error(error.response.data);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error.response.status);
+  console.error(error.response.data);
+  });
 
   **Node.js Code:**
 
@@ -1380,11 +1380,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousGet Fund and Margin](/developer/api-documentation/example-code/user/get-fund-and-margin)[NextPlace Order](/developer/api-documentation/example-code/orders/place-order)
@@ -1426,32 +1426,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'D',
-   validity: 'DAY',
-   price: 0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE669E01016',
-   order_type: 'MARKET',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 0,
-   is_amo: false,
+  quantity: 1,
+  product: 'D',
+  validity: 'DAY',
+  price: 0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE669E01016',
+  order_type: 'MARKET',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 0,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1467,11 +1467,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place a delivery limit order​
@@ -1493,32 +1493,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'D',
-   validity: 'DAY',
-   price: 13,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE669E01016',
-   order_type: 'LIMIT',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 13.2,
-   is_amo: false,
+  quantity: 1,
+  product: 'D',
+  validity: 'DAY',
+  price: 13,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE669E01016',
+  order_type: 'LIMIT',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 13.2,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1534,11 +1534,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place a delivery stop-loss order​
@@ -1560,32 +1560,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'D',
-   validity: 'DAY',
-   price: 14.05,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE669E01016',
-   order_type: 'SL',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 13,
-   is_amo: false,
+  quantity: 1,
+  product: 'D',
+  validity: 'DAY',
+  price: 14.05,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE669E01016',
+  order_type: 'SL',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 13,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1601,11 +1601,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place a delivery stop-loss order market​
@@ -1627,32 +1627,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'D',
-   validity: 'DAY',
-   price: 0.0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE669E01016',
-   order_type: 'SL-M',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 15,
-   is_amo: false,
+  quantity: 1,
+  product: 'D',
+  validity: 'DAY',
+  price: 0.0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE669E01016',
+  order_type: 'SL-M',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 15,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1668,11 +1668,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place an intraday market order​
@@ -1694,32 +1694,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'I',
-   validity: 'DAY',
-   price: 0.0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE528G01035',
-   order_type: 'MARKET',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 0,
-   is_amo: false,
+  quantity: 1,
+  product: 'I',
+  validity: 'DAY',
+  price: 0.0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE528G01035',
+  order_type: 'MARKET',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 0,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1735,11 +1735,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place an intraday limit order​
@@ -1761,32 +1761,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'I',
-   validity: 'DAY',
-   price: 20.0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE528G01035',
-   order_type: 'LIMIT',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 20.1,
-   is_amo: false,
+  quantity: 1,
+  product: 'I',
+  validity: 'DAY',
+  price: 20.0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE528G01035',
+  order_type: 'LIMIT',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 20.1,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1802,11 +1802,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place an intraday stop-loss order​
@@ -1828,32 +1828,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'I',
-   validity: 'DAY',
-   price: 20.0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE528G01035',
-   order_type: 'SL',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 19.5,
-   is_amo: false,
+  quantity: 1,
+  product: 'I',
+  validity: 'DAY',
+  price: 20.0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE528G01035',
+  order_type: 'SL',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 19.5,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1869,11 +1869,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place an intraday stop-loss market order​
@@ -1895,32 +1895,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'I',
-   validity: 'DAY',
-   price: 0.0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE528G01035',
-   order_type: 'SL-M',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 21.5,
-   is_amo: false,
+  quantity: 1,
+  product: 'I',
+  validity: 'DAY',
+  price: 0.0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE528G01035',
+  order_type: 'SL-M',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 21.5,
+  is_amo: false,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -1936,11 +1936,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 ## Place a delivery market amo (after market order)​
@@ -1962,32 +1962,32 @@ On this page
 
   const url = 'https://api.upstox.com/v2/order/place';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}',
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}',
   };
 
   const data = {
-   quantity: 1,
-   product: 'D',
-   validity: 'DAY',
-   price: 0,
-   tag: 'string',
-   instrument_token: 'NSE_EQ|INE669E01016',
-   order_type: 'MARKET',
-   transaction_type: 'BUY',
-   disclosed_quantity: 0,
-   trigger_price: 0,
-   is_amo: true,
+  quantity: 1,
+  product: 'D',
+  validity: 'DAY',
+  price: 0,
+  tag: 'string',
+  instrument_token: 'NSE_EQ|INE669E01016',
+  order_type: 'MARKET',
+  transaction_type: 'BUY',
+  disclosed_quantity: 0,
+  trigger_price: 0,
+  is_amo: true,
   };
 
   axios.post(url, data, { headers })
-   .then(response => {
-   console.log('Response:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Response:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -2003,11 +2003,11 @@ On this page
   let apiVersion = "2.0";
 
   apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error.response.text);
-   } else {
-   console.log('API called successfully. Returned data: ' + data);
-   }
+  if (error) {
+  console.error(error.response.text);
+  } else {
+  console.log('API called successfully. Returned data: ' + data);
+  }
   });
 
 [PreviousBrokerage Details](/developer/api-documentation/example-code/charges/brokerage-details)[NextModify Order](/developer/api-documentation/example-code/orders/modify-order)
@@ -2054,27 +2054,27 @@ On this page
 
   const url = 'https://api.upstox.com/v2/portfolio/convert-position';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
   };
 
   const data = {
-   "instrument_token": "NSE_EQ|INE528G01035",
-   "new_product": "D",
-   "old_product": "I",
-   "transaction_type": "BUY",
-   "quantity": 1
+  "instrument_token": "NSE_EQ|INE528G01035",
+  "new_product": "D",
+  "old_product": "I",
+  "transaction_type": "BUY",
+  "quantity": 1
   };
 
   axios.put(url, data, { headers })
-   .then(response => {
-   console.log('Status Code:', response.status);
-   console.log('Response Data:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Status Code:', response.status);
+  console.log('Response Data:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -2092,11 +2092,11 @@ On this page
   let apiVersion = "2.0"; // String | API Version Header
 
   apiInstance.convertPositions(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Convert a position from delivery to intraday​
@@ -2118,27 +2118,27 @@ On this page
 
   const url = 'https://api.upstox.com/v2/portfolio/convert-position';
   const headers = {
-   'Content-Type': 'application/json',
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
+  'Content-Type': 'application/json',
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
   };
 
   const data = {
-   "instrument_token": "NSE_EQ|INE528G01035",
-   "new_product": "I",
-   "old_product": "D",
-   "transaction_type": "BUY",
-   "quantity": 1
+  "instrument_token": "NSE_EQ|INE528G01035",
+  "new_product": "I",
+  "old_product": "D",
+  "transaction_type": "BUY",
+  "quantity": 1
   };
 
   axios.put(url, data, { headers })
-   .then(response => {
-   console.log('Status Code:', response.status);
-   console.log('Response Data:', response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message);
-   });
+  .then(response => {
+  console.log('Status Code:', response.status);
+  console.log('Response Data:', response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message);
+  });
 
   **Node.js Code:**
 
@@ -2156,11 +2156,11 @@ On this page
   let apiVersion = "2.0"; // String | API Version Header
 
   apiInstance.convertPositions(body, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousGet Trade History](/developer/api-documentation/example-code/orders/get-historical-trades)[NextGet Holdings](/developer/api-documentation/example-code/portfolio/get-holdings)
@@ -2200,25 +2200,25 @@ On this page
 
   const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   'from_date': '05-11-2023',
-   'to_date': '19-12-2023',
-   'segment': 'EQ',
-   'financial_year': '2324'
+  'from_date': '05-11-2023',
+  'to_date': '19-12-2023',
+  'segment': 'EQ',
+  'financial_year': '2324'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message || error);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message || error);
+  });
 
   **Node.js Code:**
 
@@ -2236,15 +2236,15 @@ On this page
   let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122
   let apiVersion = "2.0"; // String | API Version Header
   let opts = {
-   'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
-   'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
   };
   apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get report meta data for futures and options segment​
@@ -2266,25 +2266,25 @@ On this page
 
   const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   const params = {
-   'from_date': '05-11-2023',
-   'to_date': '19-12-2023',
-   'segment': 'FO',
-   'financial_year': '2324'
+  'from_date': '05-11-2023',
+  'to_date': '19-12-2023',
+  'segment': 'FO',
+  'financial_year': '2324'
   };
 
   axios.get(url, { headers, params })
-   .then(response => {
-   console.log(response.status);
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error.message || error);
-   });
+  .then(response => {
+  console.log(response.status);
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error.message || error);
+  });
 
   **Node.js Code:**
 
@@ -2302,15 +2302,15 @@ On this page
   let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122
   let apiVersion = "2.0"; // String | API Version Header
   let opts = {
-   'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
-   'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
   };
   apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousGet Positions](/developer/api-documentation/example-code/portfolio/get-positions)[NextGet Profit Loss Report](/developer/api-documentation/example-code/trade-profit-and-loss/get-profit-loss-report)
@@ -2350,18 +2350,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13/2023-11-12';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
   **Node.js Code:**
 
@@ -2377,11 +2377,11 @@ On this page
   let fromDate = "2023-11-12";
 
   apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get data with a 30-minute interval​
@@ -2403,18 +2403,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13/2023-11-12';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
   **Node.js Code:**
 
@@ -2429,11 +2429,11 @@ On this page
   let toDate = "2023-11-13";
   let fromDate = "2023-11-12";
   apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get data with a daily interval​
@@ -2455,18 +2455,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19/2023-11-12';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 ## Get data with a weekly interval​
 
@@ -2487,18 +2487,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19/2023-07-12';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 ## Get data with a monthly interval​
 
@@ -2519,18 +2519,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19/2022-11-12';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 ## Get historical candle data with a 1-minute interval​
 
@@ -2551,18 +2551,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
   **Node.js Code:**
 
@@ -2576,11 +2576,11 @@ On this page
   let interval = "1minute";
   let toDate = "2023-11-13";
   apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get data with a 30-minute interval​
@@ -2602,18 +2602,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
   **Node.js Code:**
 
@@ -2628,11 +2628,11 @@ On this page
   let toDate = "2023-11-13";
 
   apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get data with a daily interval​
@@ -2654,18 +2654,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 ## Get data with a weekly interval​
 
@@ -2686,18 +2686,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 ## Get data with a monthly interval​
 
@@ -2718,18 +2718,18 @@ On this page
 
   const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Do something with the response data (e.g., print it)
-   console.log(response.data);
-   })
-   .catch(error => {
-   // Print an error message if the request was not successful
-   console.error(`Error: ${error.response.status} - ${error.response.data}`);
-   });
+  .then(response => {
+  // Do something with the response data (e.g., print it)
+  console.log(response.data);
+  })
+  .catch(error => {
+  // Print an error message if the request was not successful
+  console.error(`Error: ${error.response.status} - ${error.response.data}`);
+  });
 
 [PreviousGet Trade Charges](/developer/api-documentation/example-code/trade-profit-and-loss/get-trade-charges)[NextIntraday Candle Data](/developer/api-documentation/example-code/historical-data/intra-day-candle-data)
 
@@ -2776,17 +2776,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error);
+  });
 
   **Node.js Code:**
 
@@ -2802,11 +2802,11 @@ On this page
   let symbol = "NSE_EQ|INE669E01016";
 
   apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 ## Get full market quote for multiple instrument keys​
@@ -2828,17 +2828,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016,NSE_EQ|INE669E01016';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error(error);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error(error);
+  });
 
   **Node.js Code:**
 
@@ -2854,11 +2854,11 @@ On this page
   let symbol = "NSE_EQ|INE669E01016,NSE_EQ|INE848E01016";
 
   apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {
-   if (error) {
-   console.error(error);
-   } else {
-   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
-   }
+  if (error) {
+  console.error(error);
+  } else {
+  console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+  }
   });
 
 [PreviousIntraday Candle Data](/developer/api-documentation/example-code/historical-data/intra-day-candle-data)[NextLTP Market Quotes](/developer/api-documentation/example-code/market-quote/ltp-quotes)
@@ -2894,17 +2894,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/market/holidays';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Process the JSON response
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error);
-   });
+  .then(response => {
+  // Process the JSON response
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error);
+  });
 
 ## Get market holiday status of a date​
 
@@ -2921,17 +2921,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/market/holidays/2024-01-22';
   const headers = {
-   'Accept': 'application/json'
+  'Accept': 'application/json'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   // Process the JSON response
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error);
-   });
+  .then(response => {
+  // Process the JSON response
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error);
+  });
 
 [PreviousOHLC Market Quotes](/developer/api-documentation/example-code/market-quote/ohlc-quotes)[NextMarket Timings](/developer/api-documentation/example-code/market-information/market-timings)
 
@@ -2966,17 +2966,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error);
+  });
 
 ## Get option contracts of an instrument key with expiry date​
 
@@ -2993,17 +2993,17 @@ On this page
 
   const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050&expiry_date=2024-03-28';
   const headers = {
-   'Accept': 'application/json',
-   'Authorization': 'Bearer {your_access_token}'
+  'Accept': 'application/json',
+  'Authorization': 'Bearer {your_access_token}'
   };
 
   axios.get(url, { headers })
-   .then(response => {
-   console.log(response.data);
-   })
-   .catch(error => {
-   console.error('Error:', error);
-   });
+  .then(response => {
+  console.log(response.data);
+  })
+  .catch(error => {
+  console.error('Error:', error);
+  });
 
 [PreviousExchange Status](/developer/api-documentation/example-code/market-information/exchange-status)[NextPut/Call Option Chain](/developer/api-documentation/example-code/option-chain/put-call-option-chain)
 
