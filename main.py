@@ -14,17 +14,19 @@ from bs4 import BeautifulSoup
 from bs4 import Tag
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
 
 
 class MarketDataFeedDocScraper:
     """ """
-    def __init__(
-        self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30
-    ):
+
+    def __init__(self,
+                 base_url: str,
+                 output_dir: str,
+                 max_pages: int = 100,
+                 timeout: int = 30):
         self.base_url = base_url
         self.output_dir = output_dir
         self.max_pages = max_pages
@@ -55,7 +57,8 @@ class MarketDataFeedDocScraper:
 
     async def get_initial_links(self, session: aiohttp.ClientSession):
         logger.info(f"Getting initial links from: {self.base_url}")
-        async with session.get(self.base_url, timeout=self.timeout) as response:
+        async with session.get(self.base_url,
+                               timeout=self.timeout) as response:
             content = await response.text()
 
         soup = BeautifulSoup(content, "html.parser")
@@ -63,13 +66,15 @@ class MarketDataFeedDocScraper:
 
         for link in links:
             full_url = urljoin(self.base_url, link["href"])
-            if self.is_valid_doc_url(full_url) and full_url not in self.visited_urls:
+            if self.is_valid_doc_url(
+                    full_url) and full_url not in self.visited_urls:
                 self.to_scrape.append(full_url)
 
         logger.info(f"Found {len(self.to_scrape)} initial links to scrape")
 
     async def process_url(self, url: str, session: aiohttp.ClientSession):
-        if url in self.visited_urls or len(self.visited_urls) >= self.max_pages:
+        if url in self.visited_urls or len(
+                self.visited_urls) >= self.max_pages:
             return
 
         self.visited_urls.add(url)
@@ -87,11 +92,8 @@ class MarketDataFeedDocScraper:
 
     async def extract_content(self, url: str, soup: BeautifulSoup):
         # Find the main content area (adjust selectors as needed)
-        main_content = (
-            soup.find("main")
-            or soup.find("article")
-            or soup.find("div", class_="content")
-        )
+        main_content = (soup.find("main") or soup.find("article")
+                        or soup.find("div", class_="content"))
 
         if not main_content:
             main_content = soup.find("body")
@@ -106,9 +108,11 @@ class MarketDataFeedDocScraper:
             # Convert HTML to Markdown
             content_markdown = self.html_converter.handle(str(main_content))
 
-            self.content_list.append(
-                {"url": url, "title": title_text, "content": content_markdown}
-            )
+            self.content_list.append({
+                "url": url,
+                "title": title_text,
+                "content": content_markdown
+            })
         else:
             logger.warning(f"Main content not found on {url}")
 
@@ -125,9 +129,8 @@ class MarketDataFeedDocScraper:
                 # If it's Node.js, we keep it and add a label
                 block.insert(
                     0,
-                    BeautifulSoup(
-                        "<p><strong>Node.js Code:</strong></p>", "html.parser"
-                    ),
+                    BeautifulSoup("<p><strong>Node.js Code:</strong></p>",
+                                  "html.parser"),
                 )
             else:
                 # If it's not Node.js, we remove the block
@@ -156,11 +159,9 @@ class MarketDataFeedDocScraper:
         links = soup.find_all("a", href=True)
         for link in links:
             full_url = urljoin(url, link["href"])
-            if (
-                self.is_valid_doc_url(full_url)
-                and full_url not in self.visited_urls
-                and full_url not in self.to_scrape
-            ):
+            if (self.is_valid_doc_url(full_url)
+                    and full_url not in self.visited_urls
+                    and full_url not in self.to_scrape):
                 self.to_scrape.append(full_url)
 
     def is_valid_doc_url(self, url: str) -> bool:
@@ -171,12 +172,9 @@ class MarketDataFeedDocScraper:
         """
         parsed = urlparse(url)
         base_parsed = urlparse(self.base_url)
-        return (
-            bool(parsed.netloc)
-            and bool(parsed.scheme)
-            and parsed.netloc == base_parsed.netloc
-            and parsed.path.startswith(base_parsed.path)
-        )
+        return (bool(parsed.netloc) and bool(parsed.scheme)
+                and parsed.netloc == base_parsed.netloc
+                and parsed.path.startswith(base_parsed.path))
 
     async def generate_markdown(self):
         markdown_content = "# Market Data Feed Documentation\n\n"
@@ -186,9 +184,8 @@ class MarketDataFeedDocScraper:
             markdown_content += item["content"]
             markdown_content += "\n\n---\n\n"
 
-        markdown_path = os.path.join(
-            self.output_dir, "market_data_feed_documentation.md"
-        )
+        markdown_path = os.path.join(self.output_dir,
+                                     "market_data_feed_documentation.md")
         with open(markdown_path, "w", encoding="utf-8") as md_file:
             md_file.write(markdown_content)
 
@@ -197,28 +194,31 @@ class MarketDataFeedDocScraper:
 
 async def main():
     parser = argparse.ArgumentParser(
-        description="Scrape Market Data Feed API documentation and convert to Markdown"
-    )
+        description=
+        "Scrape Market Data Feed API documentation and convert to Markdown")
     parser.add_argument(
         "--url",
         default="https://upstox.com/developer/api-documentation",
         help="Base URL of the Market Data Feed API documentation",
     )
-    parser.add_argument(
-        "--max-pages", type=int, default=100, help="Maximum number of pages to scrape"
-    )
-    parser.add_argument(
-        "--timeout", type=int, default=30, help="Timeout for requests in seconds"
-    )
+    parser.add_argument("--max-pages",
+                        type=int,
+                        default=100,
+                        help="Maximum number of pages to scrape")
+    parser.add_argument("--timeout",
+                        type=int,
+                        default=30,
+                        help="Timeout for requests in seconds")
 
     args = parser.parse_args()
 
     output_dir = "market_data_feed_docs"
     os.makedirs(output_dir, exist_ok=True)
 
-    scraper = MarketDataFeedDocScraper(
-        args.url, output_dir, max_pages=args.max_pages, timeout=args.timeout
-    )
+    scraper = MarketDataFeedDocScraper(args.url,
+                                       output_dir,
+                                       max_pages=args.max_pages,
+                                       timeout=args.timeout)
 
     await scraper.scrape_documentation()
 
