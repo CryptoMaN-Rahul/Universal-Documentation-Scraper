@@ -6,7 +6,7 @@ from typing import List, Set, Dict
 from urllib.parse import urljoin, urlparse
 
 import aiohttp
-from bs4 import BeautifulSoup, Tag
+from bs4 import BeautifulSoup
 import html2text
 
 # Configure logging
@@ -68,9 +68,6 @@ class DocumentationScraper:
             title = soup.find("title")
             title_text = title.text if title else "Untitled"
             
-            # Process code blocks
-            self.process_code_blocks(main_content)
-            
             # Convert HTML to Markdown
             content_markdown = self.html_converter.handle(str(main_content))
             
@@ -81,39 +78,6 @@ class DocumentationScraper:
             })
         else:
             logger.warning(f"Main content not found on {url}")
-
-    def process_code_blocks(self, content: Tag):
-        code_blocks = content.find_all(['pre', 'code'])
-        for block in code_blocks:
-            # Try to identify the language
-            language = self.identify_language(block)
-            
-            # Add a label with the identified language
-            block.insert(0, BeautifulSoup(f'<p><strong>{language} Code:</strong></p>', 'html.parser'))
-            
-            # Ensure the code block is properly formatted for Markdown
-            if block.name == 'code' and block.parent.name != 'pre':
-                block.wrap(soup.new_tag('pre'))
-            
-            block['class'] = block.get('class', []) + ['language-' + language]
-
-    def identify_language(self, block: Tag) -> str:
-        # This is a simple heuristic and might need to be expanded based on the documentation structure
-        classes = block.get('class', [])
-        text = block.get_text().lower()
-        
-        if any('language-' in c for c in classes):
-            return next(c.replace('language-', '') for c in classes if 'language-' in c)
-        elif 'python' in classes or 'import' in text or 'def ' in text:
-            return 'python'
-        elif 'javascript' in classes or 'function' in text or 'var ' in text or 'let ' in text or 'const ' in text:
-            return 'javascript'
-        elif 'java' in classes or 'public class' in text or 'private' in text:
-            return 'java'
-        elif 'bash' in classes or text.startswith('$') or text.startswith('#!'):
-            return 'bash'
-        else:
-            return 'unknown'
 
     async def find_links(self, url: str, soup: BeautifulSoup):
         links = soup.find_all("a", href=True)
