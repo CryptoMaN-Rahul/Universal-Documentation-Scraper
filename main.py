@@ -10,13 +10,16 @@ from bs4 import BeautifulSoup, Tag
 import html2text
 
 # Configure logging
-logging.basicConfig(level=logging.INFO,
-                    format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 logger = logging.getLogger(__name__)
 
 
 class MarketDataFeedDocScraper:
-    def __init__(self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30):
+    def __init__(
+        self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30
+    ):
         self.base_url = base_url
         self.output_dir = output_dir
         self.max_pages = max_pages
@@ -79,8 +82,11 @@ class MarketDataFeedDocScraper:
 
     async def extract_content(self, url: str, soup: BeautifulSoup):
         # Find the main content area (adjust selectors as needed)
-        main_content = soup.find("main") or soup.find(
-            "article") or soup.find("div", class_="content")
+        main_content = (
+            soup.find("main")
+            or soup.find("article")
+            or soup.find("div", class_="content")
+        )
 
         if not main_content:
             main_content = soup.find("body")
@@ -95,22 +101,24 @@ class MarketDataFeedDocScraper:
             # Convert HTML to Markdown
             content_markdown = self.html_converter.handle(str(main_content))
 
-            self.content_list.append({
-                "url": url,
-                "title": title_text,
-                "content": content_markdown
-            })
+            self.content_list.append(
+                {"url": url, "title": title_text, "content": content_markdown}
+            )
         else:
             logger.warning(f"Main content not found on {url}")
 
     def process_code_blocks(self, content: Tag):
-        code_blocks = content.find_all(['pre', 'code'])
+        code_blocks = content.find_all(["pre", "code"])
         for block in code_blocks:
             # Check if the code block is Node.js related
             if self.is_nodejs_code(block):
                 # If it's Node.js, we keep it and add a label
-                block.insert(0, BeautifulSoup(
-                    '<p><strong>Node.js Code:</strong></p>', 'html.parser'))
+                block.insert(
+                    0,
+                    BeautifulSoup(
+                        "<p><strong>Node.js Code:</strong></p>", "html.parser"
+                    ),
+                )
             else:
                 # If it's not Node.js, we remove the block
                 block.decompose()
@@ -120,14 +128,24 @@ class MarketDataFeedDocScraper:
         # You may need to adjust this based on the specific structure of the documentation
         text = block.get_text().lower()
         nodejs_indicators = [
-            'node', 'npm', 'require(', 'module.exports', 'async/await', 'promise']
+            "node",
+            "npm",
+            "require(",
+            "module.exports",
+            "async/await",
+            "promise",
+        ]
         return any(indicator in text for indicator in nodejs_indicators)
 
     async def find_links(self, url: str, soup: BeautifulSoup):
         links = soup.find_all("a", href=True)
         for link in links:
             full_url = urljoin(url, link["href"])
-            if self.is_valid_doc_url(full_url) and full_url not in self.visited_urls and full_url not in self.to_scrape:
+            if (
+                self.is_valid_doc_url(full_url)
+                and full_url not in self.visited_urls
+                and full_url not in self.to_scrape
+            ):
                 self.to_scrape.append(full_url)
 
     def is_valid_doc_url(self, url: str) -> bool:
@@ -145,11 +163,12 @@ class MarketDataFeedDocScraper:
 
         for item in self.content_list:
             markdown_content += f"## [{item['title']}]({item['url']})\n\n"
-            markdown_content += item['content']
+            markdown_content += item["content"]
             markdown_content += "\n\n---\n\n"
 
         markdown_path = os.path.join(
-            self.output_dir, "market_data_feed_documentation.md")
+            self.output_dir, "market_data_feed_documentation.md"
+        )
         with open(markdown_path, "w", encoding="utf-8") as md_file:
             md_file.write(markdown_content)
 
@@ -184,6 +203,7 @@ async def main():
     await scraper.scrape_documentation()
 
     logger.info(f"Total pages scraped: {len(scraper.visited_urls)}")
+
 
 if __name__ == "__main__":
     asyncio.run(main())
