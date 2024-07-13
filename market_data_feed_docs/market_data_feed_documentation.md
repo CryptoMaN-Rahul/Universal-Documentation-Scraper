@@ -4,8 +4,7 @@
 
 ![Upstox API zero brokerage](/developer/api-documentation/assets/images/brokerage_free_banner-b1a30a11856232fd221b6abff1c53799.webp)
 
-[* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)  
-
+[\* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)
 
 # Upstox API Documentation
 
@@ -20,7 +19,6 @@ For traders, the creation of apps can be accomplished directly from the Upstox m
 It is strongly advised against embedding the apiSecret within your frontend application. Instead, it is recommended to establish a remote backend system responsible for managing the handshake process on behalf of the frontend app. Inadvertently disclosing the apiSecret within the frontend application could render your app susceptible to security threats and potential issues.
 
 We also boast a thriving [Upstox developer community](https://community.upstox.com/c/developer-api/15) that you can tap into to connect with like-minded Upstox API users. Here, you can inquire about API-related questions and engage with the community members.
-
 
 ---
 
@@ -28,8 +26,7 @@ We also boast a thriving [Upstox developer community](https://community.upstox.c
 
 ![Upstox API zero brokerage](/developer/api-documentation/assets/images/brokerage_free_banner-b1a30a11856232fd221b6abff1c53799.webp)
 
-[* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)  
-
+[\* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)
 
 # Upstox API Documentation
 
@@ -45,15 +42,12 @@ It is strongly advised against embedding the apiSecret within your frontend appl
 
 We also boast a thriving [Upstox developer community](https://community.upstox.com/c/developer-api/15) that you can tap into to connect with like-minded Upstox API users. Here, you can inquire about API-related questions and engage with the community members.
 
-
 ---
 
 ## [Developer API | Upstox Developer API](https://upstox.com/developer/api-documentation/open-api)
 
-  * [](/developer/api-documentation/)
-  * Developer API
-
-
+- [](/developer/api-documentation/)
+- Developer API
 
 # Developer API
 
@@ -61,15 +55,12 @@ Develop your app on the Upstox platform, utilizing a robust collection of REST A
 
 ## [description AuthenticationUser authentication and authorization flow.](/developer/api-documentation/authentication)## [folder API Structure3 items](/developer/api-documentation/request-response)## [description Rate LimitsAPI rate limits.](/developer/api-documentation/rate-limiting)## [folder SDK2 items](/developer/api-documentation/sdk)## [description InstrumentsGet BOD instruments.](/developer/api-documentation/instruments)## [folder Login3 items](/developer/api-documentation/login)## [folder User2 items](/developer/api-documentation/user)## [folder Charges1 items](/developer/api-documentation/charges)## [folder Orders9 items](/developer/api-documentation/orders)## [folder Portfolio3 items](/developer/api-documentation/portfolio)## [folder Trade Profit And Loss3 items](/developer/api-documentation/trade-profit-and-loss)## [folder Historical Data2 items](/developer/api-documentation/historical-data)## [folder Market Quote3 items](/developer/api-documentation/market-quote)## [folder Market Information3 items](/developer/api-documentation/market-information)## [folder Option Chain2 items](/developer/api-documentation/option-chain)## [folder Websocket4 items](/developer/api-documentation/websocket)## [folder Websocket implementation1 items](/developer/api-documentation/websocket-implementation)## [description WebhookWebhook for real-time order updates.](/developer/api-documentation/webhook)## [folder Appendix9 items](/developer/api-documentation/appendix)[NextAuthentication](/developer/api-documentation/authentication)
 
-
 ---
 
 ## [Uplink Business | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/introduction)
 
-  * [](/developer/api-documentation/)
-  * UpLink Business
-
-
+- [](/developer/api-documentation/)
+- UpLink Business
 
 # Uplink Business
 
@@ -77,38 +68,30 @@ UpLink Business is the middleware that helps all multi-clients to place orders t
 
 New to UpLink Business?
 
-  * To use UpLink Business, you would need a multi-client API which is created on-demand for our business partners.
-  * To request for a multi-client API, you can either [fill the form](https://upstox.com/uplink/business-trading-api/) on UpLink Business webpage or create a thread on [Upstox Community](https://community.upstox.com/).
-
-
+- To use UpLink Business, you would need a multi-client API which is created on-demand for our business partners.
+- To request for a multi-client API, you can either [fill the form](https://upstox.com/uplink/business-trading-api/) on UpLink Business webpage or create a thread on [Upstox Community](https://community.upstox.com/).
 
 ## [description Place OrderPlace an order with all possible combinations.](/developer/api-documentation/uplink-business/docs/place-order)## [description Modify OrderModify pending or open orders.](/developer/api-documentation/uplink-business/docs/modify-order)## [description Cancel OrderCancel pending or open orders.](/developer/api-documentation/uplink-business/docs/cancel-order)## [description CDSL AuthCDSL authorization steps for delivery sale transactions.](/developer/api-documentation/uplink-business/docs/cdsl-auth)
 
 NOTE
 
-  * When dealing with a multi-client application, the process of placing, canceling, or modifying orders necessitates the use of the Uplink Business approach. This method involves utilizing an HTML form containing order details, which is then submitted to the Uplink UI. The subsequent order processing tasks are efficiently managed by the Uplink UI.
-  * It's important to note that employing the order API for order placement is not permissible with a multi-client app. Attempting to do so will trigger an error message stating, ""Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order."
-
-
+- When dealing with a multi-client application, the process of placing, canceling, or modifying orders necessitates the use of the Uplink Business approach. This method involves utilizing an HTML form containing order details, which is then submitted to the Uplink UI. The subsequent order processing tasks are efficiently managed by the Uplink UI.
+- It's important to note that employing the order API for order placement is not permissible with a multi-client app. Attempting to do so will trigger an error message stating, ""Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order."
 
 [NextPlace Order](/developer/api-documentation/uplink-business/docs/place-order)
-
 
 ---
 
 ## [Example Code | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/introduction)
 
-  * [](/developer/api-documentation/)
-  * Example Code
-
-
+- [](/developer/api-documentation/)
+- Example Code
 
 # Example Code
 
 ## [folder Login2 items](/developer/api-documentation/example-code/login/get-token)## [folder User2 items](/developer/api-documentation/example-code/user/get-profile)## [folder Charges1 items](/developer/api-documentation/example-code/charges/brokerage-details)## [folder Order9 items](/developer/api-documentation/example-code/orders/place-order)## [folder Portfolio3 items](/developer/api-documentation/example-code/portfolio/convert-positions)## [folder Trade Profit and Loss3 items](/developer/api-documentation/example-code/trade-profit-and-loss/get-report-meta-data)## [folder Historical Data2 items](/developer/api-documentation/example-code/historical-data/historical-candle-data)## [folder Market Quote3 items](/developer/api-documentation/example-code/market-quote/full-market-quotes)## [folder Market Information3 items](/developer/api-documentation/example-code/market-information/market-holidays)## [folder Option Chain2 items](/developer/api-documentation/example-code/option-chain/option-contracts)
 
 [NextGet Token](/developer/api-documentation/example-code/login/get-token)
-
 
 ---
 
@@ -120,27 +103,19 @@ On this page
 
 This section is dedicated to providing you with the most recent updates and essential information.
 
-  
-
-
 ## Active Announcements​
 
-  * **Apr 25, 2024: CSV Instruments File Deprecation Notice**   
-The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.  
-[Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
+- **Apr 25, 2024: CSV Instruments File Deprecation Notice**
+  The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.
+  [Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
 
-  * **Mar 7, 2024: New URL and Simplified Headers**   
-Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.  
-[Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
+- **Mar 7, 2024: New URL and Simplified Headers**
+  Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.
+  [Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
 
-
-  
 Remember to check back regularly for the latest news and updates.
 
-  * Active Announcements
-
-
-
+- Active Announcements
 
 ---
 
@@ -148,8 +123,7 @@ Remember to check back regularly for the latest news and updates.
 
 ![Upstox API zero brokerage](/developer/api-documentation/assets/images/brokerage_free_banner-b1a30a11856232fd221b6abff1c53799.webp)
 
-[* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)  
-
+[\* Terms and Conditions](https://marketing-creative-and-docs.s3.ap-south-1.amazonaws.com/API_T%26C/T%26C+apply.pdf)
 
 # Upstox API Documentation
 
@@ -165,15 +139,12 @@ It is strongly advised against embedding the apiSecret within your frontend appl
 
 We also boast a thriving [Upstox developer community](https://community.upstox.com/c/developer-api/15) that you can tap into to connect with like-minded Upstox API users. Here, you can inquire about API-related questions and engage with the community members.
 
-
 ---
 
 ## [Developer API | Upstox Developer API](https://upstox.com/developer/api-documentation/open-api#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * Developer API
-
-
+- [](/developer/api-documentation/)
+- Developer API
 
 # Developer API
 
@@ -181,16 +152,13 @@ Develop your app on the Upstox platform, utilizing a robust collection of REST A
 
 ## [description AuthenticationUser authentication and authorization flow.](/developer/api-documentation/authentication)## [folder API Structure3 items](/developer/api-documentation/request-response)## [description Rate LimitsAPI rate limits.](/developer/api-documentation/rate-limiting)## [folder SDK2 items](/developer/api-documentation/sdk)## [description InstrumentsGet BOD instruments.](/developer/api-documentation/instruments)## [folder Login3 items](/developer/api-documentation/login)## [folder User2 items](/developer/api-documentation/user)## [folder Charges1 items](/developer/api-documentation/charges)## [folder Orders9 items](/developer/api-documentation/orders)## [folder Portfolio3 items](/developer/api-documentation/portfolio)## [folder Trade Profit And Loss3 items](/developer/api-documentation/trade-profit-and-loss)## [folder Historical Data2 items](/developer/api-documentation/historical-data)## [folder Market Quote3 items](/developer/api-documentation/market-quote)## [folder Market Information3 items](/developer/api-documentation/market-information)## [folder Option Chain2 items](/developer/api-documentation/option-chain)## [folder Websocket4 items](/developer/api-documentation/websocket)## [folder Websocket implementation1 items](/developer/api-documentation/websocket-implementation)## [description WebhookWebhook for real-time order updates.](/developer/api-documentation/webhook)## [folder Appendix9 items](/developer/api-documentation/appendix)[NextAuthentication](/developer/api-documentation/authentication)
 
-
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -202,22 +170,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -238,19 +203,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -264,20 +224,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -287,13 +244,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -301,23 +256,18 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [API Structure | Upstox Developer API](https://upstox.com/developer/api-documentation/request-response)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * API Structure
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- API Structure
 
 # API Structure
 
@@ -325,43 +275,37 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousAuthentication](/developer/api-documentation/authentication)[NextRequest Structure](/developer/api-documentation/request-structure)
 
-
 ---
 
 ## [Rate Limits | Upstox Developer API](https://upstox.com/developer/api-documentation/rate-limiting)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Rate Limits
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Rate Limits
 
 # Rate Limits
 
 In our pursuit of offering a consistent and reliable service, we've established rate limits for our API interactions. These constraints, detailed below, are designed to prevent system overloads and ensure equitable access to all our users. The rate limits are enforced on a per-API, per-user basis.
 
-Time duration| Request limit  
----|---  
-Per second| 25 requests  
-Per minute| 250 requests  
-Per 30 minutes| 1000 requests  
-  
+| Time duration  | Request limit |
+| -------------- | ------------- |
+| Per second     | 25 requests   |
+| Per minute     | 250 requests  |
+| Per 30 minutes | 1000 requests |
+
 NOTE
 
 Please adhere to these limits to avoid potential disruptions in service. Exceeding these limits might result in temporary suspension of access.
 
 [PreviousError Codes](/developer/api-documentation/error-codes)[NextSDK](/developer/api-documentation/sdk)
 
-
 ---
 
 ## [SDK | Upstox Developer API](https://upstox.com/developer/api-documentation/sdk)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * SDK
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- SDK
 
 # SDK
 
@@ -369,16 +313,13 @@ Please adhere to these limits to avoid potential disruptions in service. Exceedi
 
 [PreviousRate Limits](/developer/api-documentation/rate-limiting)[NextUpstox Generated](/developer/api-documentation/upstox-generated-sdk)
 
-
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -386,216 +327,184 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Login | Upstox Developer API](https://upstox.com/developer/api-documentation/login)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Login
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Login
 
 # Login
 
@@ -607,16 +516,13 @@ You also have the option to select [TOTP (Time-based One-Time Password)](https:/
 
 [PreviousInstruments](/developer/api-documentation/instruments)[NextAuthorize](/developer/api-documentation/authorize)
 
-
 ---
 
 ## [User | Upstox Developer API](https://upstox.com/developer/api-documentation/user)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * User
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- User
 
 # User
 
@@ -624,16 +530,13 @@ You also have the option to select [TOTP (Time-based One-Time Password)](https:/
 
 [PreviousLogout](/developer/api-documentation/logout)[NextGet Profile](/developer/api-documentation/get-profile)
 
-
 ---
 
 ## [Charges | Upstox Developer API](https://upstox.com/developer/api-documentation/charges)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Charges
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Charges
 
 # Charges
 
@@ -641,45 +544,35 @@ You also have the option to select [TOTP (Time-based One-Time Password)](https:/
 
 [PreviousGet Fund And Margin](/developer/api-documentation/get-user-fund-margin)[NextBrokerage Details](/developer/api-documentation/get-brokerage)
 
-
 ---
 
 ## [Orders | Upstox Developer API](https://upstox.com/developer/api-documentation/orders)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Orders
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Orders
 
 # Orders
 
 NOTE
 
-  * If you represent a business aiming to incorporate order flow management (including placing, canceling, and modifying orders), please visit the [Uplink Business](/developer/api-documentation/uplink-business/introduction). The direct HTTP order placement API integration is intended for individual API users.
-
-
+- If you represent a business aiming to incorporate order flow management (including placing, canceling, and modifying orders), please visit the [Uplink Business](/developer/api-documentation/uplink-business/introduction). The direct HTTP order placement API integration is intended for individual API users.
 
 Important
 
-  * In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
-
-
+- In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
 
 ## [description Place OrderPlace an order with all possible combinations.](/developer/api-documentation/place-order)## [description Modify OrderModify pending or open orders.](/developer/api-documentation/modify-order)## [description Cancel OrderCancel pending or open orders.](/developer/api-documentation/cancel-order)## [description Get Order DetailsGet the latest status and details for an order.](/developer/api-documentation/get-order-details)## [description Get Order HistoryGet order history for an order.](/developer/api-documentation/get-order-history)## [description Get Order BookGet the list of all orders placed during the day.](/developer/api-documentation/get-order-book)## [description Get TradesGet the list of all trades for the day.](/developer/api-documentation/get-trade-history)## [description Get Order TradesGet the list of trades executed for an order.](/developer/api-documentation/get-trades-by-order)## [description Get Trade HistoryGet the list of historical trades](/developer/api-documentation/get-historical-trades)
 
 [PreviousBrokerage Details](/developer/api-documentation/get-brokerage)[NextPlace Order](/developer/api-documentation/place-order)
 
-
 ---
 
 ## [Portfolio | Upstox Developer API](https://upstox.com/developer/api-documentation/portfolio)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Portfolio
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Portfolio
 
 # Portfolio
 
@@ -687,16 +580,13 @@ Important
 
 [PreviousGet Trade History](/developer/api-documentation/get-historical-trades)[NextGet Positions](/developer/api-documentation/get-positions)
 
-
 ---
 
 ## [Trade Profit And Loss | Upstox Developer API](https://upstox.com/developer/api-documentation/trade-profit-and-loss)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Trade Profit And Loss
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Trade Profit And Loss
 
 # Trade Profit And Loss
 
@@ -704,16 +594,13 @@ Important
 
 [PreviousGet Holdings](/developer/api-documentation/get-holdings)[NextGet Report Meta Data](/developer/api-documentation/get-report-meta-data)
 
-
 ---
 
 ## [Historical Data | Upstox Developer API](https://upstox.com/developer/api-documentation/historical-data)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Historical Data
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Historical Data
 
 # Historical Data
 
@@ -721,16 +608,13 @@ Important
 
 [PreviousGet Trades Charges](/developer/api-documentation/get-trade-charges)[NextHistorical Candle Data](/developer/api-documentation/get-historical-candle-data)
 
-
 ---
 
 ## [Market Quote | Upstox Developer API](https://upstox.com/developer/api-documentation/market-quote)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Market Quote
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Market Quote
 
 # Market Quote
 
@@ -738,16 +622,13 @@ Important
 
 [PreviousIntraday Candle Data](/developer/api-documentation/get-intra-day-candle-data)[NextFull Market Quotes](/developer/api-documentation/get-full-market-quote)
 
-
 ---
 
 ## [Market Information | Upstox Developer API](https://upstox.com/developer/api-documentation/market-information)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Market Information
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Market Information
 
 # Market Information
 
@@ -755,16 +636,13 @@ Important
 
 [PreviousLTP Quotes](/developer/api-documentation/ltp)[NextMarket Holidays](/developer/api-documentation/get-market-holidays)
 
-
 ---
 
 ## [Option Chain | Upstox Developer API](https://upstox.com/developer/api-documentation/option-chain)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Option Chain
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Option Chain
 
 # Option Chain
 
@@ -772,16 +650,13 @@ Important
 
 [PreviousExchange Status](/developer/api-documentation/get-market-status)[NextOption Contracts](/developer/api-documentation/get-option-contracts)
 
-
 ---
 
 ## [Websocket | Upstox Developer API](https://upstox.com/developer/api-documentation/websocket)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Websocket
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Websocket
 
 # Websocket
 
@@ -789,16 +664,13 @@ Important
 
 [PreviousPut/Call Option chain](/developer/api-documentation/get-pc-option-chain)[NextPortfolio Stream Feed](/developer/api-documentation/get-portfolio-stream-feed)
 
-
 ---
 
 ## [Websocket Implementation | Upstox Developer API](https://upstox.com/developer/api-documentation/websocket-implementation)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Websocket implementation
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Websocket implementation
 
 # Websocket Implementation
 
@@ -806,39 +678,32 @@ The websocket streaming provides an efficient way to receive market and order re
 
 Websockets offer several technical advantages over standard API calls:
 
-  * Efficiency: Instead of repeatedly polling for data, websockets allow data to be pushed to the client as it becomes available.
-  * Real-time: Websockets provide real-time communication which is crucial for trading applications where every second counts.
-  * Reduced overhead: With websockets, the overhead of establishing a connection is reduced as one connection can be kept open for longer durations.
-
-
+- Efficiency: Instead of repeatedly polling for data, websockets allow data to be pushed to the client as it becomes available.
+- Real-time: Websockets provide real-time communication which is crucial for trading applications where every second counts.
+- Reduced overhead: With websockets, the overhead of establishing a connection is reduced as one connection can be kept open for longer durations.
 
 Websockets should be preferred when:
 
-  * Real-time updates are required.
-  * The frequency of data updates is high, making regular API polling inefficient.
-  * Reducing network overhead is a priority.
-
-
+- Real-time updates are required.
+- The frequency of data updates is high, making regular API polling inefficient.
+- Reducing network overhead is a priority.
 
 We provide two types of streaming options:
 
-  * Market related changes for the subscribed entities
-  * Order related updates
+- Market related changes for the subscribed entities
+- Order related updates
 
 ## [description Sample ImplementationSample implementation available in Python, PHP, Node Js and Java.](/developer/api-documentation/sample-implementation)
 
 [PreviousGet Market Data Feed Authorized Url](/developer/api-documentation/get-market-data-feed-authorize)[NextSample Implementation](/developer/api-documentation/sample-implementation)
 
-
 ---
 
 ## [Webhook | Upstox Developer API](https://upstox.com/developer/api-documentation/webhook)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Webhook
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Webhook
 
 On this page
 
@@ -854,40 +719,30 @@ The lowercase field () is deprecated and will be removed in future versions. Use
 
 NOTE
 
-  * While creating app provide a webhook URL which is in your control rather than a public endpoint.
-
-
+- While creating app provide a webhook URL which is in your control rather than a public endpoint.
 
 [PreviousSample Implementation](/developer/api-documentation/sample-implementation)[NextAppendix](/developer/api-documentation/appendix)
 
-  * Response structure:
-
-
-
+- Response structure:
 
 ---
 
 ## [Appendix | Upstox Developer API](https://upstox.com/developer/api-documentation/appendix)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Appendix
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Appendix
 
 # Appendix
 
 ## [description Postman CollectionGet started with Postman collection.](/developer/api-documentation/appendix/postman-collection)## [description Equity Security TypeList of all the possible security type for an equity instrument.](/developer/api-documentation/appendix/equity-security-type)## [description ExchangeList of all supported exchanges.](/developer/api-documentation/appendix/exchange)## [description Market StatusList of all the possible market status.](/developer/api-documentation/appendix/market-status)## [description Order StatusList of all the possible order status.](/developer/api-documentation/appendix/order-status)## [description Field PatternList of fields inputs patterns required in API.](/developer/api-documentation/appendix/field-pattern)## [description ChangelogChangelog](/developer/api-documentation/appendix/change-log)## [link TOTP Login](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-)## [link Developer Community](https://community.upstox.com/c/developer-api/15)[PreviousWebhook](/developer/api-documentation/webhook)[NextPostman Collection](/developer/api-documentation/appendix/postman-collection)
 
-
 ---
 
 ## [Uplink Business | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/introduction#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * UpLink Business
-
-
+- [](/developer/api-documentation/)
+- UpLink Business
 
 # Uplink Business
 
@@ -895,32 +750,25 @@ UpLink Business is the middleware that helps all multi-clients to place orders t
 
 New to UpLink Business?
 
-  * To use UpLink Business, you would need a multi-client API which is created on-demand for our business partners.
-  * To request for a multi-client API, you can either [fill the form](https://upstox.com/uplink/business-trading-api/) on UpLink Business webpage or create a thread on [Upstox Community](https://community.upstox.com/).
-
-
+- To use UpLink Business, you would need a multi-client API which is created on-demand for our business partners.
+- To request for a multi-client API, you can either [fill the form](https://upstox.com/uplink/business-trading-api/) on UpLink Business webpage or create a thread on [Upstox Community](https://community.upstox.com/).
 
 ## [description Place OrderPlace an order with all possible combinations.](/developer/api-documentation/uplink-business/docs/place-order)## [description Modify OrderModify pending or open orders.](/developer/api-documentation/uplink-business/docs/modify-order)## [description Cancel OrderCancel pending or open orders.](/developer/api-documentation/uplink-business/docs/cancel-order)## [description CDSL AuthCDSL authorization steps for delivery sale transactions.](/developer/api-documentation/uplink-business/docs/cdsl-auth)
 
 NOTE
 
-  * When dealing with a multi-client application, the process of placing, canceling, or modifying orders necessitates the use of the Uplink Business approach. This method involves utilizing an HTML form containing order details, which is then submitted to the Uplink UI. The subsequent order processing tasks are efficiently managed by the Uplink UI.
-  * It's important to note that employing the order API for order placement is not permissible with a multi-client app. Attempting to do so will trigger an error message stating, ""Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order."
-
-
+- When dealing with a multi-client application, the process of placing, canceling, or modifying orders necessitates the use of the Uplink Business approach. This method involves utilizing an HTML form containing order details, which is then submitted to the Uplink UI. The subsequent order processing tasks are efficiently managed by the Uplink UI.
+- It's important to note that employing the order API for order placement is not permissible with a multi-client app. Attempting to do so will trigger an error message stating, ""Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order."
 
 [NextPlace Order](/developer/api-documentation/uplink-business/docs/place-order)
-
 
 ---
 
 ## [Place Order | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/docs/place-order)
 
-  * [](/developer/api-documentation/)
-  * [UpLink Business](/developer/api-documentation/uplink-business/introduction)
-  * Place Order
-
-
+- [](/developer/api-documentation/)
+- [UpLink Business](/developer/api-documentation/uplink-business/introduction)
+- Place Order
 
 On this page
 
@@ -938,28 +786,26 @@ Considering a client application like the one provided above, the client has to 
 
 NOTE
 
-  * The Upstox developer API access token represents the token acquired through the [Get Token API](/developer/api-documentation/get-token) after logging in.
-  * When using the Uplink Business, please refrain from including the prefix before the Upstox developer API access token.
-  * In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
-
-
+- The Upstox developer API access token represents the token acquired through the [Get Token API](/developer/api-documentation/get-token) after logging in.
+- When using the Uplink Business, please refrain from including the prefix before the Upstox developer API access token.
+- In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
 
 ### Order parameters mapping​
 
-Key| Required| Description  
----|---|---  
-is_amo| required| Signifies if the order is an After Market Order (boolean).  
-instrument_token| required| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-validity| required| It can be one of the following - DAY(default), IOC.  
-transaction_type| required| BUY or SELL.  
-order_type| required| Order type (MARKET, LIMIT, SL, SL-M).  
-quantity| required| Quantity with which the order is to be placed.  
-product| required| Signifies if the order was either Intraday, Delivery, CO or OCO.  
-price| optional| Price at which the order will be placed for LIMIT orders.  
-trigger_price| optional| For SL, SL-M etc.  
-disclosed_quantity| optional| The quantity that should be disclosed in the market depth.  
-tag| optional| Tag to uniquely identify an order.  
-  
+| Key                | Required | Description                                                                                                                                                   |
+| ------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| is_amo             | required | Signifies if the order is an After Market Order (boolean).                                                                                                    |
+| instrument_token   | required | Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| validity           | required | It can be one of the following - DAY(default), IOC.                                                                                                           |
+| transaction_type   | required | BUY or SELL.                                                                                                                                                  |
+| order_type         | required | Order type (MARKET, LIMIT, SL, SL-M).                                                                                                                         |
+| quantity           | required | Quantity with which the order is to be placed.                                                                                                                |
+| product            | required | Signifies if the order was either Intraday, Delivery, CO or OCO.                                                                                              |
+| price              | optional | Price at which the order will be placed for LIMIT orders.                                                                                                     |
+| trigger_price      | optional | For SL, SL-M etc.                                                                                                                                             |
+| disclosed_quantity | optional | The quantity that should be disclosed in the market depth.                                                                                                    |
+| tag                | optional | Tag to uniquely identify an order.                                                                                                                            |
+
 UpLink business takes the required access token, list of orders and redirect url as query parameters.
 
 ## UpLink business application​
@@ -1002,24 +848,19 @@ After placing the order, if the user clicks or taps on 'Exit' or 'Done', they wi
 
 [PreviousUplink Business](/developer/api-documentation/uplink-business/introduction)[NextModify Order](/developer/api-documentation/uplink-business/docs/modify-order)
 
-  * Client application
-    * Sample orders
-    * Sample request
-    * Order parameters mapping
-  * UpLink business application
-
-
-
+- Client application
+  - Sample orders
+  - Sample request
+  - Order parameters mapping
+- UpLink business application
 
 ---
 
 ## [Modify Order | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/docs/modify-order)
 
-  * [](/developer/api-documentation/)
-  * [UpLink Business](/developer/api-documentation/uplink-business/introduction)
-  * Modify Order
-
-
+- [](/developer/api-documentation/)
+- [UpLink Business](/developer/api-documentation/uplink-business/introduction)
+- Modify Order
 
 On this page
 
@@ -1029,27 +870,20 @@ On this page
 
 NOTE
 
-  * Unlike place order, modification of only one order is allowed per transaction.
-  * Order details are retrieved using the provided in the request and made available in the Uplink UI for user to proceed with the modification.
-
-
+- Unlike place order, modification of only one order is allowed per transaction.
+- Order details are retrieved using the provided in the request and made available in the Uplink UI for user to proceed with the modification.
 
 [PreviousPlace Order](/developer/api-documentation/uplink-business/docs/place-order)[NextCancel Order](/developer/api-documentation/uplink-business/docs/cancel-order)
 
-  * Sample request
-
-
-
+- Sample request
 
 ---
 
 ## [Cancel Order | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/docs/cancel-order)
 
-  * [](/developer/api-documentation/)
-  * [UpLink Business](/developer/api-documentation/uplink-business/introduction)
-  * Cancel Order
-
-
+- [](/developer/api-documentation/)
+- [UpLink Business](/developer/api-documentation/uplink-business/introduction)
+- Cancel Order
 
 On this page
 
@@ -1079,22 +913,17 @@ Unlike place order, cancellation of only one order is allowed per transaction.
 
 [PreviousModify Order](/developer/api-documentation/uplink-business/docs/modify-order)[NextCDSL Auth](/developer/api-documentation/uplink-business/docs/cdsl-auth)
 
-  * Client application
-    * Sample request
-  * UpLink business application
-
-
-
+- Client application
+  - Sample request
+- UpLink business application
 
 ---
 
 ## [CDSL Auth | Upstox Developer API](https://upstox.com/developer/api-documentation/uplink-business/docs/cdsl-auth)
 
-  * [](/developer/api-documentation/)
-  * [UpLink Business](/developer/api-documentation/uplink-business/introduction)
-  * CDSL Auth
-
-
+- [](/developer/api-documentation/)
+- [UpLink Business](/developer/api-documentation/uplink-business/introduction)
+- CDSL Auth
 
 # CDSL Auth
 
@@ -1114,9 +943,7 @@ One the user completes the registration and generates a pin, the user has to cli
 
 Important
 
-  * In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
-
-
+- In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
 
 The user has to enter the TPIN and click “verify“ to authorise the order transaction. Once the status is verified, the user will be taken back to “review orders” screen.
 
@@ -1126,15 +953,12 @@ An authorisation success message toast is shown and the user can place a sell or
 
 [PreviousCancel Order](/developer/api-documentation/uplink-business/docs/cancel-order)
 
-
 ---
 
 ## [Example Code | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/introduction#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * Example Code
-
-
+- [](/developer/api-documentation/)
+- Example Code
 
 # Example Code
 
@@ -1142,17 +966,14 @@ An authorisation success message toast is shown and the user can place a sell or
 
 [NextGet Token](/developer/api-documentation/example-code/login/get-token)
 
-
 ---
 
 ## [Get Token | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/login/get-token)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Login
-  * Get Token
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Login
+- Get Token
 
 On this page
 
@@ -1160,91 +981,80 @@ On this page
 
 ## Get access token using auth code​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/login/authorization/token';  
-    const headers = {  
-      'accept': 'application/json',  
-      'Content-Type': 'application/x-www-form-urlencoded',  
-    };  
-      
-    const data = {  
-      'code': '{your_code}',  
-      'client_id': '{your_client_id}',  
-      'client_secret': '{your_client_secret}',  
-      'redirect_uri': '{your_redirect_url}',  
-      'grant_type': 'authorization_code',  
-    };  
-      
-    axios.post(url, new URLSearchParams(data), { headers })  
-      .then(response => {  
-        console.log(response.status);  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error(error.response.status);  
-        console.error(error.response.data);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-      
-    let apiInstance = new UpstoxClient.LoginApi();  
-    let apiVersion = "2.0";   
-    let opts = {   
-      'code': "{your_auth_code}",   
-      'clientId': "{your_client_secret}",   
-      'clientSecret': "{your_client_secret}",   
-      'redirectUri': "{your_redirect_url}",   
-      'grantType': "authorization_code"   
-    };  
-    apiInstance.token(apiVersion, opts, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/login/authorization/token';
+  const headers = {
+   'accept': 'application/json',
+   'Content-Type': 'application/x-www-form-urlencoded',
+  };
+
+  const data = {
+   'code': '{your_code}',
+   'client_id': '{your_client_id}',
+   'client_secret': '{your_client_secret}',
+   'redirect_uri': '{your_redirect_url}',
+   'grant_type': 'authorization_code',
+  };
+
+  axios.post(url, new URLSearchParams(data), { headers })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error.response.status);
+   console.error(error.response.data);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+
+  let apiInstance = new UpstoxClient.LoginApi();
+  let apiVersion = "2.0";
+  let opts = {
+   'code': "{your_auth_code}",
+   'clientId': "{your_client_secret}",
+   'clientSecret': "{your_client_secret}",
+   'redirectUri': "{your_redirect_url}",
+   'grantType': "authorization_code"
+  };
+  apiInstance.token(apiVersion, opts, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousExample Code](/developer/api-documentation/example-code/introduction)[NextLogout](/developer/api-documentation/example-code/login/logout)
 
-  * Get access token using auth code
-
-
-
+- Get access token using auth code
 
 ---
 
 ## [Get Profile | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/user/get-profile)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * User
-  * Get Profile
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- User
+- Get Profile
 
 On this page
 
@@ -1252,78 +1062,66 @@ On this page
 
 ## Get user profile information using access token​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/user/profile';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        console.log(response.status);  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error(error);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-    let apiInstance = new UpstoxClient.UserApi();  
-    let apiVersion = "2.0"; // String | API Version Header  
-    apiInstance.getProfile(apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/user/profile';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+  let apiInstance = new UpstoxClient.UserApi();
+  let apiVersion = "2.0"; // String | API Version Header
+  apiInstance.getProfile(apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousLogout](/developer/api-documentation/example-code/login/logout)[NextGet Fund and Margin](/developer/api-documentation/example-code/user/get-fund-and-margin)
 
-  * Get user profile information using access token
-
-
-
+- Get user profile information using access token
 
 ---
 
 ## [Brokerage Details | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/charges/brokerage-details)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Charges
-  * Brokerage Details
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Charges
+- Brokerage Details
 
 On this page
 
@@ -1331,309 +1129,279 @@ On this page
 
 ## Get brokerage details for equity delivery orders​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/charges/brokerage';  
-    const headers = {  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    const params = {  
-        instrument_token: 'NSE_EQ|INE669E01016',  
-        quantity: '10',  
-        product: 'D',  
-        transaction_type: 'BUY',  
-        price: '13.7'  
-    };  
-      
-    axios.get(url, { headers, params })  
-        .then(response => {  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            console.error(error.message);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.ChargeApi();  
-    let instrumentToken = "NSE_EQ|INE669E01016";   
-    let quantity = 56;   
-    let product = "D";   
-    let transactionType = "BUY";   
-    let price = 23.4;   
-    let apiVersion = "2.0";   
-      
-    apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/charges/brokerage';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   instrument_token: 'NSE_EQ|INE669E01016',
+   quantity: '10',
+   product: 'D',
+   transaction_type: 'BUY',
+   price: '13.7'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.ChargeApi();
+  let instrumentToken = "NSE_EQ|INE669E01016";
+  let quantity = 56;
+  let product = "D";
+  let transactionType = "BUY";
+  let price = 23.4;
+  let apiVersion = "2.0";
+
+  apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get brokerage details for equity intraday orders​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/charges/brokerage';  
-    const headers = {  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    const params = {  
-        instrument_token: 'NSE_EQ|INE669E01016',  
-        quantity: '10',  
-        product: 'I',  
-        transaction_type: 'BUY',  
-        price: '13.7'  
-    };  
-      
-    axios.get(url, { headers, params })  
-        .then(response => {  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            console.error(error.message);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.ChargeApi();  
-    let instrumentToken = "NSE_EQ|INE669E01016";   
-    let quantity = 10;   
-    let product = "I";   
-    let transactionType = "BUY";   
-    let price = 20.4;   
-    let apiVersion = "2.0";   
-      
-    apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/charges/brokerage';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   instrument_token: 'NSE_EQ|INE669E01016',
+   quantity: '10',
+   product: 'I',
+   transaction_type: 'BUY',
+   price: '13.7'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.ChargeApi();
+  let instrumentToken = "NSE_EQ|INE669E01016";
+  let quantity = 10;
+  let product = "I";
+  let transactionType = "BUY";
+  let price = 20.4;
+  let apiVersion = "2.0";
+
+  apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get brokerage details for equity futures and options delivery orders​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/charges/brokerage';  
-    const headers = {  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}'   
-    };  
-      
-    const params = {  
-        'instrument_token': 'NSE_FO|35271',  
-        'quantity': '10',  
-        'product': 'D',  
-        'transaction_type': 'BUY',  
-        'price': '1400'  
-    };  
-      
-    axios.get(url, { headers, params })  
-        .then(response => {  
-            console.log(response.status);  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            console.error(error.response.status);  
-            console.error(error.response.data);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.ChargeApi();  
-    let instrumentToken = "NSE_FO|35271";   
-    let quantity = 10;   
-    let product = "D";   
-    let transactionType = "BUY";   
-    let price = 2000.4;   
-    let apiVersion = "2.0";   
-      
-    apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/charges/brokerage';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   'instrument_token': 'NSE_FO|35271',
+   'quantity': '10',
+   'product': 'D',
+   'transaction_type': 'BUY',
+   'price': '1400'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error.response.status);
+   console.error(error.response.data);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.ChargeApi();
+  let instrumentToken = "NSE_FO|35271";
+  let quantity = 10;
+  let product = "D";
+  let transactionType = "BUY";
+  let price = 2000.4;
+  let apiVersion = "2.0";
+
+  apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get brokerage details for equity futures and options intraday orders​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/charges/brokerage';  
-    const headers = {  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}'   
-    };  
-      
-    const params = {  
-        'instrument_token': 'NSE_FO|35271',  
-        'quantity': '10',  
-        'product': 'I',  
-        'transaction_type': 'BUY',  
-        'price': '1400'  
-    };  
-      
-    axios.get(url, { headers, params })  
-        .then(response => {  
-            console.log(response.status);  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            console.error(error.response.status);  
-            console.error(error.response.data);  
-        });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.ChargeApi();  
-    let instrumentToken = "NSE_FO|35271";   
-    let quantity = 10;   
-    let product = "I";   
-    let transactionType = "BUY";   
-    let price = 2000.4;   
-    let apiVersion = "2.0";   
-      
-    apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/charges/brokerage';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   'instrument_token': 'NSE_FO|35271',
+   'quantity': '10',
+   'product': 'I',
+   'transaction_type': 'BUY',
+   'price': '1400'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error.response.status);
+   console.error(error.response.data);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.ChargeApi();
+  let instrumentToken = "NSE_FO|35271";
+  let quantity = 10;
+  let product = "I";
+  let transactionType = "BUY";
+  let price = 2000.4;
+  let apiVersion = "2.0";
+
+  apiInstance.getBrokerage(instrumentToken, quantity, product, transactionType, price, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousGet Fund and Margin](/developer/api-documentation/example-code/user/get-fund-and-margin)[NextPlace Order](/developer/api-documentation/example-code/orders/place-order)
 
-  * Get brokerage details for equity delivery orders
-  * Get brokerage details for equity intraday orders
-  * Get brokerage details for equity futures and options delivery orders
-  * Get brokerage details for equity futures and options intraday orders
-
-
-
+- Get brokerage details for equity delivery orders
+- Get brokerage details for equity intraday orders
+- Get brokerage details for equity futures and options delivery orders
+- Get brokerage details for equity futures and options intraday orders
 
 ---
 
 ## [Place Order | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/orders/place-order)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Order
-  * Place Order
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Order
+- Place Order
 
 On this page
 
@@ -1641,690 +1409,627 @@ On this page
 
 ## Place a delivery market order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'D',  
-      validity: 'DAY',  
-      price: 0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE669E01016',  
-      order_type: 'MARKET',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 0,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'D',
+   validity: 'DAY',
+   price: 0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE669E01016',
+   order_type: 'MARKET',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 0,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place a delivery limit order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'D',  
-      validity: 'DAY',  
-      price: 13,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE669E01016',  
-      order_type: 'LIMIT',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 13.2,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.LIMIT,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 20.1, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'D',
+   validity: 'DAY',
+   price: 13,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE669E01016',
+   order_type: 'LIMIT',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 13.2,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.LIMIT,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 20.1, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place a delivery stop-loss order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'D',  
-      validity: 'DAY',  
-      price: 14.05,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE669E01016',  
-      order_type: 'SL',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 13,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 19.5, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'D',
+   validity: 'DAY',
+   price: 14.05,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE669E01016',
+   order_type: 'SL',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 13,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 19.5, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place a delivery stop-loss order market​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'D',  
-      validity: 'DAY',  
-      price: 0.0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE669E01016',  
-      order_type: 'SL-M',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 15,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL_M,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 24.5, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'D',
+   validity: 'DAY',
+   price: 0.0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE669E01016',
+   order_type: 'SL-M',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 15,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL_M,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 24.5, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place an intraday market order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'I',  
-      validity: 'DAY',  
-      price: 0.0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE528G01035',  
-      order_type: 'MARKET',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 0,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'I',
+   validity: 'DAY',
+   price: 0.0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE528G01035',
+   order_type: 'MARKET',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 0,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place an intraday limit order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'I',  
-      validity: 'DAY',  
-      price: 20.0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE528G01035',  
-      order_type: 'LIMIT',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 20.1,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.LIMIT,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 20.1, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'I',
+   validity: 'DAY',
+   price: 20.0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE528G01035',
+   order_type: 'LIMIT',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 20.1,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.LIMIT,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 20.1, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place an intraday stop-loss order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'I',  
-      validity: 'DAY',  
-      price: 20.0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE528G01035',  
-      order_type: 'SL',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 19.5,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 19.5, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'I',
+   validity: 'DAY',
+   price: 20.0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE528G01035',
+   order_type: 'SL',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 19.5,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 20.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 19.5, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place an intraday stop-loss market order​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'I',  
-      validity: 'DAY',  
-      price: 0.0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE528G01035',  
-      order_type: 'SL-M',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 21.5,  
-      is_amo: false,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL_M,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 24.5, false);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'I',
+   validity: 'DAY',
+   price: 0.0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE528G01035',
+   order_type: 'SL-M',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 21.5,
+   is_amo: false,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.I, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.SL_M,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 24.5, false);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 ## Place a delivery market amo (after market order)​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/order/place';  
-    const headers = {  
-      'Content-Type': 'application/json',  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}',  
-    };  
-      
-    const data = {  
-      quantity: 1,  
-      product: 'D',  
-      validity: 'DAY',  
-      price: 0,  
-      tag: 'string',  
-      instrument_token: 'NSE_EQ|INE669E01016',  
-      order_type: 'MARKET',  
-      transaction_type: 'BUY',  
-      disclosed_quantity: 0,  
-      trigger_price: 0,  
-      is_amo: true,  
-    };  
-      
-    axios.post(url, data, { headers })  
-      .then(response => {  
-        console.log('Response:', response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-      
-    let apiInstance = new UpstoxClient.OrderApi();  
-    let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, true);   
-    let apiVersion = "2.0";   
-      
-    apiInstance.placeOrder(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error.response.text);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + data);  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/order/place';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}',
+  };
+
+  const data = {
+   quantity: 1,
+   product: 'D',
+   validity: 'DAY',
+   price: 0,
+   tag: 'string',
+   instrument_token: 'NSE_EQ|INE669E01016',
+   order_type: 'MARKET',
+   transaction_type: 'BUY',
+   disclosed_quantity: 0,
+   trigger_price: 0,
+   is_amo: true,
+  };
+
+  axios.post(url, data, { headers })
+   .then(response => {
+   console.log('Response:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+
+  let apiInstance = new UpstoxClient.OrderApi();
+  let body = new UpstoxClient.PlaceOrderRequest(1, UpstoxClient.PlaceOrderRequest.ProductEnum.D, UpstoxClient.PlaceOrderRequest.ValidityEnum.DAY, 0.0, "NSE_EQ|INE528G01035",UpstoxClient.PlaceOrderRequest.OrderTypeEnum.MARKET,UpstoxClient.PlaceOrderRequest.TransactionTypeEnum.BUY, 0, 0.0, true);
+  let apiVersion = "2.0";
+
+  apiInstance.placeOrder(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error.response.text);
+   } else {
+   console.log('API called successfully. Returned data: ' + data);
+   }
+  });
 
 [PreviousBrokerage Details](/developer/api-documentation/example-code/charges/brokerage-details)[NextModify Order](/developer/api-documentation/example-code/orders/modify-order)
 
-  * Place a delivery market order
-  * Place a delivery limit order
-  * Place a delivery stop-loss order
-  * Place a delivery stop-loss order market
-  * Place an intraday market order
-  * Place an intraday limit order
-  * Place an intraday stop-loss order
-  * Place an intraday stop-loss market order
-  * Place a delivery market amo (after market order)
-
-
-
+- Place a delivery market order
+- Place a delivery limit order
+- Place a delivery stop-loss order
+- Place a delivery stop-loss order market
+- Place an intraday market order
+- Place an intraday limit order
+- Place an intraday stop-loss order
+- Place an intraday stop-loss market order
+- Place a delivery market amo (after market order)
 
 ---
 
 ## [Convert Positions | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/portfolio/convert-positions)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Portfolio
-  * Convert Positions
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Portfolio
+- Convert Positions
 
 On this page
 
@@ -2332,162 +2037,145 @@ On this page
 
 ## Convert a position from intraday to delivery​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/portfolio/convert-position';  
-    const headers = {  
-        'Content-Type': 'application/json',  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token  
-    };  
-      
-    const data = {  
-        "instrument_token": "NSE_EQ|INE528G01035",  
-        "new_product": "D",  
-        "old_product": "I",  
-        "transaction_type": "BUY",  
-        "quantity": 1  
-    };  
-      
-    axios.put(url, data, { headers })  
-        .then(response => {  
-            console.log('Status Code:', response.status);  
-            console.log('Response Data:', response.data);  
-        })  
-        .catch(error => {  
-            console.error('Error:', error.message);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-      
-    // Configure OAuth2 access token for authorization: OAUTH2  
-    let OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = '{your_access_token}';  
-      
-    let apiInstance = new UpstoxClient.PortfolioApi();  
-    let body = new UpstoxClient.ConvertPositionRequest("NSE_EQ|INE528G01035",UpstoxClient.ConvertPositionRequest.NewProductEnum.D,UpstoxClient.ConvertPositionRequest.OldProductEnum.I,UpstoxClient.ConvertPositionRequest.TransactionTypeEnum.BUY,1); // ConvertPositionRequest |   
-    let apiVersion = "2.0"; // String | API Version Header  
-      
-    apiInstance.convertPositions(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/portfolio/convert-position';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
+  };
+
+  const data = {
+   "instrument_token": "NSE_EQ|INE528G01035",
+   "new_product": "D",
+   "old_product": "I",
+   "transaction_type": "BUY",
+   "quantity": 1
+  };
+
+  axios.put(url, data, { headers })
+   .then(response => {
+   console.log('Status Code:', response.status);
+   console.log('Response Data:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+
+  // Configure OAuth2 access token for authorization: OAUTH2
+  let OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = '{your_access_token}';
+
+  let apiInstance = new UpstoxClient.PortfolioApi();
+  let body = new UpstoxClient.ConvertPositionRequest("NSE_EQ|INE528G01035",UpstoxClient.ConvertPositionRequest.NewProductEnum.D,UpstoxClient.ConvertPositionRequest.OldProductEnum.I,UpstoxClient.ConvertPositionRequest.TransactionTypeEnum.BUY,1); // ConvertPositionRequest |
+  let apiVersion = "2.0"; // String | API Version Header
+
+  apiInstance.convertPositions(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Convert a position from delivery to intraday​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/portfolio/convert-position';  
-    const headers = {  
-        'Content-Type': 'application/json',  
-        'Accept': 'application/json',  
-        'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token  
-    };  
-      
-    const data = {  
-        "instrument_token": "NSE_EQ|INE528G01035",  
-        "new_product": "I",  
-        "old_product": "D",  
-        "transaction_type": "BUY",  
-        "quantity": 1  
-    };  
-      
-    axios.put(url, data, { headers })  
-        .then(response => {  
-            console.log('Status Code:', response.status);  
-            console.log('Response Data:', response.data);  
-        })  
-        .catch(error => {  
-            console.error('Error:', error.message);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-      
-    // Configure OAuth2 access token for authorization: OAUTH2  
-    let OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = '{your_access_token}';  
-      
-    let apiInstance = new UpstoxClient.PortfolioApi();  
-    let body = new UpstoxClient.ConvertPositionRequest("NSE_EQ|INE528G01035",UpstoxClient.ConvertPositionRequest.NewProductEnum.I,UpstoxClient.ConvertPositionRequest.OldProductEnum.D,UpstoxClient.ConvertPositionRequest.TransactionTypeEnum.BUY,1); // ConvertPositionRequest |   
-    let apiVersion = "2.0"; // String | API Version Header  
-      
-    apiInstance.convertPositions(body, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/portfolio/convert-position';
+  const headers = {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}', // Replace {your_access_token} with your actual access token
+  };
+
+  const data = {
+   "instrument_token": "NSE_EQ|INE528G01035",
+   "new_product": "I",
+   "old_product": "D",
+   "transaction_type": "BUY",
+   "quantity": 1
+  };
+
+  axios.put(url, data, { headers })
+   .then(response => {
+   console.log('Status Code:', response.status);
+   console.log('Response Data:', response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+
+  // Configure OAuth2 access token for authorization: OAUTH2
+  let OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = '{your_access_token}';
+
+  let apiInstance = new UpstoxClient.PortfolioApi();
+  let body = new UpstoxClient.ConvertPositionRequest("NSE_EQ|INE528G01035",UpstoxClient.ConvertPositionRequest.NewProductEnum.I,UpstoxClient.ConvertPositionRequest.OldProductEnum.D,UpstoxClient.ConvertPositionRequest.TransactionTypeEnum.BUY,1); // ConvertPositionRequest |
+  let apiVersion = "2.0"; // String | API Version Header
+
+  apiInstance.convertPositions(body, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousGet Trade History](/developer/api-documentation/example-code/orders/get-historical-trades)[NextGet Holdings](/developer/api-documentation/example-code/portfolio/get-holdings)
 
-  * Convert a position from intraday to delivery
-  * Convert a position from delivery to intraday
-
-
-
+- Convert a position from intraday to delivery
+- Convert a position from delivery to intraday
 
 ---
 
 ## [Get Report Meta Data | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/trade-profit-and-loss/get-report-meta-data)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Trade Profit and Loss
-  * Get Report Meta Data
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Trade Profit and Loss
+- Get Report Meta Data
 
 On this page
 
@@ -2495,168 +2183,149 @@ On this page
 
 ## Get report meta data for equity segment​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    const params = {  
-      'from_date': '05-11-2023',  
-      'to_date': '19-12-2023',  
-      'segment': 'EQ',  
-      'financial_year': '2324'  
-    };  
-      
-    axios.get(url, { headers, params })  
-      .then(response => {  
-        console.log(response.status);  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message || error);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-      
-    // Configure OAuth2 access token for authorization: OAUTH2  
-    let OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = '{your_access_token}';  
-      
-    let apiInstance = new UpstoxClient.TradeProfitAndLossApi();  
-    let segment = "EQ"; // String | Segment for which data is requested can be from the following options EQ - Equity,   FO - Futures and Options,   COM  - Commodity,   CD - Currency Derivatives  
-    let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122  
-    let apiVersion = "2.0"; // String | API Version Header  
-    let opts = {   
-      'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-      'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-    };  
-    apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   'from_date': '05-11-2023',
+   'to_date': '19-12-2023',
+   'segment': 'EQ',
+   'financial_year': '2324'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message || error);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+
+  // Configure OAuth2 access token for authorization: OAUTH2
+  let OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = '{your_access_token}';
+
+  let apiInstance = new UpstoxClient.TradeProfitAndLossApi();
+  let segment = "EQ"; // String | Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives
+  let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122
+  let apiVersion = "2.0"; // String | API Version Header
+  let opts = {
+   'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+   'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  };
+  apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get report meta data for futures and options segment​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    const params = {  
-      'from_date': '05-11-2023',  
-      'to_date': '19-12-2023',  
-      'segment': 'FO',  
-      'financial_year': '2324'  
-    };  
-      
-    axios.get(url, { headers, params })  
-      .then(response => {  
-        console.log(response.status);  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error.message || error);  
-      });  
-      
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-      
-    // Configure OAuth2 access token for authorization: OAUTH2  
-    let OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = '{your_access_token}';  
-      
-    let apiInstance = new UpstoxClient.TradeProfitAndLossApi();  
-    let segment = "FO"; // String | Segment for which data is requested can be from the following options EQ - Equity,   FO - Futures and Options,   COM  - Commodity,   CD - Currency Derivatives  
-    let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122  
-    let apiVersion = "2.0"; // String | API Version Header  
-    let opts = {   
-      'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-      'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-    };  
-    apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/trade/profit-loss/metadata';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  const params = {
+   'from_date': '05-11-2023',
+   'to_date': '19-12-2023',
+   'segment': 'FO',
+   'financial_year': '2324'
+  };
+
+  axios.get(url, { headers, params })
+   .then(response => {
+   console.log(response.status);
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error.message || error);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+
+  // Configure OAuth2 access token for authorization: OAUTH2
+  let OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = '{your_access_token}';
+
+  let apiInstance = new UpstoxClient.TradeProfitAndLossApi();
+  let segment = "FO"; // String | Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives
+  let financialYear = "2324"; // String | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122
+  let apiVersion = "2.0"; // String | API Version Header
+  let opts = {
+   'fromDate': "02-04-2023", // String | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+   'toDate': "20-03-2024" // String | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format
+  };
+  apiInstance.getTradeWiseProfitAndLossMetaData(segment, financialYear, apiVersion, opts, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousGet Positions](/developer/api-documentation/example-code/portfolio/get-positions)[NextGet Profit Loss Report](/developer/api-documentation/example-code/trade-profit-and-loss/get-profit-loss-report)
 
-  * Get report meta data for equity segment
-  * Get report meta data for futures and options segment
-
-
-
+- Get report meta data for equity segment
+- Get report meta data for futures and options segment
 
 ---
 
 ## [Historical Candle Data | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/historical-data/historical-candle-data)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Historical Data
-  * Historical Candle Data
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Historical Data
+- Historical Candle Data
 
 On this page
 
@@ -2664,485 +2333,425 @@ On this page
 
 ## Get historical candle data with a 1-minute interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13/2023-11-12';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let apiInstance = new UpstoxClient.HistoryApi();  
-      
-    let apiVersion = "2.0";   
-    let instrumentKey = "NSE_EQ|INE669E01016";   
-    let interval = "1minute";   
-    let toDate = "2023-11-13";  
-    let fromDate = "2023-11-12";  
-      
-    apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {  
-        if (error) {  
-          console.error(error);  
-        } else {  
-          console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-        }  
-    });  
-      
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13/2023-11-12';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let apiInstance = new UpstoxClient.HistoryApi();
+
+  let apiVersion = "2.0";
+  let instrumentKey = "NSE_EQ|INE669E01016";
+  let interval = "1minute";
+  let toDate = "2023-11-13";
+  let fromDate = "2023-11-12";
+
+  apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get data with a 30-minute interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13/2023-11-12';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let apiInstance = new UpstoxClient.HistoryApi();  
-      
-    let apiVersion = "2.0";   
-    let instrumentKey = "NSE_EQ|INE669E01016";   
-    let interval = "30minute";   
-    let toDate = "2023-11-13";  
-    let fromDate = "2023-11-12";  
-    apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {  
-        if (error) {  
-          console.error(error);  
-        } else {  
-          console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-        }  
-    });  
-      
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13/2023-11-12';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let apiInstance = new UpstoxClient.HistoryApi();
+
+  let apiVersion = "2.0";
+  let instrumentKey = "NSE_EQ|INE669E01016";
+  let interval = "30minute";
+  let toDate = "2023-11-13";
+  let fromDate = "2023-11-12";
+  apiInstance.getHistoricalCandleData1(instrumentKey, interval, toDate, fromDate,apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get data with a daily interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19/2023-11-12';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19/2023-11-12';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 ## Get data with a weekly interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19/2023-07-12';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-      
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19/2023-07-12';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 ## Get data with a monthly interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19/2022-11-12';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
+  **Node.js Code:**
 
-  
+  const axios = require('axios');
 
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19/2022-11-12';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 ## Get historical candle data with a 1-minute interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let apiInstance = new UpstoxClient.HistoryApi();  
-      
-    let apiVersion = "2.0";   
-    let instrumentKey = "NSE_EQ|INE669E01016";   
-    let interval = "1minute";   
-    let toDate = "2023-11-13";  
-    apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {  
-        if (error) {  
-          console.error(error);  
-        } else {  
-          console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-        }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/1minute/2023-11-13';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let apiInstance = new UpstoxClient.HistoryApi();
+
+  let apiVersion = "2.0";
+  let instrumentKey = "NSE_EQ|INE669E01016";
+  let interval = "1minute";
+  let toDate = "2023-11-13";
+  apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get data with a 30-minute interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let apiInstance = new UpstoxClient.HistoryApi();  
-      
-    let apiVersion = "2.0";   
-    let instrumentKey = "NSE_EQ|INE669E01016";   
-    let interval = "30minute";   
-    let toDate = "2023-11-13";  
-      
-    apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {  
-        if (error) {  
-          console.error(error);  
-        } else {  
-          console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-        }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/30minute/2023-11-13';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let apiInstance = new UpstoxClient.HistoryApi();
+
+  let apiVersion = "2.0";
+  let instrumentKey = "NSE_EQ|INE669E01016";
+  let interval = "30minute";
+  let toDate = "2023-11-13";
+
+  apiInstance.getHistoricalCandleData(instrumentKey, interval, toDate, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get data with a daily interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/day/2023-11-19';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 ## Get data with a weekly interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-      
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/week/2023-11-19';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 ## Get data with a monthly interval​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19';  
-    const headers = {  
-        'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-        .then(response => {  
-            // Do something with the response data (e.g., print it)  
-            console.log(response.data);  
-        })  
-        .catch(error => {  
-            // Print an error message if the request was not successful  
-            console.error(`Error: ${error.response.status} - ${error.response.data}`);  
-        });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/historical-candle/NSE_EQ%7CINE848E01016/month/2023-11-19';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Do something with the response data (e.g., print it)
+   console.log(response.data);
+   })
+   .catch(error => {
+   // Print an error message if the request was not successful
+   console.error(`Error: ${error.response.status} - ${error.response.data}`);
+   });
 
 [PreviousGet Trade Charges](/developer/api-documentation/example-code/trade-profit-and-loss/get-trade-charges)[NextIntraday Candle Data](/developer/api-documentation/example-code/historical-data/intra-day-candle-data)
 
-  * Get historical candle data with a 1-minute interval
-  * Get data with a 30-minute interval
-  * Get data with a daily interval
-  * Get data with a weekly interval
-  * Get data with a monthly interval
-  * Get historical candle data with a 1-minute interval
-  * Get data with a 30-minute interval
-  * Get data with a daily interval
-  * Get data with a weekly interval
-  * Get data with a monthly interval
-
-
-
+- Get historical candle data with a 1-minute interval
+- Get data with a 30-minute interval
+- Get data with a daily interval
+- Get data with a weekly interval
+- Get data with a monthly interval
+- Get historical candle data with a 1-minute interval
+- Get data with a 30-minute interval
+- Get data with a daily interval
+- Get data with a weekly interval
+- Get data with a monthly interval
 
 ---
 
 ## [Full Market Quotes | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/market-quote/full-market-quotes)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Market Quote
-  * Full Market Quotes
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Market Quote
+- Full Market Quotes
 
 On this page
 
@@ -3150,140 +2759,121 @@ On this page
 
 ## Get full market quote​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error(error);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-    let apiInstance = new UpstoxClient.MarketQuoteApi();  
-      
-      
-    let apiVersion = "2.0";   
-    let symbol = "NSE_EQ|INE669E01016";   
-      
-    apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+  let apiInstance = new UpstoxClient.MarketQuoteApi();
+
+  let apiVersion = "2.0";
+  let symbol = "NSE_EQ|INE669E01016";
+
+  apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 ## Get full market quote for multiple instrument keys​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * Python SDK
-  * Node.js SDK
-  * Java SDK
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- Python SDK
+- Node.js SDK
+- Java SDK
 
+  **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016,NSE_EQ|INE669E01016';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error(error);  
-      });  
-    
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     let UpstoxClient = require('upstox-js-sdk');  
-    let defaultClient = UpstoxClient.ApiClient.instance;  
-    var OAUTH2 = defaultClient.authentications['OAUTH2'];  
-    OAUTH2.accessToken = "{your_access_token}";  
-    let apiInstance = new UpstoxClient.MarketQuoteApi();  
-      
-      
-    let apiVersion = "2.0";   
-    let symbol = "NSE_EQ|INE669E01016,NSE_EQ|INE848E01016";   
-      
-    apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {  
-      if (error) {  
-        console.error(error);  
-      } else {  
-        console.log('API called successfully. Returned data: ' + JSON.stringify(data));  
-      }  
-    });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/market-quote/quotes?instrument_key=NSE_EQ%7CINE848E01016,NSE_EQ|INE669E01016';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error(error);
+   });
+
+  **Node.js Code:**
+
+  **Node.js Code:**
+
+  let UpstoxClient = require('upstox-js-sdk');
+  let defaultClient = UpstoxClient.ApiClient.instance;
+  var OAUTH2 = defaultClient.authentications['OAUTH2'];
+  OAUTH2.accessToken = "{your_access_token}";
+  let apiInstance = new UpstoxClient.MarketQuoteApi();
+
+  let apiVersion = "2.0";
+  let symbol = "NSE_EQ|INE669E01016,NSE_EQ|INE848E01016";
+
+  apiInstance.getFullMarketQuote(symbol, apiVersion, (error, data, response) => {
+   if (error) {
+   console.error(error);
+   } else {
+   console.log('API called successfully. Returned data: ' + JSON.stringify(data));
+   }
+  });
 
 [PreviousIntraday Candle Data](/developer/api-documentation/example-code/historical-data/intra-day-candle-data)[NextLTP Market Quotes](/developer/api-documentation/example-code/market-quote/ltp-quotes)
 
-  * Get full market quote
-  * Get full market quote for multiple instrument keys
-
-
-
+- Get full market quote
+- Get full market quote for multiple instrument keys
 
 ---
 
 ## [Market Holidays | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/market-information/market-holidays)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Market Information
-  * Market Holidays
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Market Information
+- Market Holidays
 
 On this page
 
@@ -3291,86 +2881,71 @@ On this page
 
 ## Get market holidays for current year​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * 
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/market/holidays';  
-    const headers = {  
-      'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        // Process the JSON response  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error);  
-      });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/market/holidays';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Process the JSON response
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error);
+   });
 
 ## Get market holiday status of a date​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * 
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/market/holidays/2024-01-22';  
-    const headers = {  
-      'Accept': 'application/json'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        // Process the JSON response  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error);  
-      });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/market/holidays/2024-01-22';
+  const headers = {
+   'Accept': 'application/json'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   // Process the JSON response
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error);
+   });
 
 [PreviousOHLC Market Quotes](/developer/api-documentation/example-code/market-quote/ohlc-quotes)[NextMarket Timings](/developer/api-documentation/example-code/market-information/market-timings)
 
-  * Get market holidays for current year
-  * Get market holiday status of a date
-
-
-
+- Get market holidays for current year
+- Get market holiday status of a date
 
 ---
 
 ## [Option Contracts | Upstox Developer API](https://upstox.com/developer/api-documentation/example-code/option-chain/option-contracts)
 
-  * [](/developer/api-documentation/)
-  * [Example Code](/developer/api-documentation/example-code/introduction)
-  * Option Chain
-  * Option Contracts
-
-
+- [](/developer/api-documentation/)
+- [Example Code](/developer/api-documentation/example-code/introduction)
+- Option Chain
+- Option Contracts
 
 On this page
 
@@ -3378,75 +2953,62 @@ On this page
 
 ## Get option contracts of an instrument key​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * 
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error);  
-      });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error);
+   });
 
 ## Get option contracts of an instrument key with expiry date​
 
-  * Curl
-  * Python
-  * Node.js
-  * Java
-  * PHP
-  * 
+- Curl
+- Python
+- Node.js
+- Java
+- PHP
+- **Node.js Code:**
 
-    
-    
-    **Node.js Code:**
-    
-    **Node.js Code:**
-    
-     const axios = require('axios');  
-      
-    const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050&expiry_date=2024-03-28';  
-    const headers = {  
-      'Accept': 'application/json',  
-      'Authorization': 'Bearer {your_access_token}'  
-    };  
-      
-    axios.get(url, { headers })  
-      .then(response => {  
-        console.log(response.data);  
-      })  
-      .catch(error => {  
-        console.error('Error:', error);  
-      });  
-    
+  **Node.js Code:**
+
+  const axios = require('axios');
+
+  const url = 'https://api.upstox.com/v2/option/contract?instrument_key=NSE_INDEX%7CNifty%2050&expiry_date=2024-03-28';
+  const headers = {
+   'Accept': 'application/json',
+   'Authorization': 'Bearer {your_access_token}'
+  };
+
+  axios.get(url, { headers })
+   .then(response => {
+   console.log(response.data);
+   })
+   .catch(error => {
+   console.error('Error:', error);
+   });
 
 [PreviousExchange Status](/developer/api-documentation/example-code/market-information/exchange-status)[NextPut/Call Option Chain](/developer/api-documentation/example-code/option-chain/put-call-option-chain)
 
-  * Get option contracts of an instrument key
-  * Get option contracts of an instrument key with expiry date
-
-
-
+- Get option contracts of an instrument key
+- Get option contracts of an instrument key with expiry date
 
 ---
 
@@ -3458,27 +3020,19 @@ On this page
 
 This section is dedicated to providing you with the most recent updates and essential information.
 
-  
-
-
 ## Active Announcements​
 
-  * **Apr 25, 2024: CSV Instruments File Deprecation Notice**   
-The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.  
-[Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
+- **Apr 25, 2024: CSV Instruments File Deprecation Notice**
+  The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.
+  [Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
 
-  * **Mar 7, 2024: New URL and Simplified Headers**   
-Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.  
-[Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
+- **Mar 7, 2024: New URL and Simplified Headers**
+  Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.
+  [Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
 
-
-  
 Remember to check back regularly for the latest news and updates.
 
-  * Active Announcements
-
-
-
+- Active Announcements
 
 ---
 
@@ -3490,37 +3044,27 @@ On this page
 
 This section is dedicated to providing you with the most recent updates and essential information.
 
-  
-
-
 ## Active Announcements​
 
-  * **Apr 25, 2024: CSV Instruments File Deprecation Notice**   
-The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.  
-[Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
+- **Apr 25, 2024: CSV Instruments File Deprecation Notice**
+  The [CSV format](/developer/api-documentation/instruments#csv-files) for the instruments file will soon be deprecated. We recommend users to transition to the [JSON version](/developer/api-documentation/instruments#json-files) for improved functionality and support.
+  [Read more](/developer/api-documentation/announcements/instruments-csv-deprecation-notice)
 
-  * **Mar 7, 2024: New URL and Simplified Headers**   
-Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.  
-[Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
+- **Mar 7, 2024: New URL and Simplified Headers**
+  Upstox API now accessible at a new URL <https://api.upstox.com/v2> with simplified header requirements. Old and new URLs operational during transition. Migration advised.
+  [Read more](/developer/api-documentation/announcements/new-url-and-simplified-headers)
 
-
-  
 Remember to check back regularly for the latest news and updates.
 
-  * Active Announcements
-
-
-
+- Active Announcements
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#csv-files)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -3528,216 +3072,184 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#json-files)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -3745,206 +3257,176 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
@@ -3960,18 +3442,13 @@ We are announcing the upcoming deprecation of the CSV format for our instruments
 
 ### What's Changing?​
 
-  * **Deprecation of CSV Format:** The CSV version of the instruments file will soon be discontinued. We urge all users to transition to the JSON version to avoid any disruption in service.
-
-
+- **Deprecation of CSV Format:** The CSV version of the instruments file will soon be discontinued. We urge all users to transition to the JSON version to avoid any disruption in service.
 
 ### Recommended Actions​
 
-  * **Begin Transition to JSON:** Start updating your systems to utilize the JSON format for instruments files. This format offers enhanced performance and scalability, ensuring a smoother and more efficient experience.
+- **Begin Transition to JSON:** Start updating your systems to utilize the JSON format for instruments files. This format offers enhanced performance and scalability, ensuring a smoother and more efficient experience.
 
-  * **Deprecation Date Announcement:** The specific date for the CSV format deprecation will be communicated shortly. We are providing this advance notice to allow ample time for planning and transition.
-
-
-
+- **Deprecation Date Announcement:** The specific date for the CSV format deprecation will be communicated shortly. We are providing this advance notice to allow ample time for planning and transition.
 
 ### Support and Queries​
 
@@ -3979,13 +3456,10 @@ For any questions or additional support regarding this deprecation, please visit
 
 We appreciate your attention to this matter and your ongoing cooperation.
 
-  * CSV Instruments File Deprecation Notice
-    * What's Changing?
-    * Recommended Actions
-    * Support and Queries
-
-
-
+- CSV Instruments File Deprecation Notice
+  - What's Changing?
+  - Recommended Actions
+  - Support and Queries
 
 ---
 
@@ -4001,50 +3475,36 @@ We are pleased to announce a significant update to the Upstox API Service. This 
 
 ### What's Changing?​
 
-  1. **New Base URL:** The base URL for accessing the Upstox API has been updated to . This change is designed to streamline our API structure for more intuitive access.
+1. **New Base URL:** The base URL for accessing the Upstox API has been updated to . This change is designed to streamline our API structure for more intuitive access.
 
-  2. **Simplified Header Requirements:** Alongside the new URL, we have updated our header requirements. The 'Api Version' header, previously mandatory and set to 2.0, will no longer be required for API calls to the new URL. This modification reduces the complexity of constructing API requests.
-
-
-
+2. **Simplified Header Requirements:** Alongside the new URL, we have updated our header requirements. The 'Api Version' header, previously mandatory and set to 2.0, will no longer be required for API calls to the new URL. This modification reduces the complexity of constructing API requests.
 
 ### Transition Period​
 
-  * **Dual Endpoint Availability:** To ensure a seamless transition, both the old URL () and the new URL () will be operational for a transitional period. This approach ensures that your existing integrations continue to work without immediate disruption.
+- **Dual Endpoint Availability:** To ensure a seamless transition, both the old URL () and the new URL () will be operational for a transitional period. This approach ensures that your existing integrations continue to work without immediate disruption.
 
-  * **Recommended Action:** While your existing setups using the old URL will continue to function during this phase, we encourage you to migrate to the new URL and updated header configuration as soon as convenient for you.
-
-
-
+- **Recommended Action:** While your existing setups using the old URL will continue to function during this phase, we encourage you to migrate to the new URL and updated header configuration as soon as convenient for you.
 
 ### Migration Steps:​
 
-  1. **Update the Base URL:** Change the base URL in your API integrations from to .
+1. **Update the Base URL:** Change the base URL in your API integrations from to .
 
-  2. **Remove the 'Api Version' Header:** Adjust your API requests to eliminate the 'Api Version' header.
-
-
-
+2. **Remove the 'Api Version' Header:** Adjust your API requests to eliminate the 'Api Version' header.
 
 We appreciate your cooperation during this transition and thank you for your continued partnership. Our team is committed to continually enhancing our services to better meet your needs.
 
-  * New URL and Simplified Headers
-    * What's Changing?
-    * Transition Period
-    * Migration Steps:
-
-
-
+- New URL and Simplified Headers
+  - What's Changing?
+  - Transition Period
+  - Migration Steps:
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4056,22 +3516,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4092,19 +3549,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4118,20 +3570,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4141,13 +3590,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4155,23 +3602,18 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#perform-authentication)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4183,22 +3625,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4219,19 +3658,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4245,20 +3679,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4268,13 +3699,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4282,23 +3711,18 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#receive-auth-code)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4310,22 +3734,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4346,19 +3767,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4372,20 +3788,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4395,13 +3808,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4409,23 +3820,18 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#generate-access-token)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4437,22 +3843,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4473,19 +3876,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4499,20 +3897,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4522,13 +3917,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4536,24 +3929,19 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Authorize | Upstox Developer API](https://upstox.com/developer/api-documentation/authorize)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Login](/developer/api-documentation/login)
-  * Authorize
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Login](/developer/api-documentation/login)
+- Authorize
 
 ## Authorize​
 
@@ -4561,55 +3949,48 @@ The authorization flow initiates a redirection to the Upstox login page, with ne
 
 NOTE
 
-  * While creating app provide a which is in your control rather than a public endpoint.
-  * Additionally, it's important to generate a random value for the state parameter and subsequently validate whether the value returned matches the one you originally sent. This helps ensure the security and integrity of your application.
-  * The QR code login is not compatible with the login flow of the Upstox API.
-
-
+- While creating app provide a which is in your control rather than a public endpoint.
+- Additionally, it's important to generate a random value for the state parameter and subsequently validate whether the value returned matches the one you originally sent. This helps ensure the security and integrity of your application.
+- The QR code login is not compatible with the login flow of the Upstox API.
 
 ### Query Parameters​
 
-Name| Required| Type| Description|   
----|---|---|---|---  
-client_id| true| string| The API key obtained during the app generation process.|   
-redirect_uri| true| string| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.|   
-state| false| string| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.|   
-response_type| true| string| This value must always be .|   
-  
+| Name          | Required | Type   | Description                                                                                                                             |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | true     | string | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | true     | string | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | false    | string | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | true     | string | This value must always be .                                                                                                             |
+
 **Responses**
 
-  * 302
-  * 4XX
+- 302
+- 4XX
 
-
-
-* * *
+---
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the through the [Get Token API](/developer/api-documentation/get-token).  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-Error code| Description  
----|---  
-UDAPI100068| **Check your 'client_id' and 'redirect_uri'; one or both are incorrect.** \- Thrown when one of the credentials you've passed to this API is invalid.  
-  
+| Name  | Description                                                                                            |
+| ----- | ------------------------------------------------------------------------------------------------------ |
+| code  | Utilize this code to generate the through the [Get Token API](/developer/api-documentation/get-token). |
+| state | Provided optionally if it was initially included in the request URL parameters.                        |
+
+| Error code  | Description                                                                                                                                           |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI100068 | **Check your 'client_id' and 'redirect_uri'; one or both are incorrect.** \- Thrown when one of the credentials you've passed to this API is invalid. |
+
 Loading...
 
 [PreviousLogin](/developer/api-documentation/login)[NextGet Token](/developer/api-documentation/get-token)
-
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#extended-token)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4621,22 +4002,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4657,19 +4035,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4683,20 +4056,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4706,13 +4076,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4720,23 +4088,18 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Authentication | Upstox Developer API](https://upstox.com/developer/api-documentation/authentication#supported-apis)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Authentication
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Authentication
 
 On this page
 
@@ -4748,22 +4111,19 @@ Upstox uses standard OAuth 2.0 for customer authentication and login.
 
 All logins are handled by upstox.com. There is no public endpoint for other applications to directly log the customer into their upstox.com. For security and compliance purposes, all logins and logouts are handled exclusively by upstox.com.
 
-  
-
-
 ## Perform Authentication​
 
 The login window is a web page hosted at the following link.
 
 Your client application must trigger the opening of the above URL using Webview (or similar technology) and pass the following parameters:
 
-Parameter| Description  
----|---  
-client_id| The API key obtained during the app generation process.  
-redirect_uri| The URL to which the user will be redirected post authentication; must match the URL provided during app generation.  
-state| An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback.  
-response_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                             |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| client_id     | The API key obtained during the app generation process.                                                                                 |
+| redirect_uri  | The URL to which the user will be redirected post authentication; must match the URL provided during app generation.                    |
+| state         | An optional parameter. If specified, will be returned after authentication, allowing for state continuity between request and callback. |
+| response_type | This value must always be .                                                                                                             |
+
 URL construction:
 
 Sample URL:
@@ -4784,19 +4144,14 @@ NOTE
 
 You also have the option to select [TOTP (Time-based One-Time Password)](https://en.wikipedia.org/wiki/Time-based_one-time_password) as a more secure method for 2FA, compared to the usual SMS OTP, for a safer login. Learn more about activating TOTP on your Upstox account [here](https://help.upstox.com/support/solutions/articles/260346-what-is-totp-and-how-to-enable-totp-for-my-account-from-upstox-web-platform-).
 
-  
-
-
 ## Receive Auth Code​
 
 Upon successful authentication, this API will redirect to the URL specified in the parameter, with the essential for the token generation included within the request parameters.
 
-Name| Description  
----|---  
-code| Utilize this code to generate the as part of the next step.  
-state| Provided optionally if it was initially included in the request URL parameters.  
-  
-
+| Name  | Description                                                                     |
+| ----- | ------------------------------------------------------------------------------- |
+| code  | Utilize this code to generate the as part of the next step.                     |
+| state | Provided optionally if it was initially included in the request URL parameters. |
 
 ## Generate Access Token​
 
@@ -4810,20 +4165,17 @@ The last step is to make a server-to-server call between your backend server and
 
 You will need to pass the following parameters:
 
-Parameter| Description  
----|---  
-code| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| The API key obtained during the app generation process.  
-client_secret| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| The URL provided during app generation.  
-grant_type| This value must always be .  
-  
+| Parameter     | Description                                                                                                                                                   |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | The URL provided during app generation.                                                                                                                       |
+| grant_type    | This value must always be .                                                                                                                                   |
+
 URL construction:
 
 Finally this will return an access token for you. This access token can be successfully passed back to your front-end application to access the Upstox API.
-
-  
-
 
 ## Extended Token​
 
@@ -4833,13 +4185,11 @@ An extended token is designed for long-term use, primarily for read-only API cal
 
 #### Supported APIs​
 
-  * [Get Positions](/developer/api-documentation/get-positions)
-  * [Get Holdings](/developer/api-documentation/get-holdings)
-  * [Get Order Details](/developer/api-documentation/get-order-details)
-  * [Get Order History](/developer/api-documentation/get-order-history)
-  * [Get Order Book](/developer/api-documentation/get-order-book)
-
-
+- [Get Positions](/developer/api-documentation/get-positions)
+- [Get Holdings](/developer/api-documentation/get-holdings)
+- [Get Order Details](/developer/api-documentation/get-order-details)
+- [Get Order History](/developer/api-documentation/get-order-history)
+- [Get Order Book](/developer/api-documentation/get-order-book)
 
 Enroll for Extended Token
 
@@ -4847,24 +4197,19 @@ Extended tokens are available for multi-client applications upon request. If you
 
 [PreviousDeveloper API](/developer/api-documentation/open-api)[NextAPI Structure](/developer/api-documentation/request-response)
 
-  * Perform Authentication
-  * Receive Auth Code
-  * Generate Access Token
-  * Extended Token
-
-
-
+- Perform Authentication
+- Receive Auth Code
+- Generate Access Token
+- Extended Token
 
 ---
 
 ## [Get Positions | Upstox Developer API](https://upstox.com/developer/api-documentation/get-positions)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Portfolio](/developer/api-documentation/portfolio)
-  * Get Positions
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Portfolio](/developer/api-documentation/portfolio)
+- Get Positions
 
 ## Get Positions​
 
@@ -4872,61 +4217,57 @@ API to retrieve the current positions for the user. These assets remain within t
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
+- 200
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for position details  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data[].multiplier| float| The quantity/lot size multiplier used for calculating P&Ls  
-data[].value| float| Net value of the position  
-data[].pnl| float| Profit and loss - net returns on the position  
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-data[].average_price| float| Average price at which the net position quantity was acquired  
-data[].buy_value| float| Net value of the bought quantities  
-data[].overnight_quantity| int32| Quantity held previously and carried forward over night  
-data[].day_buy_value| float| Amount at which the quantity is bought during the day  
-data[].day_buy_price| float| Average price at which the day qty was bought. Default is empty string  
-data[].overnight_buy_amount| float| Amount at which the quantity was bought in the previous session  
-data[].overnight_buy_quantity| int32| Quantity bought in the previous session  
-data[].day_buy_quantity| int32| Quantity bought during the day  
-data[].day_sell_value| float| Amount at which the quantity is sold during the day  
-data[].day_sell_price| float| Average price at which the day quantity was sold  
-data[].overnight_sell_amount| float| Amount at which the quantity was sold in the previous session  
-data[].overnight_sell_quantity| int32| Quantity sold short in the previous session  
-data[].day_sell_quantity| int32| Quantity sold during the day  
-data[].quantity| int32| Quantity left after nullifying Day and CF buy quantity towards Day and CF sell quantity  
-data[].last_price| float| Last traded market price of the instrument  
-data[].unrealised| float| Day PnL generated against open positions  
-data[].realised| float| Day PnL generated against closed positions  
-data[].sell_value| float| Net value of the sold quantities  
-data[].trading_symbol| string| Shows the trading symbol of the instrument  
-data[].close_price| float| Closing price of the instrument from the last trading day  
-data[].buy_price| float| Average price at which quantities were bought  
-data[].sell_price| float| Average price at which quantities were sold  
-  
+| Name              | Type     | Description                                                                                                                                        |
+| ----------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status            | string   | A string indicating the outcome of the request. Typically for successful operations.                                                               |
+| data              | object[] | Response data for position details                                                                                                                 |
+| data[].exchange   | string   | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data[].multiplier | float    | The quantity/lot size multiplier used for calculating P&Ls                                                                                         |
+| data[].value      | float    | Net value of the position                                                                                                                          |
+| data[].pnl        | float    | Profit and loss - net returns on the position                                                                                                      |
+| data[].product    | string   | Signifies if the order was either Intraday, Delivery or CO.                                                                                        |
+
+Possible values: , , , .
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+data[].average_price| float| Average price at which the net position quantity was acquired
+data[].buy_value| float| Net value of the bought quantities
+data[].overnight_quantity| int32| Quantity held previously and carried forward over night
+data[].day_buy_value| float| Amount at which the quantity is bought during the day
+data[].day_buy_price| float| Average price at which the day qty was bought. Default is empty string
+data[].overnight_buy_amount| float| Amount at which the quantity was bought in the previous session
+data[].overnight_buy_quantity| int32| Quantity bought in the previous session
+data[].day_buy_quantity| int32| Quantity bought during the day
+data[].day_sell_value| float| Amount at which the quantity is sold during the day
+data[].day_sell_price| float| Average price at which the day quantity was sold
+data[].overnight_sell_amount| float| Amount at which the quantity was sold in the previous session
+data[].overnight_sell_quantity| int32| Quantity sold short in the previous session
+data[].day_sell_quantity| int32| Quantity sold during the day
+data[].quantity| int32| Quantity left after nullifying Day and CF buy quantity towards Day and CF sell quantity
+data[].last_price| float| Last traded market price of the instrument
+data[].unrealised| float| Day PnL generated against open positions
+data[].realised| float| Day PnL generated against closed positions
+data[].sell_value| float| Net value of the sold quantities
+data[].trading_symbol| string| Shows the trading symbol of the instrument
+data[].close_price| float| Closing price of the instrument from the last trading day
+data[].buy_price| float| Average price at which quantities were bought
+data[].sell_price| float| Average price at which quantities were sold
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
-
-  
-
 
 ## Examples​
 
@@ -4936,17 +4277,14 @@ Loading...
 
 [PreviousPortfolio](/developer/api-documentation/portfolio)[NextConvert Positions](/developer/api-documentation/convert-positions)
 
-
 ---
 
 ## [Get Holdings | Upstox Developer API](https://upstox.com/developer/api-documentation/get-holdings)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Portfolio](/developer/api-documentation/portfolio)
-  * Get Holdings
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Portfolio](/developer/api-documentation/portfolio)
+- Get Holdings
 
 ## Get Holdings​
 
@@ -4954,52 +4292,48 @@ API to retrieve the long term holdings of the user. A Holding within a holdings 
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
+- 200
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for holdings  
-data[].isin| string| The standard ISIN representing stocks listed on multiple exchanges  
-data[].cnc_used_quantity| int32| Quantity either blocked towards open or completed order  
-data[].collateral_type| string| Category of collateral assigned by RMS  
-data[].company_name| string| Name of the company  
-data[].haircut| float| This is the haircut percentage applied from RMS (applicable incase of collateral)  
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .  
-data[].quantity| int32| The total holding qty  
-data[].trading_symbol| string| Shows the trading symbol of the instrument  
-data[].last_price| float| The last traded price of the instrument  
-data[].close_price| float| Closing price of the instrument from the last trading day  
-data[].pnl| float| Profit and Loss  
-data[].day_change| float| Day's change in absolute value for the stock  
-data[].day_change_percentage| float| Day's change in percentage for the stock  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-data[].average_price| float| Average price at which the net holding quantity was acquired  
-data[].collateral_quantity| int32| Quantity marked as collateral by RMS on users request  
-data[].collateral_update_quantity| int32| Updated collateral quantity  
-data[].t1_quantity| int32| Quantity on T+1 day after order execution  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-  
+| Name                     | Type     | Description                                                                          |
+| ------------------------ | -------- | ------------------------------------------------------------------------------------ |
+| status                   | string   | A string indicating the outcome of the request. Typically for successful operations. |
+| data                     | object[] | Response data for holdings                                                           |
+| data[].isin              | string   | The standard ISIN representing stocks listed on multiple exchanges                   |
+| data[].cnc_used_quantity | int32    | Quantity either blocked towards open or completed order                              |
+| data[].collateral_type   | string   | Category of collateral assigned by RMS                                               |
+| data[].company_name      | string   | Name of the company                                                                  |
+| data[].haircut           | float    | This is the haircut percentage applied from RMS (applicable incase of collateral)    |
+| data[].product           | string   | Signifies if the order was either Intraday, Delivery or CO.                          |
+
+Possible values: , , , .
+data[].quantity| int32| The total holding qty
+data[].trading_symbol| string| Shows the trading symbol of the instrument
+data[].last_price| float| The last traded price of the instrument
+data[].close_price| float| Closing price of the instrument from the last trading day
+data[].pnl| float| Profit and Loss
+data[].day_change| float| Day's change in absolute value for the stock
+data[].day_change_percentage| float| Day's change in percentage for the stock
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+data[].average_price| float| Average price at which the net holding quantity was acquired
+data[].collateral_quantity| int32| Quantity marked as collateral by RMS on users request
+data[].collateral_update_quantity| int32| Updated collateral quantity
+data[].t1_quantity| int32| Quantity on T+1 day after order execution
+data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
-
-  
-
 
 ## Examples​
 
@@ -5009,17 +4343,14 @@ Loading...
 
 [PreviousConvert Positions](/developer/api-documentation/convert-positions)[NextTrade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
 
-
 ---
 
 ## [Get Order Status | Upstox Developer API](https://upstox.com/developer/api-documentation/get-order-details)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Order Details
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Order Details
 
 ## Get Order Details​
 
@@ -5027,79 +4358,74 @@ API to retrieve the latest status of a specific order. Orders placed by the user
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-order_id| false| string| The order reference ID for which the order status is required. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-  
+| Name     | Required | Type   | Description                                                                                                                                                                                           |
+| -------- | -------- | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| order_id | false    | string | The order reference ID for which the order status is required. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description|   
----|---|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.|   
-data| object| Response data for order Book|   
-data.exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)|   
-data.product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .|   
-data.price| float| Price at which the order was placed|   
-data.quantity| int32| Quantity with which the order was placed|   
-data.status| string| Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)|   
-data.tag| string| Tag to uniquely identify an order|   
-data.instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).|   
-data.placed_by| string| Uniquely identifies the user (commonly referred as UCC)|   
-data.trading_symbol| string| Shows the trading symbol of the instrument|   
-data.order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .|   
-data.validity| string| It can be one of the following - DAY(default), IOC.   
-Possible values: , .|   
-data.trigger_price| float| If the order was a stop loss order then the trigger price set is mentioned here|   
-data.disclosed_quantity| int32| The quantity that should be disclosed in the market depth|   
-data.transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .|   
-data.average_price| float| Average price at which the qty got traded|   
-data.filled_quantity| int32| The total quantity traded from this particular order|   
-data.pending_quantity| int32| Pending quantity to be filled|   
-data.status_message| string| Indicates the reason when any order is rejected, not modified or cancelled|   
-data.status_message_raw| string| Description of the order's status as received from RMS|   
-data.exchange_order_id| string| Unique order ID assigned by the exchange for the order placed|   
-data.parent_order_id| string| In case the order is part of the second of a CO, the parent order ID is indicated here|   
-data.order_id| string| Unique order ID assigned internally for the order placed|   
-data.variety| string| Order complexity|   
-data.order_timestamp| string| User readable timestamp at which the order was placed|   
-data.exchange_timestamp| string| User readable time at which the order was placed or updated|   
-data.is_amo| boolean| Signifies if the order is an After Market Order|   
-data.order_request_id| string| Apart from 1st order it shows the count of how many requests were sent|   
-data.order_ref_id| string| Uniquely identifies an order for internal usage.|   
-  
+| Name                     | Type    | Description                                                                                                                                                           |
+| ------------------------ | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status                   | string  | A string indicating the outcome of the request. Typically for successful operations.                                                                                  |
+| data                     | object  | Response data for order Book                                                                                                                                          |
+| data.exchange            | string  | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)                    |
+| data.product             | string  | Signifies if the order was either Intraday, Delivery or CO.                                                                                                           |
+| Possible values: , , , . |
+| data.price               | float   | Price at which the order was placed                                                                                                                                   |
+| data.quantity            | int32   | Quantity with which the order was placed                                                                                                                              |
+| data.status              | string  | Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)       |
+| data.tag                 | string  | Tag to uniquely identify an order                                                                                                                                     |
+| data.instrument_token    | string  | Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).         |
+| data.placed_by           | string  | Uniquely identifies the user (commonly referred as UCC)                                                                                                               |
+| data.trading_symbol      | string  | Shows the trading symbol of the instrument                                                                                                                            |
+| data.order_type          | string  | Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market. |
+| Possible values: , , , . |
+| data.validity            | string  | It can be one of the following - DAY(default), IOC.                                                                                                                   |
+| Possible values: , .     |
+| data.trigger_price       | float   | If the order was a stop loss order then the trigger price set is mentioned here                                                                                       |
+| data.disclosed_quantity  | int32   | The quantity that should be disclosed in the market depth                                                                                                             |
+| data.transaction_type    | string  | Indicates whether its a buy or sell order.                                                                                                                            |
+| Possible values: , .     |
+| data.average_price       | float   | Average price at which the qty got traded                                                                                                                             |
+| data.filled_quantity     | int32   | The total quantity traded from this particular order                                                                                                                  |
+| data.pending_quantity    | int32   | Pending quantity to be filled                                                                                                                                         |
+| data.status_message      | string  | Indicates the reason when any order is rejected, not modified or cancelled                                                                                            |
+| data.status_message_raw  | string  | Description of the order's status as received from RMS                                                                                                                |
+| data.exchange_order_id   | string  | Unique order ID assigned by the exchange for the order placed                                                                                                         |
+| data.parent_order_id     | string  | In case the order is part of the second of a CO, the parent order ID is indicated here                                                                                |
+| data.order_id            | string  | Unique order ID assigned internally for the order placed                                                                                                              |
+| data.variety             | string  | Order complexity                                                                                                                                                      |
+| data.order_timestamp     | string  | User readable timestamp at which the order was placed                                                                                                                 |
+| data.exchange_timestamp  | string  | User readable time at which the order was placed or updated                                                                                                           |
+| data.is_amo              | boolean | Signifies if the order is an After Market Order                                                                                                                       |
+| data.order_request_id    | string  | Apart from 1st order it shows the count of how many requests were sent                                                                                                |
+| data.order_ref_id        | string  | Uniquely identifies an order for internal usage.                                                                                                                      |
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
 
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1010| **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.  
-UDAPI100059| **At least one of 'order_id' or 'tag' is required to fetch order details.** \- When attempting to retrieve order details, you must provide either the 'order_id' or the 'tag'. Without at least one of these identifiers, the system cannot locate and present the specific order information you're seeking.  
-UDAPI100010| **Order not found** \- The system couldn't locate the order you're referring to.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1010   | **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.                                                                                                                                                                                                    |
+| UDAPI100059 | **At least one of 'order_id' or 'tag' is required to fetch order details.** \- When attempting to retrieve order details, you must provide either the 'order_id' or the 'tag'. Without at least one of these identifiers, the system cannot locate and present the specific order information you're seeking. |
+| UDAPI100010 | **Order not found** \- The system couldn't locate the order you're referring to.                                                                                                                                                                                                                              |
 
 ## Examples​
 
@@ -5109,17 +4435,14 @@ Loading...
 
 [PreviousCancel Order](/developer/api-documentation/cancel-order)[NextGet Order History](/developer/api-documentation/get-order-history)
 
-
 ---
 
 ## [Get Order History | Upstox Developer API](https://upstox.com/developer/api-documentation/get-order-history)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Order History
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Order History
 
 ## Get Order History​
 
@@ -5127,84 +4450,78 @@ API to retrieve the details of a specific order. Orders placed by the user remai
 
 Order history can be retrieved by utilizing either the order_id or a tag.
 
-  * When both options are provided, the response will include the history of the order that perfectly matches both the order_id and tag.
-  * If only the tag is provided, the response will include the history of all associated orders that match the given tag.
-
-
+- When both options are provided, the response will include the history of the order that perfectly matches both the order_id and tag.
+- If only the tag is provided, the response will include the history of all associated orders that match the given tag.
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-order_id| false| string| The order reference ID for which the order history is required. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-tag| false| string| The unique tag of the order for which the order history is being requested  
-  
+| Name     | Required | Type   | Description                                                                                                                                                                                            |
+| -------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| order_id | false    | string | The order reference ID for which the order history is required. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| tag      | false    | string | The unique tag of the order for which the order history is being requested                                                                                                                             |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for order details  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data[].price| float| Price at which the order was placed  
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .  
-data[].quantity| int32| Quantity with which the order was placed  
-data[].status| string| Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)  
-data[].tag| string| Tag to uniquely identify an order  
-data[].validity| string| It can be one of the following - DAY(default), IOC.   
-Possible values: , .  
-data[].average_price| float| Average price at which the qty got traded  
-data[].disclosed_quantity| int32| The quantity that should be disclosed in the market depth  
-data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed  
-data[].exchange_timestamp| string| User readable time at which the order was placed or updated  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-data[].is_amo| boolean| Signifies if the order is an After Market Order  
-data[].status_message| string| Indicates the reason when any order is rejected, not modified or cancelled  
-data[].order_id| string| Unique order ID assigned internally for the order placed  
-data[].order_request_id| string| Apart from 1st order it shows the count of how many requests were sent  
-data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .  
-data[].parent_order_id| string| In case the order is part of the second of a CO, the parent order ID is indicated here  
-data[].trading_symbol| string| Shows the trading symbol of the instrument  
-data[].order_timestamp| string| User readable timestamp at which the order was placed  
-data[].filled_quantity| int32| The total quantity traded from this particular order  
-data[].transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .  
-data[].trigger_price| float| If the order was a stop loss order then the trigger price set is mentioned here  
-data[].placed_by| string| Uniquely identifies the user (commonly referred as UCC)  
-data[].variety| string| Order complexity  
-  
+| Name            | Type   | Description                                                                                                                                        |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status          | string | A string indicating the outcome of the request. Typically for successful operations.                                                               |
+| data            | object | Response data for order details                                                                                                                    |
+| data[].exchange | string | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data[].price    | float  | Price at which the order was placed                                                                                                                |
+| data[].product  | string | Signifies if the order was either Intraday, Delivery or CO.                                                                                        |
+
+Possible values: , , , .
+data[].quantity| int32| Quantity with which the order was placed
+data[].status| string| Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)
+data[].tag| string| Tag to uniquely identify an order
+data[].validity| string| It can be one of the following - DAY(default), IOC.
+Possible values: , .
+data[].average_price| float| Average price at which the qty got traded
+data[].disclosed_quantity| int32| The quantity that should be disclosed in the market depth
+data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed
+data[].exchange_timestamp| string| User readable time at which the order was placed or updated
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+data[].is_amo| boolean| Signifies if the order is an After Market Order
+data[].status_message| string| Indicates the reason when any order is rejected, not modified or cancelled
+data[].order_id| string| Unique order ID assigned internally for the order placed
+data[].order_request_id| string| Apart from 1st order it shows the count of how many requests were sent
+data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.
+Possible values: , , , .
+data[].parent_order_id| string| In case the order is part of the second of a CO, the parent order ID is indicated here
+data[].trading_symbol| string| Shows the trading symbol of the instrument
+data[].order_timestamp| string| User readable timestamp at which the order was placed
+data[].filled_quantity| int32| The total quantity traded from this particular order
+data[].transaction_type| string| Indicates whether its a buy or sell order.
+Possible values: , .
+data[].trigger_price| float| If the order was a stop loss order then the trigger price set is mentioned here
+data[].placed_by| string| Uniquely identifies the user (commonly referred as UCC)
+data[].variety| string| Order complexity
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
 
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1010| **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.  
-UDAPI100059| **At least one of 'order_id' or 'tag' is required to fetch order details.** \- When attempting to retrieve order details, you must provide either the 'order_id' or the 'tag'. Without at least one of these identifiers, the system cannot locate and present the specific order information you're seeking.  
-UDAPI100010| **Order not found** \- The system couldn't locate the order you're referring to.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1010   | **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.                                                                                                                                                                                                    |
+| UDAPI100059 | **At least one of 'order_id' or 'tag' is required to fetch order details.** \- When attempting to retrieve order details, you must provide either the 'order_id' or the 'tag'. Without at least one of these identifiers, the system cannot locate and present the specific order information you're seeking. |
+| UDAPI100010 | **Order not found** \- The system couldn't locate the order you're referring to.                                                                                                                                                                                                                              |
 
 ## Examples​
 
@@ -5214,17 +4531,14 @@ Loading...
 
 [PreviousGet Order Details](/developer/api-documentation/get-order-details)[NextGet Order Book](/developer/api-documentation/get-order-book)
 
-
 ---
 
 ## [Get Order Book | Upstox Developer API](https://upstox.com/developer/api-documentation/get-order-book)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Order Book
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Order Book
 
 ## Get Order Book​
 
@@ -5232,64 +4546,59 @@ API to retrieve the list of a orders placed for the current day. Orders initiate
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
+- 200
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description|   
----|---|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.|   
-data| object| Response data for order Book|   
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)|   
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .|   
-data[].price| float| Price at which the order was placed|   
-data[].quantity| int32| Quantity with which the order was placed|   
-data[].status| string| Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)|   
-data[].tag| string| Tag to uniquely identify an order|   
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).|   
-data[].placed_by| string| Uniquely identifies the user (commonly referred as UCC)|   
-data[].trading_symbol| string| Shows the trading symbol of the instrument|   
-data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .|   
-data[].validity| string| It can be one of the following - DAY(default), IOC.   
-Possible values: , .|   
-data[].trigger_price| float| If the order was a stop loss order then the trigger price set is mentioned here|   
-data[].disclosed_quantity| int32| The quantity that should be disclosed in the market depth|   
-data[].transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .|   
-data[].average_price| float| Average price at which the qty got traded|   
-data[].filled_quantity| int32| The total quantity traded from this particular order|   
-data[].pending_quantity| int32| Pending quantity to be filled|   
-data[].status_message| string| Indicates the reason when any order is rejected, not modified or cancelled|   
-data[].status_message_raw| string| Description of the order's status as received from RMS|   
-data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed|   
-data[].parent_order_id| string| In case the order is part of the second of a CO, the parent order ID is indicated here|   
-data[].order_id| string| Unique order ID assigned internally for the order placed|   
-data[].variety| string| Order complexity|   
-data[].order_timestamp| string| User readable timestamp at which the order was placed|   
-data[].exchange_timestamp| string| User readable time at which the order was placed or updated|   
-data[].is_amo| boolean| Signifies if the order is an After Market Order|   
-data[].order_request_id| string| Apart from 1st order it shows the count of how many requests were sent|   
-data[].order_ref_id| string| Uniquely identifies an order for internal usage.|   
-  
+| Name                      | Type    | Description                                                                                                                                                           |
+| ------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status                    | string  | A string indicating the outcome of the request. Typically for successful operations.                                                                                  |
+| data                      | object  | Response data for order Book                                                                                                                                          |
+| data[].exchange           | string  | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)                    |
+| data[].product            | string  | Signifies if the order was either Intraday, Delivery or CO.                                                                                                           |
+| Possible values: , , , .  |
+| data[].price              | float   | Price at which the order was placed                                                                                                                                   |
+| data[].quantity           | int32   | Quantity with which the order was placed                                                                                                                              |
+| data[].status             | string  | Indicates the current status of the order. Valid order statuses can be found in the [Order Status Appendix](/developer/api-documentation/appendix/order-status)       |
+| data[].tag                | string  | Tag to uniquely identify an order                                                                                                                                     |
+| data[].instrument_token   | string  | Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).         |
+| data[].placed_by          | string  | Uniquely identifies the user (commonly referred as UCC)                                                                                                               |
+| data[].trading_symbol     | string  | Shows the trading symbol of the instrument                                                                                                                            |
+| data[].order_type         | string  | Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market. |
+| Possible values: , , , .  |
+| data[].validity           | string  | It can be one of the following - DAY(default), IOC.                                                                                                                   |
+| Possible values: , .      |
+| data[].trigger_price      | float   | If the order was a stop loss order then the trigger price set is mentioned here                                                                                       |
+| data[].disclosed_quantity | int32   | The quantity that should be disclosed in the market depth                                                                                                             |
+| data[].transaction_type   | string  | Indicates whether its a buy or sell order.                                                                                                                            |
+| Possible values: , .      |
+| data[].average_price      | float   | Average price at which the qty got traded                                                                                                                             |
+| data[].filled_quantity    | int32   | The total quantity traded from this particular order                                                                                                                  |
+| data[].pending_quantity   | int32   | Pending quantity to be filled                                                                                                                                         |
+| data[].status_message     | string  | Indicates the reason when any order is rejected, not modified or cancelled                                                                                            |
+| data[].status_message_raw | string  | Description of the order's status as received from RMS                                                                                                                |
+| data[].exchange_order_id  | string  | Unique order ID assigned by the exchange for the order placed                                                                                                         |
+| data[].parent_order_id    | string  | In case the order is part of the second of a CO, the parent order ID is indicated here                                                                                |
+| data[].order_id           | string  | Unique order ID assigned internally for the order placed                                                                                                              |
+| data[].variety            | string  | Order complexity                                                                                                                                                      |
+| data[].order_timestamp    | string  | User readable timestamp at which the order was placed                                                                                                                 |
+| data[].exchange_timestamp | string  | User readable time at which the order was placed or updated                                                                                                           |
+| data[].is_amo             | boolean | Signifies if the order is an After Market Order                                                                                                                       |
+| data[].order_request_id   | string  | Apart from 1st order it shows the count of how many requests were sent                                                                                                |
+| data[].order_ref_id       | string  | Uniquely identifies an order for internal usage.                                                                                                                      |
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
-
-  
-
 
 ## Examples​
 
@@ -5299,16 +4608,13 @@ Loading...
 
 [PreviousGet Order History](/developer/api-documentation/get-order-history)[NextGet Trades](/developer/api-documentation/get-trade-history)
 
-
 ---
 
 ## [API Structure | Upstox Developer API](https://upstox.com/developer/api-documentation/request-response#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * API Structure
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- API Structure
 
 # API Structure
 
@@ -5316,17 +4622,14 @@ Loading...
 
 [PreviousAuthentication](/developer/api-documentation/authentication)[NextRequest Structure](/developer/api-documentation/request-structure)
 
-
 ---
 
 ## [Request Structure | Upstox Developer API](https://upstox.com/developer/api-documentation/request-structure)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [API Structure](/developer/api-documentation/request-response)
-  * Request Structure
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [API Structure](/developer/api-documentation/request-response)
+- Request Structure
 
 # Request Structure
 
@@ -5334,15 +4637,13 @@ Use the following structure to make requests to the Upstox API:
 
 Placeholders:
 
-Name| Description  
----|---  
-[API_METHOD]| The HTTP method for your request (e.g., GET, POST, PUT, DELETE).  
-[API_ENDPOINT]| The specific endpoint you're targeting (e.g., /user/profile, /order/place).  
-[YOUR_ACCESS_TOKEN]| Your personal access token for authentication.  
-[CONTENT_TYPE_HEADER]| Include -H for requests that send a JSON payload. Include -H for requests that send data in key-value pair format. Omit for other requests.  
-[REQUEST_PAYLOAD]| For POST and PUT methods that send data, use . Omit for other methods.  
-  
-
+| Name                  | Description                                                                                                                                 |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [API_METHOD]          | The HTTP method for your request (e.g., GET, POST, PUT, DELETE).                                                                            |
+| [API_ENDPOINT]        | The specific endpoint you're targeting (e.g., /user/profile, /order/place).                                                                 |
+| [YOUR_ACCESS_TOKEN]   | Your personal access token for authentication.                                                                                              |
+| [CONTENT_TYPE_HEADER] | Include -H for requests that send a JSON payload. Include -H for requests that send data in key-value pair format. Omit for other requests. |
+| [REQUEST_PAYLOAD]     | For POST and PUT methods that send data, use . Omit for other methods.                                                                      |
 
 Note
 
@@ -5350,17 +4651,14 @@ All API requests must be encoded using the **Standard URL Encoding** \- Encodes 
 
 [PreviousAPI Structure](/developer/api-documentation/request-response)[NextResponse Structure](/developer/api-documentation/response-structure)
 
-
 ---
 
 ## [Response Structure | Upstox Developer API](https://upstox.com/developer/api-documentation/response-structure)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [API Structure](/developer/api-documentation/request-response)
-  * Response Structure
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [API Structure](/developer/api-documentation/request-response)
+- Response Structure
 
 On this page
 
@@ -5374,53 +4672,49 @@ Used for endpoints that return a single object, like and .
 
 ### Multiple Object Response Structure​
 
-Used for endpoints that return a multiple object, like 
+Used for endpoints that return a multiple object, like
 
 Properties:
 
-Property| Description  
----|---  
-status| A string indicating the outcome of the request. Typically for successful operations.  
-data|  An object holding the response content with various key-value pairs.  
-An array containing the main content of the response. Each element of the array is an object with various key-value pairs.  
-  
+| Property | Description                                                                          |
+| -------- | ------------------------------------------------------------------------------------ |
+| status   | A string indicating the outcome of the request. Typically for successful operations. |
+| data     | An object holding the response content with various key-value pairs.                 |
+
+An array containing the main content of the response. Each element of the array is an object with various key-value pairs.
+
 ## Error response​
 
 Properties:
 
-Property| Description  
----|---  
-status| A string indicating the outcome of the request. In this context, the term represents a failure in the operation.  
-errors| An array containing the main content of the error response.  
-error_code| A specific error. Refer to the "Error Code" section for explanations.  
-message| Descriptive error message.  
-property_path| Indicates which part of the request triggered the error. It can be null.  
-invalid_value| Shows the value causing the error. It can be null.  
-  
+| Property      | Description                                                                                                      |
+| ------------- | ---------------------------------------------------------------------------------------------------------------- |
+| status        | A string indicating the outcome of the request. In this context, the term represents a failure in the operation. |
+| errors        | An array containing the main content of the error response.                                                      |
+| error_code    | A specific error. Refer to the "Error Code" section for explanations.                                            |
+| message       | Descriptive error message.                                                                                       |
+| property_path | Indicates which part of the request triggered the error. It can be null.                                         |
+| invalid_value | Shows the value causing the error. It can be null.                                                               |
+
 Notice of Deprecation
 
 The camelCase fields (, , and ) are deprecated and will be removed in future versions. Use the snake_case versions for consistency.
 
 [PreviousRequest Structure](/developer/api-documentation/request-structure)[NextError Codes](/developer/api-documentation/error-codes)
 
-  * Success response
-    * Single Object Response Structure
-    * Multiple Object Response Structure
-  * Error response
-
-
-
+- Success response
+  - Single Object Response Structure
+  - Multiple Object Response Structure
+- Error response
 
 ---
 
 ## [Error codes | Upstox Developer API](https://upstox.com/developer/api-documentation/error-codes)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [API Structure](/developer/api-documentation/request-response)
-  * Error Codes
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [API Structure](/developer/api-documentation/request-response)
+- Error Codes
 
 On this page
 
@@ -5428,82 +4722,72 @@ On this page
 
 ## HTTP error codes​
 
-Error code| Description  
----|---  
-Bad Request| Your request parameters are incorrect.  
-Unauthorized| Your API key is wrong or missing.  
-Forbidden| The requested resource is hidden for administrators only.  
-Not Found| The specified resource could not be found.  
-Method Not Allowed| You tried to access a resource with an invalid method.  
-Not Acceptable| You requested a format that isn’t json.  
-Gone| The resource requested has been removed from our servers.  
-Too Many Requests| You’re requesting too many resources! Slow down!  
-Internal Server Error| We had a problem with our server. Please try again later.  
-Service Unavailable| We’re temporarily offline for maintenance. Please try again later.  
-  
-
+| Error code            | Description                                                        |
+| --------------------- | ------------------------------------------------------------------ |
+| Bad Request           | Your request parameters are incorrect.                             |
+| Unauthorized          | Your API key is wrong or missing.                                  |
+| Forbidden             | The requested resource is hidden for administrators only.          |
+| Not Found             | The specified resource could not be found.                         |
+| Method Not Allowed    | You tried to access a resource with an invalid method.             |
+| Not Acceptable        | You requested a format that isn’t json.                            |
+| Gone                  | The resource requested has been removed from our servers.          |
+| Too Many Requests     | You’re requesting too many resources! Slow down!                   |
+| Internal Server Error | We had a problem with our server. Please try again later.          |
+| Service Unavailable   | We’re temporarily offline for maintenance. Please try again later. |
 
 ## Common API error codes​
 
-Error code| Description  
----|---  
-UDAPI10000| **This request is not supported by Upstox API** \- This error is thrown when the API call is not recognized or valid, possibly due to incorrect URL formatting or the presence of unexpected characters in the URL.  
-UDAPI100016| **Invalid Credentials** \- Thrown when one of the credentials you've passed to this API is invalid.  
-UDAPI10005| **Too Many Request Sent** \- Thrown when you've exceeded the Rate limits for the API.  
-UDAPI100015| **API Version does not exist** \- Thrown when API version isn't part of the Header attributes.  
-UDAPI100050| **Invalid token used to access API** \- Thrown when an invalid token is used to access the API.  
-UDAPI100067| **The API you are trying to access is not permitted with an extended_token** \- Thrown when trying to access an API that is not allowed with an extended_token.  
-UDAPI100036| **Invalid Input** \- Thrown when an invalid input is passed to the API.  
-UDAPI100038| **Invalid input passed to the API** \- Thrown when an invalid input is passed to the API.  
-UDAPI100073| **Your 'client_id' is inactive.** \- Thrown when the is not active. Please contact the support team for further assistance.  
-UDAPI100500| **Something went wrong... please contact us** \- An unexpected error occurred. Please contact support.  
-  
+| Error code  | Description                                                                                                                                                                                                         |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI10000  | **This request is not supported by Upstox API** \- This error is thrown when the API call is not recognized or valid, possibly due to incorrect URL formatting or the presence of unexpected characters in the URL. |
+| UDAPI100016 | **Invalid Credentials** \- Thrown when one of the credentials you've passed to this API is invalid.                                                                                                                 |
+| UDAPI10005  | **Too Many Request Sent** \- Thrown when you've exceeded the Rate limits for the API.                                                                                                                               |
+| UDAPI100015 | **API Version does not exist** \- Thrown when API version isn't part of the Header attributes.                                                                                                                      |
+| UDAPI100050 | **Invalid token used to access API** \- Thrown when an invalid token is used to access the API.                                                                                                                     |
+| UDAPI100067 | **The API you are trying to access is not permitted with an extended_token** \- Thrown when trying to access an API that is not allowed with an extended_token.                                                     |
+| UDAPI100036 | **Invalid Input** \- Thrown when an invalid input is passed to the API.                                                                                                                                             |
+| UDAPI100038 | **Invalid input passed to the API** \- Thrown when an invalid input is passed to the API.                                                                                                                           |
+| UDAPI100073 | **Your 'client_id' is inactive.** \- Thrown when the is not active. Please contact the support team for further assistance.                                                                                         |
+| UDAPI100500 | **Something went wrong... please contact us** \- An unexpected error occurred. Please contact support.                                                                                                              |
+
 Error codes specific to each API are detailed in the **4XX** response section within their respective documentation.
 
 [PreviousResponse Structure](/developer/api-documentation/response-structure)[NextRate Limits](/developer/api-documentation/rate-limiting)
 
-  * HTTP error codes
-  * Common API error codes
-
-
-
+- HTTP error codes
+- Common API error codes
 
 ---
 
 ## [Rate Limits | Upstox Developer API](https://upstox.com/developer/api-documentation/rate-limiting#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Rate Limits
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Rate Limits
 
 # Rate Limits
 
 In our pursuit of offering a consistent and reliable service, we've established rate limits for our API interactions. These constraints, detailed below, are designed to prevent system overloads and ensure equitable access to all our users. The rate limits are enforced on a per-API, per-user basis.
 
-Time duration| Request limit  
----|---  
-Per second| 25 requests  
-Per minute| 250 requests  
-Per 30 minutes| 1000 requests  
-  
+| Time duration  | Request limit |
+| -------------- | ------------- |
+| Per second     | 25 requests   |
+| Per minute     | 250 requests  |
+| Per 30 minutes | 1000 requests |
+
 NOTE
 
 Please adhere to these limits to avoid potential disruptions in service. Exceeding these limits might result in temporary suspension of access.
 
 [PreviousError Codes](/developer/api-documentation/error-codes)[NextSDK](/developer/api-documentation/sdk)
 
-
 ---
 
 ## [SDK | Upstox Developer API](https://upstox.com/developer/api-documentation/sdk#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * SDK
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- SDK
 
 # SDK
 
@@ -5511,17 +4795,14 @@ Please adhere to these limits to avoid potential disruptions in service. Exceedi
 
 [PreviousRate Limits](/developer/api-documentation/rate-limiting)[NextUpstox Generated](/developer/api-documentation/upstox-generated-sdk)
 
-
 ---
 
 ## [Upstox Generated SDK's | Upstox Developer API](https://upstox.com/developer/api-documentation/upstox-generated-sdk)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [SDK](/developer/api-documentation/sdk)
-  * Upstox Generated
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [SDK](/developer/api-documentation/sdk)
+- Upstox Generated
 
 On this page
 
@@ -5535,9 +4816,6 @@ NOTE
 
 Fields in the SDK follow snake_case formatting, e.g., , .
 
-  
-
-
 ## PHP​
 
 Repository: [](https://github.com/upstox/upstox-php)
@@ -5546,27 +4824,19 @@ NOTE
 
 Fields in the SDK follow snake_case formatting, e.g., , .
 
-  
-
-
 ## NodeJS​
 
 Repository: [](https://github.com/upstox/upstox-nodejs)
-    
-    
+
     **Node.js Code:**
-    
+
     **Node.js Code:**
-    
-     npm install upstox-js-sdk  
-    
+
+     npm install upstox-js-sdk
 
 NOTE
 
 Fields in the SDK follow camelCase formatting, e.g., , .
-
-  
-
 
 ## Java​
 
@@ -5578,9 +4848,6 @@ NOTE
 
 Fields in the SDK follow camelCase formatting, e.g., , .
 
-  
-
-
 ## .NET​
 
 Repository: [](https://github.com/upstox/upstox-dotnet)
@@ -5589,22 +4856,17 @@ NOTE
 
 Fields in the SDK follow PascalCase formatting, e.g., , .
 
-  
-
-
 ## Transition Guide for Upcoming SDK Field Deprecations​
 
 As part of our ongoing efforts to improve the Upstox SDK, we are introducing alternate fields to replace those that will soon be deprecated. This change is designed to ensure a smoother transition and maintain the consistency of your applications. We encourage you to start using the recommended fields listed below. Both the deprecated and the new fields will be available for some time to facilitate this transition. However, please note that deprecated fields will eventually be removed. For detailed information on which fields are being deprecated, refer to the respective API documentation.
 
-API Field to be Deprecated| SDK Field to be Deprecated| Recommended SDK Field to Use| Language| APIs  
----|---|---|---|---  
-tradingsymbol| tradingsymbol| trading_symbol| Python| Multiple  
-tradingsymbol| trading_symbol| PHP| Multiple  
-tradingsymbol| tradingSymbol| NodeJS| Multiple  
-tradingsymbol| tradingSymbol| Java| Multiple  
-Tradingsymbol| TradingSymbol| .NET| Multiple  
-  
-
+| API Field to be Deprecated | SDK Field to be Deprecated | Recommended SDK Field to Use | Language | APIs     |
+| -------------------------- | -------------------------- | ---------------------------- | -------- | -------- |
+| tradingsymbol              | tradingsymbol              | trading_symbol               | Python   | Multiple |
+| tradingsymbol              | trading_symbol             | PHP                          | Multiple |
+| tradingsymbol              | tradingSymbol              | NodeJS                       | Multiple |
+| tradingsymbol              | tradingSymbol              | Java                         | Multiple |
+| Tradingsymbol              | TradingSymbol              | .NET                         | Multiple |
 
 Note
 
@@ -5612,26 +4874,21 @@ In instances where a field is utilized in multiple APIs, we recommend searching 
 
 [PreviousSDK](/developer/api-documentation/sdk)[NextSelf Generated](/developer/api-documentation/self-generated-sdk)
 
-  * Python
-  * PHP
-  * NodeJS
-  * Java
-  * .NET
-  * Transition Guide for Upcoming SDK Field Deprecations
-
-
-
+- Python
+- PHP
+- NodeJS
+- Java
+- .NET
+- Transition Guide for Upcoming SDK Field Deprecations
 
 ---
 
 ## [Self Generated SDK's | Upstox Developer API](https://upstox.com/developer/api-documentation/self-generated-sdk)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [SDK](/developer/api-documentation/sdk)
-  * Self Generated
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [SDK](/developer/api-documentation/sdk)
+- Self Generated
 
 On this page
 
@@ -5647,76 +4904,61 @@ Download the yaml file from the following link: <https://api.upstox.com/v2/api-d
 
 ### Windows​
 
-  * Download the latest jar file from <https://mvnrepository.com/artifact/io.swagger.codegen.v3/swagger-codegen-cli>.
-
-
+- Download the latest jar file from <https://mvnrepository.com/artifact/io.swagger.codegen.v3/swagger-codegen-cli>.
 
 NOTE
 
 OpenAPI 3.0 is supported only from swagger-codegen-cli-3.x versions.
 
-  * Execute the below command to generate the client in a preferred language.
+- Execute the below command to generate the client in a preferred language.
 
-    * Using online api docs
+  - Using online api docs
 
-    * Using yaml file
-
-
-
+  - Using yaml file
 
 ### MAC​
 
-  * Execute the below command on Mac terminal to download swagger codegen
+- Execute the below command on Mac terminal to download swagger codegen
 
-  * To generate the client in preferred language.
+- To generate the client in preferred language.
 
-    * Using online api docs
+  - Using online api docs
 
-    * Using yaml file
-
-
-
+  - Using yaml file
 
 tip
 
--h, --help show this help message and exit.  
--l, --lang client language to generate.  
--o, --output where to write the generated files (current dir by default).  
+-h, --help show this help message and exit.
+-l, --lang client language to generate.
+-o, --output where to write the generated files (current dir by default).
 -i, --input-spec location of the swagger spec, as URL or file (required).
 
 ## Online SDK generation using swagger editor​
 
-  * Open your favourite browser and visit [swagger editor](https://editor.swagger.io/).
-  * Under the File menu, select the Import file option. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk1-1879afec7bcdacbb01d4fd370ae968da.webp)
-  * Import the downloaded yaml from first section yaml.
-  * Click on generate client. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk2-6220df7e50da5e32cd228497d9d6a283.webp)
-  * Choose language from options provided. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk3-0f3e501970f3ad5b6e24bd5262f3d2f0.webp)
-  * A zip file will be downloaded.
-  * Extract the zip to use your SDK.
-  * Each SDK comes with readme file to know how to install and use SDK.
-
-
+- Open your favourite browser and visit [swagger editor](https://editor.swagger.io/).
+- Under the File menu, select the Import file option. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk1-1879afec7bcdacbb01d4fd370ae968da.webp)
+- Import the downloaded yaml from first section yaml.
+- Click on generate client. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk2-6220df7e50da5e32cd228497d9d6a283.webp)
+- Choose language from options provided. ![Swagger import file](/developer/api-documentation/assets/images/onlinesdk3-0f3e501970f3ad5b6e24bd5262f3d2f0.webp)
+- A zip file will be downloaded.
+- Extract the zip to use your SDK.
+- Each SDK comes with readme file to know how to install and use SDK.
 
 [PreviousUpstox Generated](/developer/api-documentation/upstox-generated-sdk)[NextInstruments](/developer/api-documentation/instruments)
 
-  * Get Upstox developer API YAML
-  * Offline SDK generation using swagger-codegen-cli
-    * Windows
-    * MAC
-  * Online SDK generation using swagger editor
-
-
-
+- Get Upstox developer API YAML
+- Offline SDK generation using swagger-codegen-cli
+  - Windows
+  - MAC
+- Online SDK generation using swagger editor
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -5724,216 +4966,184 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#sample-csv-record)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -5941,216 +5151,184 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#field-description)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -6158,258 +5336,227 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Field Pattern | Upstox Developer API](https://upstox.com/developer/api-documentation/appendix/field-pattern)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Appendix](/developer/api-documentation/appendix)
-  * Field Pattern
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Appendix](/developer/api-documentation/appendix)
+- Field Pattern
 
 # Field Pattern
 
 This section outlines the specific regex patterns required for various field inputs, ensuring data consistency and validation. Refer to these specifications to avoid common input errors and streamline data submission processes.
 
-  * **order_id**
+- **order_id**
 
-    * Pattern: 
-  * **symbol**
+  - Pattern:
 
-    * Pattern: 
-  * **financial_year**
+- **symbol**
 
-    * Pattern: 
-  * **instrumentKey**
+  - Pattern:
 
-    * Pattern: 
-  * **instrument_token**
+- **financial_year**
 
-    * Pattern: 
-  * **instrument_key**
+  - Pattern:
 
-    * Pattern: 
-  * **exchange**
+- **instrumentKey**
 
-    * Pattern: 
+  - Pattern:
 
+- **instrument_token**
 
+  - Pattern:
+
+- **instrument_key**
+
+  - Pattern:
+
+- **exchange**
+
+  - Pattern:
 
 [PreviousOrder Status](/developer/api-documentation/appendix/order-status)[NextChangelog](/developer/api-documentation/appendix/change-log)
-
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#sample-json-object)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -6417,242 +5564,207 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Equity Security Type | Upstox Developer API](https://upstox.com/developer/api-documentation/appendix/equity-security-type)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Appendix](/developer/api-documentation/appendix)
-  * Equity Security Type
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Appendix](/developer/api-documentation/appendix)
+- Equity Security Type
 
 # Equity Security Type
 
 This table presents the list of possible security type an equity can be mapped to.
 
-Value| Description  
----|---  
-SME| Equity that caters to small and medium-sized enterprises for market access.  
-RELIST| Equity that has been reintroduced to trading on the market after a period of absence.  
-PCA| Equity subject to regulatory oversight due to financial or operational concerns.  
-IPO| Equity initially offered to the public by a company entering the market.  
-NORMAL| Equity that operates under standard market conditions without special classifications.  
-  
-[PreviousPostman Collection](/developer/api-documentation/appendix/postman-collection)[NextExchange](/developer/api-documentation/appendix/exchange)
+| Value  | Description                                                                            |
+| ------ | -------------------------------------------------------------------------------------- |
+| SME    | Equity that caters to small and medium-sized enterprises for market access.            |
+| RELIST | Equity that has been reintroduced to trading on the market after a period of absence.  |
+| PCA    | Equity subject to regulatory oversight due to financial or operational concerns.       |
+| IPO    | Equity initially offered to the public by a company entering the market.               |
+| NORMAL | Equity that operates under standard market conditions without special classifications. |
 
+[PreviousPostman Collection](/developer/api-documentation/appendix/postman-collection)[NextExchange](/developer/api-documentation/appendix/exchange)
 
 ---
 
 ## [Instruments | Upstox Developer API](https://upstox.com/developer/api-documentation/instruments#field-description-1)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Instruments
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Instruments
 
 On this page
 
@@ -6660,216 +5772,184 @@ On this page
 
 Note
 
-  * **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
-  * The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
-
-
+- **The CSV format for instruments files is being deprecated.** Switch to the JSON format for improved performance. Details at [CSV Instruments File Deprecation Notice](/developer/api-documentation/announcements/instruments-csv-deprecation-notice).
+- The list of suspended instruments is available in the [JSON section](/developer/api-documentation/instruments#json-files) below.
 
 Recommendations
 
-  * Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
-  * Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
-
-
-
-  
-
+- Use for uniquely identifying instruments, as it remains unique for each instrument. Conversely, may be reused by the exchange for a different instrument after its expiry.
+- Use Instruments data in JSON format instead of CSV, as its structure has been designed for enhanced robustness and future scalability, making programmatic processing easier.
 
 ## CSV Files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in CSV format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.csv.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.csv.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.csv.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.csv.gz)
 
 ### Sample CSV Record​
 
-instrument_key| exchange_token| tradingsymbol| name| last_price| expiry| strike| tick_size| lot_size| instrument_type| option_type| exchange  
----|---|---|---|---|---|---|---|---|---|---|---  
-NSE_FO|164693| 164693| RELIANCE24JAN1840CE| RELIANCE INDUSTRIES LTD| 424.8| 2024-01-25| 1840.0| 0.05| 250| OPTSTK| CE| NSE_FO  
-  
+| instrument_key | exchange_token | tradingsymbol | name                | last_price              | expiry | strike     | tick_size | lot_size | instrument_type | option_type | exchange |
+| -------------- | -------------- | ------------- | ------------------- | ----------------------- | ------ | ---------- | --------- | -------- | --------------- | ----------- | -------- | ------ |
+| NSE_FO         | 164693         | 164693        | RELIANCE24JAN1840CE | RELIANCE INDUSTRIES LTD | 424.8  | 2024-01-25 | 1840.0    | 0.05     | 250             | OPTSTK      | CE       | NSE_FO |
+
 ### Field Description​
 
-Name| Type| Description  
----|---|---  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-tradingsymbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version.  
-name| string| Name of the company (for equity instruments).  
-last_price| number| Last traded price.  
-expiry| string| Expiry date (for derivatives). Data format is   
-strike| number| Indicates the predetermined price at which an option can be bought or sold when it's exercised.  
-tick_size| number| Measure of the minimum upward or downward movement in the price of an instrument.  
-lot_size| number| Minimum size in which the stock futures or index futures can be traded.  
-instrument_type| string| Instrument type of a particular contract.  
-Possible values: , , etc.  
-option_type| string| Option type of the option contracts (applicable only for options contract).  
-Possible values: ,   
-exchange| string| Exchange to which the order is associated.  
-Possible values: , , , , , etc.  
-  
+| Name            | Type   | Description                                                                                                                                                                                                                                                          |
+| --------------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key  | string | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).                                                  |
+| exchange_token  | number | The numerical identifier issued by the exchange representing the instrument.                                                                                                                                                                                         |
+| tradingsymbol   | string | Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc. The format of this value may vary between weekly and monthly contracts, leading to inconsistencies. These inconsistencies have been resolved in the JSON version. |
+| name            | string | Name of the company (for equity instruments).                                                                                                                                                                                                                        |
+| last_price      | number | Last traded price.                                                                                                                                                                                                                                                   |
+| expiry          | string | Expiry date (for derivatives). Data format is                                                                                                                                                                                                                        |
+| strike          | number | Indicates the predetermined price at which an option can be bought or sold when it's exercised.                                                                                                                                                                      |
+| tick_size       | number | Measure of the minimum upward or downward movement in the price of an instrument.                                                                                                                                                                                    |
+| lot_size        | number | Minimum size in which the stock futures or index futures can be traded.                                                                                                                                                                                              |
+| instrument_type | string | Instrument type of a particular contract.                                                                                                                                                                                                                            |
 
+Possible values: , , etc.
+option_type| string| Option type of the option contracts (applicable only for options contract).
+Possible values: ,
+exchange| string| Exchange to which the order is associated.
+Possible values: , , , , , etc.
 
 ## JSON files​
 
 These URLs provide access to the complete list of BOD contracts available for trading on Upstox in JSON format.
 
-  * [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
-  * [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
-  * [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
-  * [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
-  * [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
-
-  
-
+- [Complete](https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz)
+- [NSE](https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz)
+- [BSE](https://assets.upstox.com/market-quote/instruments/exchange/BSE.json.gz)
+- [MCX](https://assets.upstox.com/market-quote/instruments/exchange/MCX.json.gz)
+- [Suspended](https://assets.upstox.com/market-quote/instruments/exchange/suspended-instrument.json.gz)
 
 ### Sample JSON Object​
 
-  * EQ
-  * Futures
-  * Options
-  * INDEX
-
-
+- EQ
+- Futures
+- Options
+- INDEX
 
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Equity, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
-###  Field Description 
+Possible values: , , , , , , , ,
+name| string| The name of the equity.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+isin| string| The International Securities Identification Number.
+instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+lot_size| number| The size of one lot of the equity.
+freeze_quantity| number| The maximum quantity that can be frozen.
+exchange_token| string| The exchange-specific token for the equity.
+tick_size| number| The minimum price movement of the equity.
+trading_symbol| string| Trading symbol of the instrument.
+short_name| string| A shorter or abbreviated name of the equity.
+security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the equity.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-isin| string| The International Securities Identification Number.  
-instrument_type| string| The instrument types for NSE are present at [NSE India](https://www.nseindia.com/market-data/legend-of-series) and for BSE are present at [BSE India](https://www.bseindia.com/markets/equity/EQReports/tra_trading.aspx).  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the equity.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the equity.  
-tick_size| number| The minimum price movement of the equity.  
-trading_symbol| string| Trading symbol of the instrument.  
-short_name| string| A shorter or abbreviated name of the equity.  
-security_type| string| Identifies the classification or status of a security within the market. Valid security types can be found in the [Security Type Appendix](/developer/api-documentation/appendix/equity-security-type)  
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Future, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the future is weekly.                                                                                                                                                                                  |
+| segment           | string  | Segment to which the instrument is associated. Possible values: , , , , , , , ,                                                                                                                                     |
+| name              | string  | The name of the future.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the future.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the future instrument. Possible values:                                                                                                                                                                 |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| lot_size          | number  | The size of one lot of the future.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the future.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the future.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the future.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the future. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the future is weekly.  
-segment| string| Segment to which the instrument is associated. Possible values: , , , , , , , ,   
-name| string| The name of the future.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the future.  
-instrument_type| string| The type of the future instrument. Possible values:   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-lot_size| number| The size of one lot of the future.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the future.  
-minimum_lot| number| The minimum lot size for the future.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the future.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the future. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for Reliance Call Option, specify the as and the as , excluding other segments and instrument types from your search criteria. If you want to search for Put Option then set as .
 
+### Field Description
 
+| Field Name        | Type    | Description                                                                                                                                                                                                         |
+| ----------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| weekly            | boolean | Indicates if the option is weekly.                                                                                                                                                                                  |
+| segment           | string  | The market segment of the option. Possible values: , , , , , , , ,                                                                                                                                                  |
+| name              | string  | The name of the option.                                                                                                                                                                                             |
+| exchange          | string  | Exchange to which the instrument is associated. Possible values: , ,                                                                                                                                                |
+| expiry            | date    | The expiry date of the option.                                                                                                                                                                                      |
+| instrument_type   | string  | The type of the option instrument. Possible values: ,                                                                                                                                                               |
+| underlying_symbol | string  | The symbol of the underlying asset.                                                                                                                                                                                 |
+| instrument_key    | string  | The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| strike_price      | number  | The strike price for the option.                                                                                                                                                                                    |
+| lot_size          | number  | The size of one lot of the option.                                                                                                                                                                                  |
+| freeze_quantity   | number  | The maximum quantity that can be frozen.                                                                                                                                                                            |
+| exchange_token    | string  | The exchange-specific token for the option.                                                                                                                                                                         |
+| minimum_lot       | number  | The minimum lot size for the option.                                                                                                                                                                                |
+| underlying_key    | string  | The for the underlying asset.                                                                                                                                                                                       |
+| tick_size         | number  | The minimum price movement of the option.                                                                                                                                                                           |
+| underlying_type   | string  | The type of the underlying asset. Possible values: , , , ,                                                                                                                                                          |
+| trading_symbol    | string  | The symbol used for trading the option. Format:                                                                                                                                                                     |
 
-###  Field Description 
-
-Field Name| Type| Description  
----|---|---  
-weekly| boolean| Indicates if the option is weekly.  
-segment| string| The market segment of the option. Possible values: , , , , , , , ,   
-name| string| The name of the option.  
-exchange| string| Exchange to which the instrument is associated. Possible values: , ,   
-expiry| date| The expiry date of the option.  
-instrument_type| string| The type of the option instrument. Possible values: ,   
-underlying_symbol| string| The symbol of the underlying asset.  
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-strike_price| number| The strike price for the option.  
-lot_size| number| The size of one lot of the option.  
-freeze_quantity| number| The maximum quantity that can be frozen.  
-exchange_token| string| The exchange-specific token for the option.  
-minimum_lot| number| The minimum lot size for the option.  
-underlying_key| string| The for the underlying asset.  
-tick_size| number| The minimum price movement of the option.  
-underlying_type| string| The type of the underlying asset. Possible values: , , , ,   
-trading_symbol| string| The symbol used for trading the option. Format:   
-  
 Note
 
-  * When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
-
-
+- When you're searching for instrument keys within an instrument JSON file, you can employ the and parameters to refine and narrow down the list of instrument keys. For instance, if you're looking for the instrument key for NSE Index, specify the as and the as , excluding other segments and instrument types from your search criteria.
 
 ### Field Description​
 
-Field Name| Type| Description  
----|---|---  
-segment| string| Segment to which the instrument is associated.   
-Possible values: , , , , , , , ,   
-name| string| The name of the index.  
-exchange| string| Exchange to which the instrument is associated.   
-Possible values: , ,   
-instrument_type| string| The type of the option instrument.   
-Possible values:   
-instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-exchange_token| number| The numerical identifier issued by the exchange representing the instrument.  
-trading_symbol| string| Trading symbol for the index.  
-  
-  
+| Field Name | Type   | Description                                    |
+| ---------- | ------ | ---------------------------------------------- |
+| segment    | string | Segment to which the instrument is associated. |
 
+Possible values: , , , , , , , ,
+name| string| The name of the index.
+exchange| string| Exchange to which the instrument is associated.
+Possible values: , ,
+instrument_type| string| The type of the option instrument.
+Possible values:
+instrument_key| string| The unique identifier used across Upstox APIs for instrument identification. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+exchange_token| number| The numerical identifier issued by the exchange representing the instrument.
+trading_symbol| string| Trading symbol for the index.
 
 Note
 
-  * The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
-  * The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
-
-
+- The files undergo daily refresh at around 6 AM, and they are only refreshed as needed during the day, which is a seldom occurrence.
+- The BOD instrument for the next trading day will not include delisted stocks or expired contracts.
 
 [PreviousSelf Generated](/developer/api-documentation/self-generated-sdk)[NextLogin](/developer/api-documentation/login)
 
-  * CSV Files
-    * Sample CSV Record
-    * Field Description
-  * JSON files
-    * Sample JSON Object
-    * Field Description
-
-
-
+- CSV Files
+  - Sample CSV Record
+  - Field Description
+- JSON files
+  - Sample JSON Object
+  - Field Description
 
 ---
 
 ## [Login | Upstox Developer API](https://upstox.com/developer/api-documentation/login#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Login
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Login
 
 # Login
 
@@ -6881,17 +5961,14 @@ You also have the option to select [TOTP (Time-based One-Time Password)](https:/
 
 [PreviousInstruments](/developer/api-documentation/instruments)[NextAuthorize](/developer/api-documentation/authorize)
 
-
 ---
 
 ## [Get Token | Upstox Developer API](https://upstox.com/developer/api-documentation/get-token)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Login](/developer/api-documentation/login)
-  * Get Token
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Login](/developer/api-documentation/login)
+- Get Token
 
 ## Get Token​
 
@@ -6903,67 +5980,63 @@ The obtained through this API has a specific validity period that lasts until th
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Content-Type| true| string| Indicates the media type of the resource, set as .  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name         | Required | Type   | Description                                                             |
+| ------------ | -------- | ------ | ----------------------------------------------------------------------- |
+| Content-Type | true     | string | Indicates the media type of the resource, set as .                      |
+| Accept       | true     | string | Defines the content format the client expects, which should be set to . |
+
 ### Request Body​
 
-Name| Required| Type| Description  
----|---|---|---  
-code| true| string| The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.  
-client_id| true| string| The API key obtained during the app generation process.  
-client_secret| true| string| The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server.  
-redirect_uri| true| string| The URL provided during app generation.  
-grant_type| true| string| This value must always be .  
-  
+| Name          | Required | Type   | Description                                                                                                                                                   |
+| ------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| code          | true     | string | The is a unique parameter included in the URL upon a successful [Authorize API](/developer/api-documentation/authorize) authentication.                       |
+| client_id     | true     | string | The API key obtained during the app generation process.                                                                                                       |
+| client_secret | true     | string | The API secret obtained during the app generation process. This private key remains confidential, known only to the application and the authorization server. |
+| redirect_uri  | true     | string | The URL provided during app generation.                                                                                                                       |
+| grant_type    | true     | string | This value must always be .                                                                                                                                   |
+
 NOTE
 
 The sent as part of this request is valid for a single use, regardless of whether the access token generation succeeds or encounters an issue.
 
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-email| string| E-mail address of the user  
-exchanges| string[]| List of exchanges enabled for the user. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-products| string[]| Lists the types of products enabled for the user.   
-Possible values: , , ,   
-broker| string| The broker ID  
-user_id| string| Uniquely identifies the user (commonly referred as UCC)  
-user_name| string| Name of the user  
-order_types| string[]| Order types enabled for the user.   
-Possible values: , , ,   
-user_type| string| Identifies the user's registered role with the broker. This will be individual for all retail users  
-poa| boolean| Indicates whether the user has authorized power of attorney for transactions.  
-is_active| boolean| Indicates if the account status is active.  
-access_token| string| The authentication token to be used with every subsequent API request.  
-extended_token| string| This token is designed for prolonged usage, primarily for read-only access to various API endpoints. For more detailed information on the extended token, including its benefits and how to opt for it, please refer to the [Extended Token Documentation](/developer/api-documentation/authentication#extended-token).  
-  
+| Name      | Type     | Description                                                                                                                                     |
+| --------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| email     | string   | E-mail address of the user                                                                                                                      |
+| exchanges | string[] | List of exchanges enabled for the user. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| products  | string[] | Lists the types of products enabled for the user.                                                                                               |
+
+Possible values: , , ,
+broker| string| The broker ID
+user_id| string| Uniquely identifies the user (commonly referred as UCC)
+user_name| string| Name of the user
+order_types| string[]| Order types enabled for the user.
+Possible values: , , ,
+user_type| string| Identifies the user's registered role with the broker. This will be individual for all retail users
+poa| boolean| Indicates whether the user has authorized power of attorney for transactions.
+is_active| boolean| Indicates if the account status is active.
+access_token| string| The authentication token to be used with every subsequent API request.
+extended_token| string| This token is designed for prolonged usage, primarily for read-only access to various API endpoints. For more detailed information on the extended token, including its benefits and how to opt for it, please refer to the [Extended Token Documentation](/developer/api-documentation/authentication#extended-token).
+
 NOTE
 
 If a user attempting to log in has no active segments, the error will occur, preventing the Token API from generating the access_token. To resolve this, users must manually reactivate their segment through the Upstox web or mobile application before attempting to log in again.
 
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI100069| **Check your 'client_id' and 'client_secret'; one or both are incorrect.** \- Thrown when one of the credentials you've passed to this API is invalid.  
-UDAPI100070| **The 'redirect_uri' provided is invalid. Please enter the valid URI and try again.** \- Thrown when the passed to this API is invalid.  
-UDAPI100057| **Invalid Auth code** \- Thrown when the value passed to the API is invalid.  
-  
-  
-
+| Error code  | Description                                                                                                                                            |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| UDAPI100069 | **Check your 'client_id' and 'client_secret'; one or both are incorrect.** \- Thrown when one of the credentials you've passed to this API is invalid. |
+| UDAPI100070 | **The 'redirect_uri' provided is invalid. Please enter the valid URI and try again.** \- Thrown when the passed to this API is invalid.                |
+| UDAPI100057 | **Invalid Auth code** \- Thrown when the value passed to the API is invalid.                                                                           |
 
 ## Examples​
 
@@ -6973,17 +6046,14 @@ Loading...
 
 [PreviousAuthorize](/developer/api-documentation/authorize)[NextLogout](/developer/api-documentation/logout)
 
-
 ---
 
 ## [Logout | Upstox Developer API](https://upstox.com/developer/api-documentation/logout)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Login](/developer/api-documentation/login)
-  * Logout
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Login](/developer/api-documentation/login)
+- Logout
 
 ## Logout​
 
@@ -6991,28 +6061,23 @@ API to log out a user's active session, making the current session no longer val
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
+- 200
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| boolean| Indicates whether the logout was successful  
-  
-  
-
+| Name   | Type    | Description                                                                          |
+| ------ | ------- | ------------------------------------------------------------------------------------ |
+| status | string  | A string indicating the outcome of the request. Typically for successful operations. |
+| data   | boolean | Indicates whether the logout was successful                                          |
 
 ## Examples​
 
@@ -7022,16 +6087,13 @@ Loading...
 
 [PreviousGet Token](/developer/api-documentation/get-token)[NextUser](/developer/api-documentation/user)
 
-
 ---
 
 ## [User | Upstox Developer API](https://upstox.com/developer/api-documentation/user#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * User
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- User
 
 # User
 
@@ -7039,17 +6101,14 @@ Loading...
 
 [PreviousLogout](/developer/api-documentation/logout)[NextGet Profile](/developer/api-documentation/get-profile)
 
-
 ---
 
 ## [Get Profile | Upstox Developer API](https://upstox.com/developer/api-documentation/get-profile)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [User](/developer/api-documentation/user)
-  * Get Profile
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [User](/developer/api-documentation/user)
+- Get Profile
 
 ## Get Profile​
 
@@ -7057,47 +6116,43 @@ API to retrieve user profile data, which encompasses details such as supported e
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for user profile  
-data.email| string| E-mail address of the user  
-data.exchanges| string[]| List of exchanges enabled for the user. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data.products| string[]| Lists the types of products enabled for the user.   
-Possible values: , , ,   
-data.broker| string| The broker ID  
-data.user_id| string| Uniquely identifies the user (commonly referred as UCC)  
-data.user_name| string| Name of the user  
-data.order_types| string[]| Order types enabled for the user.   
-Possible values: , , ,   
-data.user_type| string| Identifies the user's registered role at the broker. This will be individual for all retail users  
-data.poa| boolean| Indicates whether the user has authorized power of attorney for transactions.  
-data.is_active| boolean| Indicates if the account status is active.  
-  
+| Name           | Type     | Description                                                                                                                                     |
+| -------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| status         | string   | A string indicating the outcome of the request. Typically for successful operations.                                                            |
+| data           | object   | Response data for user profile                                                                                                                  |
+| data.email     | string   | E-mail address of the user                                                                                                                      |
+| data.exchanges | string[] | List of exchanges enabled for the user. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data.products  | string[] | Lists the types of products enabled for the user.                                                                                               |
+
+Possible values: , , ,
+data.broker| string| The broker ID
+data.user_id| string| Uniquely identifies the user (commonly referred as UCC)
+data.user_name| string| Name of the user
+data.order_types| string[]| Order types enabled for the user.
+Possible values: , , ,
+data.user_type| string| Identifies the user's registered role at the broker. This will be individual for all retail users
+data.poa| boolean| Indicates whether the user has authorized power of attorney for transactions.
+data.is_active| boolean| Indicates if the account status is active.
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI100058| **No segments for these users are active. Manual reactivation is recommended from Upstox app/web.** \- Thrown when the signing-in user lacks active segments on their account. It's recommended that the user re-enable these segments through the Upstox app or website.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                                                                                                               |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI100058 | **No segments for these users are active. Manual reactivation is recommended from Upstox app/web.** \- Thrown when the signing-in user lacks active segments on their account. It's recommended that the user re-enable these segments through the Upstox app or website. |
 
 ## Examples​
 
@@ -7107,17 +6162,14 @@ Loading...
 
 [PreviousUser](/developer/api-documentation/user)[NextGet Fund And Margin](/developer/api-documentation/get-user-fund-margin)
 
-
 ---
 
 ## [Get Fund And Margin | Upstox Developer API](https://upstox.com/developer/api-documentation/get-user-fund-margin)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [User](/developer/api-documentation/user)
-  * Get Fund And Margin
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [User](/developer/api-documentation/user)
+- Get Fund And Margin
 
 ## Get Fund And Margin​
 
@@ -7125,58 +6177,49 @@ API to retrieve user funds data for both the equity and commodity markets, inclu
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-segment| false| string| Determines the market segment related to the transaction. Without a specified segment in the request, the response will encompass results for both commodities and equities.   
-Possible values: for Equity use , for Commodity use   
-  
+| Name    | Required | Type   | Description                                                                                                                                                                  |
+| ------- | -------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| segment | false    | string | Determines the market segment related to the transaction. Without a specified segment in the request, the response will encompass results for both commodities and equities. |
+
+Possible values: for Equity use , for Commodity use
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for Balance  
-data.used_margin| float| Positive values denote the amount blocked into an Open order or position. Negative value denotes the amount being released.  
-data.payin_amount| float| Instant payin will reflect here  
-data.span_margin| float| Amount blocked on futures and options towards SPAN  
-data.adhoc_margin| float| Payin amount credited through a manual process  
-data.notional_cash| float| The amount maintained for withdrawal  
-data.available_margin| float| Total margin available for trading  
-data.exposure_margin| float| Amount blocked on futures and options towards Exposure  
-  
+| Name                  | Type   | Description                                                                                                                 |
+| --------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------- |
+| status                | string | A string indicating the outcome of the request. Typically for successful operations.                                        |
+| data                  | object | Response data for Balance                                                                                                   |
+| data.used_margin      | float  | Positive values denote the amount blocked into an Open order or position. Negative value denotes the amount being released. |
+| data.payin_amount     | float  | Instant payin will reflect here                                                                                             |
+| data.span_margin      | float  | Amount blocked on futures and options towards SPAN                                                                          |
+| data.adhoc_margin     | float  | Payin amount credited through a manual process                                                                              |
+| data.notional_cash    | float  | The amount maintained for withdrawal                                                                                        |
+| data.available_margin | float  | Total margin available for trading                                                                                          |
+| data.exposure_margin  | float  | Amount blocked on futures and options towards Exposure                                                                      |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI100072| **The Funds service is accessible from 5:30 AM to 12:00 AM IST daily** \- Thrown when an funds API is called between midnight and 5:30 AM in the morning.  
-  
-  
-
+| Error code  | Description                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI100072 | **The Funds service is accessible from 5:30 AM to 12:00 AM IST daily** \- Thrown when an funds API is called between midnight and 5:30 AM in the morning. |
 
 NOTE
 
-  * The Funds service is down for maintenance from 12:00 AM to 5:30 AM IST daily and is not available for usage during these hours. Users are advised to plan their activities accordingly.
-
-
-
-  
-
+- The Funds service is down for maintenance from 12:00 AM to 5:30 AM IST daily and is not available for usage during these hours. Users are advised to plan their activities accordingly.
 
 ## Examples​
 
@@ -7186,16 +6229,13 @@ Loading...
 
 [PreviousGet Profile](/developer/api-documentation/get-profile)[NextCharges](/developer/api-documentation/charges)
 
-
 ---
 
 ## [Charges | Upstox Developer API](https://upstox.com/developer/api-documentation/charges#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Charges
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Charges
 
 # Charges
 
@@ -7203,17 +6243,14 @@ Loading...
 
 [PreviousGet Fund And Margin](/developer/api-documentation/get-user-fund-margin)[NextBrokerage Details](/developer/api-documentation/get-brokerage)
 
-
 ---
 
 ## [Brokerage Details | Upstox Developer API](https://upstox.com/developer/api-documentation/get-brokerage)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Charges](/developer/api-documentation/charges)
-  * Brokerage Details
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Charges](/developer/api-documentation/charges)
+- Brokerage Details
 
 ## Brokerage Details​
 
@@ -7221,72 +6258,67 @@ API for calculating brokerage fees associated with stock. It accepts input param
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-instrument_token| true| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-quantity| true| integer (int32)| Quantity with which the order is to be placed  
-product| true| string| Product with which the order is to be placed  
-transaction_type| true| string| Indicates whether its a BUY or SELL order  
-price| true| number (float)| Price with which the order is to be placed  
-  
+| Name             | Required | Type            | Description                                                                                                                                                   |
+| ---------------- | -------- | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_token | true     | string          | Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| quantity         | true     | integer (int32) | Quantity with which the order is to be placed                                                                                                                 |
+| product          | true     | string          | Product with which the order is to be placed                                                                                                                  |
+| transaction_type | true     | string          | Indicates whether its a BUY or SELL order                                                                                                                     |
+| price            | true     | number (float)  | Price with which the order is to be placed                                                                                                                    |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for brokerage  
-data.charges| object| Response data for charges details  
-data.charges.total| float| Total charges for the order  
-data.charges.brokerage| float| Brokerage charges for the order  
-data.charges.taxes| object| Taxes levied on order  
-data.charges.taxes.gst| float| GST charges  
-data.charges.taxes.stt| float| STT charges  
-data.charges.taxes.stamp_duty| float| Stamp duty charges  
-data.charges.other_charges| object| Other applicable charges  
-data.charges.other_charges.transaction| float| Transaction charges  
-data.charges.other_charges.clearing| float| Clearing charges  
-data.charges.other_charges.ipft| float| IPF charges  
-data.charges.other_charges.sebi_turnover| float| SEBI turnover charges  
-data.charges.dp_plan| object| dpPlan detail  
-data.charges.dp_plan.name| string| Name of the user's Depository Participant plan, indicating the specific DP service they are enrolled in.  
-data.charges.dp_plan.min_expense| float| Daily minimum charges per scrip on sales, not included in brokerage calculations, indicating extra costs under the user's DP plan.  
-  
+| Name                                     | Type   | Description                                                                                                                        |
+| ---------------------------------------- | ------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| status                                   | string | A string indicating the outcome of the request. Typically for successful operations.                                               |
+| data                                     | object | Response data for brokerage                                                                                                        |
+| data.charges                             | object | Response data for charges details                                                                                                  |
+| data.charges.total                       | float  | Total charges for the order                                                                                                        |
+| data.charges.brokerage                   | float  | Brokerage charges for the order                                                                                                    |
+| data.charges.taxes                       | object | Taxes levied on order                                                                                                              |
+| data.charges.taxes.gst                   | float  | GST charges                                                                                                                        |
+| data.charges.taxes.stt                   | float  | STT charges                                                                                                                        |
+| data.charges.taxes.stamp_duty            | float  | Stamp duty charges                                                                                                                 |
+| data.charges.other_charges               | object | Other applicable charges                                                                                                           |
+| data.charges.other_charges.transaction   | float  | Transaction charges                                                                                                                |
+| data.charges.other_charges.clearing      | float  | Clearing charges                                                                                                                   |
+| data.charges.other_charges.ipft          | float  | IPF charges                                                                                                                        |
+| data.charges.other_charges.sebi_turnover | float  | SEBI turnover charges                                                                                                              |
+| data.charges.dp_plan                     | object | dpPlan detail                                                                                                                      |
+| data.charges.dp_plan.name                | string | Name of the user's Depository Participant plan, indicating the specific DP service they are enrolled in.                           |
+| data.charges.dp_plan.min_expense         | float  | Daily minimum charges per scrip on sales, not included in brokerage calculations, indicating extra costs under the user's DP plan. |
+
 Notice of Deprecation
 
 The camelCase fields (, and ) are deprecated and will be removed in future versions. Use the snake_case versions for consistency.
 
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1059| **The instrument_token is of invalid format** \- The given format isn't correct  
-UDAPI1060| **The quantity is required** \- The field needs to be provided  
-UDAPI1064| **The quantity cannot be zero** \- You cannot provide zero as the value  
-UDAPI1063| **The product is required** \- The field is missing  
-UDAPI1054| **The 'product' is invalid** \- The provided value for is not acceptable  
-UDAPI1062| **The transaction_type is required** \- You need to provide the field  
-UDAPI1057| **The ''transaction_type'' is invalid** \- The given value for is not valid  
-UDAPI1061| **The price is required** \- The field is missing  
-UDAPI1065| **The price cannot be zero** \- Zero is not an acceptable value for   
-  
-  
-
+| Error code | Description                                                                     |
+| ---------- | ------------------------------------------------------------------------------- |
+| UDAPI1059  | **The instrument_token is of invalid format** \- The given format isn't correct |
+| UDAPI1060  | **The quantity is required** \- The field needs to be provided                  |
+| UDAPI1064  | **The quantity cannot be zero** \- You cannot provide zero as the value         |
+| UDAPI1063  | **The product is required** \- The field is missing                             |
+| UDAPI1054  | **The 'product' is invalid** \- The provided value for is not acceptable        |
+| UDAPI1062  | **The transaction_type is required** \- You need to provide the field           |
+| UDAPI1057  | **The ''transaction_type'' is invalid** \- The given value for is not valid     |
+| UDAPI1061  | **The price is required** \- The field is missing                               |
+| UDAPI1065  | **The price cannot be zero** \- Zero is not an acceptable value for             |
 
 ## Examples​
 
@@ -7296,46 +6328,36 @@ Loading...
 
 [PreviousCharges](/developer/api-documentation/charges)[NextOrders](/developer/api-documentation/orders)
 
-
 ---
 
 ## [Orders | Upstox Developer API](https://upstox.com/developer/api-documentation/orders#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Orders
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Orders
 
 # Orders
 
 NOTE
 
-  * If you represent a business aiming to incorporate order flow management (including placing, canceling, and modifying orders), please visit the [Uplink Business](/developer/api-documentation/uplink-business/introduction). The direct HTTP order placement API integration is intended for individual API users.
-
-
+- If you represent a business aiming to incorporate order flow management (including placing, canceling, and modifying orders), please visit the [Uplink Business](/developer/api-documentation/uplink-business/introduction). The direct HTTP order placement API integration is intended for individual API users.
 
 Important
 
-  * In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
-
-
+- In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
 
 ## [description Place OrderPlace an order with all possible combinations.](/developer/api-documentation/place-order)## [description Modify OrderModify pending or open orders.](/developer/api-documentation/modify-order)## [description Cancel OrderCancel pending or open orders.](/developer/api-documentation/cancel-order)## [description Get Order DetailsGet the latest status and details for an order.](/developer/api-documentation/get-order-details)## [description Get Order HistoryGet order history for an order.](/developer/api-documentation/get-order-history)## [description Get Order BookGet the list of all orders placed during the day.](/developer/api-documentation/get-order-book)## [description Get TradesGet the list of all trades for the day.](/developer/api-documentation/get-trade-history)## [description Get Order TradesGet the list of trades executed for an order.](/developer/api-documentation/get-trades-by-order)## [description Get Trade HistoryGet the list of historical trades](/developer/api-documentation/get-historical-trades)
 
 [PreviousBrokerage Details](/developer/api-documentation/get-brokerage)[NextPlace Order](/developer/api-documentation/place-order)
 
-
 ---
 
 ## [Place Order | Upstox Developer API](https://upstox.com/developer/api-documentation/place-order)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Place Order
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Place Order
 
 ## Place Order​
 
@@ -7349,87 +6371,78 @@ If you represent a business aiming to incorporate order flow management (includi
 
 Important
 
-  * Currently product type is not allowed.
-  * In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
-
-
-
-  
-
+- Currently product type is not allowed.
+- In adherence to CDSL regulations, customers without a DDPI/POA are obligated to use a combination of the CDSL TPIN and OTP to provide the necessary authorization for the deduction of securities from their demat account when engaging in delivery sale transactions.
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Content-Type| true| string| Indicates the media type of the resource, set as .  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Content-Type  | true     | string | Indicates the media type of the resource, set as .                                                  |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Request Body​
 
-Name| Required| Type| Description  
----|---|---|---  
-quantity| true| integer (int32)| Quantity with which the order is to be placed.   
-For commodity - number of lots is accepted.   
-For other Futures & Options and equities - number of units is accepted in multiples of the tick size.  
-product| true| string| Signifies if the order was either Intraday or Delivery.   
-Possible values: , .  
-validity| true| string| It can be one of the following - DAY(default), IOC.   
-Possible values: , .  
-price| true| number (float)| Price at which the order will be placed  
-tag| false| string| Tag for a particular order  
-instrument_token| true| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-order_type| true| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .  
-transaction_type| true| string| Indicates whether its a buy or sell order.   
-Possible values: , .  
-disclosed_quantity| true| integer (int32)| The quantity that should be disclosed in the market depth  
-trigger_price| true| number (float)| If the order is a stop loss order then the trigger price to be set is mentioned here  
-is_amo| true| boolean| Signifies if the order is an After Market Order  
-  
+| Name     | Required | Type            | Description                                    |
+| -------- | -------- | --------------- | ---------------------------------------------- |
+| quantity | true     | integer (int32) | Quantity with which the order is to be placed. |
+
+For commodity - number of lots is accepted.
+For other Futures & Options and equities - number of units is accepted in multiples of the tick size.
+product| true| string| Signifies if the order was either Intraday or Delivery.
+Possible values: , .
+validity| true| string| It can be one of the following - DAY(default), IOC.
+Possible values: , .
+price| true| number (float)| Price at which the order will be placed
+tag| false| string| Tag for a particular order
+instrument_token| true| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+order_type| true| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.
+Possible values: , , , .
+transaction_type| true| string| Indicates whether its a buy or sell order.
+Possible values: , .
+disclosed_quantity| true| integer (int32)| The quantity that should be disclosed in the market depth
+trigger_price| true| number (float)| If the order is a stop loss order then the trigger price to be set is mentioned here
+is_amo| true| boolean| Signifies if the order is an After Market Order
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for place order request  
-data.order_id| string| An order ID for the order request placed  
-  
+| Name          | Type   | Description                                                                          |
+| ------------- | ------ | ------------------------------------------------------------------------------------ |
+| status        | string | A string indicating the outcome of the request. Typically for successful operations. |
+| data          | object | Response data for place order request                                                |
+| data.order_id | string | An order ID for the order request placed                                             |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1026| **Instrument key is required** \- You need to provide the instrument key for this operation.  
-UDAPI1004| **Valid order type is required** \- Please ensure to provide a recognized order type.  
-UDAPI1056| **The 'order_type' is invalid** \- The specified order type isn't acceptable.  
-UDAPI1057| **The 'transaction_type' is invalid** \- The given transaction type is not valid.  
-UDAPI1006| **Product is required** \- You must specify the product in your request.  
-UDAPI1054| **The 'product' is invalid** \- The provided product value doesn't match any accepted values.  
-UDAPI1007| **Validity is required** \- You need to provide the duration the order will remain in effect.  
-UDAPI1055| **The 'validity' is invalid** \- The specified order validity isn't recognized.  
-UDAPI1008| **Price is required** \- Please specify the price in your request.  
-UDAPI100049| **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations.  
-UDAPI1052| **The order 'quantity' cannot be zero** \- You cannot set the order quantity to zero.  
-UDAPI1040| **Price not required** \- You shouldn't specify a price for this type of order.  
-UDAPI1043| **The 'price' is required** \- A valid price value needs to be provided for this order type.  
-UDAPI1041| **The 'price' and 'trigger_price' both are required** \- Ensure to specify both price values in your request.  
-UDAPI1042| **Only 'trigger_price' is required** \- Only the trigger price needs to be provided, not the regular price.  
-UDAPI1037| **Trigger price should be less than limit price** \- Ensure your trigger price is set below the limit price.  
-UDAPI1038| **Trigger price should be greater than limit price** \- The trigger price should exceed the limit price value.  
-UDAPI100011| **Invalid Instrument key** \- The instrument key you provided doesn't match any recognized keys.  
-UDAPI100039| **AMO orders cannot be placed during the market hours** \- After Market Order (AMO) is not valid during active market sessions.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1026   | **Instrument key is required** \- You need to provide the instrument key for this operation.                                                                               |
+| UDAPI1004   | **Valid order type is required** \- Please ensure to provide a recognized order type.                                                                                      |
+| UDAPI1056   | **The 'order_type' is invalid** \- The specified order type isn't acceptable.                                                                                              |
+| UDAPI1057   | **The 'transaction_type' is invalid** \- The given transaction type is not valid.                                                                                          |
+| UDAPI1006   | **Product is required** \- You must specify the product in your request.                                                                                                   |
+| UDAPI1054   | **The 'product' is invalid** \- The provided product value doesn't match any accepted values.                                                                              |
+| UDAPI1007   | **Validity is required** \- You need to provide the duration the order will remain in effect.                                                                              |
+| UDAPI1055   | **The 'validity' is invalid** \- The specified order validity isn't recognized.                                                                                            |
+| UDAPI1008   | **Price is required** \- Please specify the price in your request.                                                                                                         |
+| UDAPI100049 | **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations. |
+| UDAPI1052   | **The order 'quantity' cannot be zero** \- You cannot set the order quantity to zero.                                                                                      |
+| UDAPI1040   | **Price not required** \- You shouldn't specify a price for this type of order.                                                                                            |
+| UDAPI1043   | **The 'price' is required** \- A valid price value needs to be provided for this order type.                                                                               |
+| UDAPI1041   | **The 'price' and 'trigger_price' both are required** \- Ensure to specify both price values in your request.                                                              |
+| UDAPI1042   | **Only 'trigger_price' is required** \- Only the trigger price needs to be provided, not the regular price.                                                                |
+| UDAPI1037   | **Trigger price should be less than limit price** \- Ensure your trigger price is set below the limit price.                                                               |
+| UDAPI1038   | **Trigger price should be greater than limit price** \- The trigger price should exceed the limit price value.                                                             |
+| UDAPI100011 | **Invalid Instrument key** \- The instrument key you provided doesn't match any recognized keys.                                                                           |
+| UDAPI100039 | **AMO orders cannot be placed during the market hours** \- After Market Order (AMO) is not valid during active market sessions.                                            |
 
 ## Examples​
 
@@ -7439,90 +6452,80 @@ Loading...
 
 [PreviousOrders](/developer/api-documentation/orders)[NextModify Order](/developer/api-documentation/modify-order)
 
-
 ---
 
 ## [Modify Order | Upstox Developer API](https://upstox.com/developer/api-documentation/modify-order)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Modify Order
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Modify Order
 
 ## Modify Order​
 
 API to modify an open or pending order.To perform a modification, the orderId is a required field. Along with the orderId, you should include any optional parameters that require modification. If no optional parameters are included in the modification request, the default values will be assumed from the original order.
 
-  
-
-
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Content-Type| true| string| Indicates the media type of the resource, set as .  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Content-Type  | true     | string | Indicates the media type of the resource, set as .                                                  |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Request Body​
 
-Name| Required| Type| Description  
----|---|---|---  
-quantity| false| integer (int32)| Quantity with which the order was placed  
-validity| true| string| Order validity (DAY- Day and IOC- Immediate or Cancel (IOC) order).   
-Possible values: , .  
-price| true| number (float)| Price at which the order was placed  
-order_id| true| string| The order ID for which the order must be modified. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-order_type| true| string| Type of order. It can be one of the following  
-MARKET refers to market order  
-LIMILT refers to Limit Order  
-SL refers to Stop Loss Limit  
-SL-M refers to Stop Loss Market.   
-Possible values: , , , .  
-disclosed_quantity| false| integer (int32)| Indicates the volume to be displayed in the market depth. If provided, this value must be non-zero.  
-trigger_price| true| number (float)| If the order is a stop loss order then the trigger price to be set is mentioned here  
-  
+| Name     | Required | Type            | Description                                                         |
+| -------- | -------- | --------------- | ------------------------------------------------------------------- |
+| quantity | false    | integer (int32) | Quantity with which the order was placed                            |
+| validity | true     | string          | Order validity (DAY- Day and IOC- Immediate or Cancel (IOC) order). |
+
+Possible values: , .
+price| true| number (float)| Price at which the order was placed
+order_id| true| string| The order ID for which the order must be modified. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+order_type| true| string| Type of order. It can be one of the following
+MARKET refers to market order
+LIMILT refers to Limit Order
+SL refers to Stop Loss Limit
+SL-M refers to Stop Loss Market.
+Possible values: , , , .
+disclosed_quantity| false| integer (int32)| Indicates the volume to be displayed in the market depth. If provided, this value must be non-zero.
+trigger_price| true| number (float)| If the order is a stop loss order then the trigger price to be set is mentioned here
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for modify order request  
-data.order_id| string| Order ID  
-  
+| Name          | Type   | Description                                                                          |
+| ------------- | ------ | ------------------------------------------------------------------------------------ |
+| status        | string | A string indicating the outcome of the request. Typically for successful operations. |
+| data          | object | Response data for modify order request                                               |
+| data.order_id | string | Order ID                                                                             |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1004| **Valid order type is required** \- Please ensure you provide an acceptable type for the order.  
-UDAPI1007| **Validity is required** \- You need to specify the duration or validity for the order.  
-UDAPI1056| **The 'order_type' is invalid** \- The order type you've provided isn't recognized or accepted.  
-UDAPI1055| **The 'validity' is invalid** \- The provided validity doesn't match any of the recognized types.  
-UDAPI1008| **Price is required** \- Please specify the desired price for your order.  
-UDAPI1036| **The 'trigger_price' is required** \- A trigger price must be specified for this type of order.  
-UDAPI1030| **'price' is not required** \- For this order type, you don't need to specify a price.  
-UDAPI1029| **'price' is required** \- A valid price must be provided for this type of order.  
-UDAPI1031| **Price and Trigger price both are required** \- Both price values, regular and trigger, need to be provided for this order.  
-UDAPI1032| **Only 'trigger_price' is required** \- For this type of order, only a trigger price value needs to be specified.  
-UDAPI100049| **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations.  
-UDAPI100010| **Order not found** \- The system couldn't locate the order you're referring to.  
-UDAPI100041| **Modifications of already cancelled/rejected/completed orders is not allowed** \- You cannot make changes to orders that are already finalized in some manner.  
-UDAPI1039| **Disclosed quantity should not be less than 10% of the quantity** \- The revealed amount in your order should be at least 10% of the total order amount.  
-UDAPI1003| **Order id is required** \- Thrown when order number is not provided.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1004   | **Valid order type is required** \- Please ensure you provide an acceptable type for the order.                                                                            |
+| UDAPI1007   | **Validity is required** \- You need to specify the duration or validity for the order.                                                                                    |
+| UDAPI1056   | **The 'order_type' is invalid** \- The order type you've provided isn't recognized or accepted.                                                                            |
+| UDAPI1055   | **The 'validity' is invalid** \- The provided validity doesn't match any of the recognized types.                                                                          |
+| UDAPI1008   | **Price is required** \- Please specify the desired price for your order.                                                                                                  |
+| UDAPI1036   | **The 'trigger_price' is required** \- A trigger price must be specified for this type of order.                                                                           |
+| UDAPI1030   | **'price' is not required** \- For this order type, you don't need to specify a price.                                                                                     |
+| UDAPI1029   | **'price' is required** \- A valid price must be provided for this type of order.                                                                                          |
+| UDAPI1031   | **Price and Trigger price both are required** \- Both price values, regular and trigger, need to be provided for this order.                                               |
+| UDAPI1032   | **Only 'trigger_price' is required** \- For this type of order, only a trigger price value needs to be specified.                                                          |
+| UDAPI100049 | **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations. |
+| UDAPI100010 | **Order not found** \- The system couldn't locate the order you're referring to.                                                                                           |
+| UDAPI100041 | **Modifications of already cancelled/rejected/completed orders is not allowed** \- You cannot make changes to orders that are already finalized in some manner.            |
+| UDAPI1039   | **Disclosed quantity should not be less than 10% of the quantity** \- The revealed amount in your order should be at least 10% of the total order amount.                  |
+| UDAPI1003   | **Order id is required** \- Thrown when order number is not provided.                                                                                                      |
 
 ## Examples​
 
@@ -7532,67 +6535,56 @@ Loading...
 
 [PreviousPlace Order](/developer/api-documentation/place-order)[NextCancel Order](/developer/api-documentation/cancel-order)
 
-
 ---
 
 ## [Cancel Order | Upstox Developer API](https://upstox.com/developer/api-documentation/cancel-order)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Cancel Order
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Cancel Order
 
 ## Cancel Order​
 
 API to cancel an open or pending which can be applied to both After Market Orders (AMO) and regular orders. It may also serve to exit a Cover Order (CO).
 
-  
-
-
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-order_id| true| string| The order ID for which the order must be cancelled. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-  
+| Name     | Required | Type   | Description                                                                                                                                                                                |
+| -------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| order_id | true     | string | The order ID for which the order must be cancelled. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for Cancel order request  
-data.order_id| string| Reference order ID  
-  
+| Name          | Type   | Description                                                                          |
+| ------------- | ------ | ------------------------------------------------------------------------------------ |
+| status        | string | A string indicating the outcome of the request. Typically for successful operations. |
+| data          | object | Response data for Cancel order request                                               |
+| data.order_id | string | Reference order ID                                                                   |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1023| **Order id is required** \- Please ensure you provide an order id.  
-UDAPI1010| **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.  
-UDAPI100049| **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations.  
-UDAPI100010| **Order not found** \- The system couldn't locate the order you're referring to.  
-UDAPI100040| **Cancel of already cancelled/rejected/completed order is not allowed** \- You cannot cancel orders that are already finalized in some manner.  
-  
-  
-
+| Error code  | Description                                                                                                                                                                |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1023   | **Order id is required** \- Please ensure you provide an order id.                                                                                                         |
+| UDAPI1010   | **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.                                                                 |
+| UDAPI100049 | **Access to this API has been restricted for your account. Please use 'Uplink Business' to place/modify/cancel the order.** \- Use 'Uplink Business' for order operations. |
+| UDAPI100010 | **Order not found** \- The system couldn't locate the order you're referring to.                                                                                           |
+| UDAPI100040 | **Cancel of already cancelled/rejected/completed order is not allowed** \- You cannot cancel orders that are already finalized in some manner.                             |
 
 ## Examples​
 
@@ -7602,17 +6594,14 @@ Loading...
 
 [PreviousModify Order](/developer/api-documentation/modify-order)[NextGet Order Details](/developer/api-documentation/get-order-details)
 
-
 ---
 
 ## [Get Trades | Upstox Developer API](https://upstox.com/developer/api-documentation/get-trade-history)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Trades
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Trades
 
 ## Get Trades​
 
@@ -7620,49 +6609,45 @@ API to retrieve the list of all trades executed for the day. An order, initially
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 **Responses**
 
-  * 200
+- 200
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for trades  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .  
-data[].trading_symbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .  
-data[].transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .  
-data[].quantity| int32| The total quantity traded from this particular order  
-data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed  
-data[].order_id| string| Unique order ID assigned internally for the order placed  
-data[].exchange_timestamp| string| User readable time at when the trade occurred  
-data[].average_price| float| Price at which the traded quantity is traded  
-data[].trade_id| string| Trade ID generated from exchange towards traded transaction  
-data[].order_ref_id| string| Uniquely identifies an order for internal usage.  
-data[].order_timestamp| string| User readable timestamp at which the order was placed  
-  
+| Name            | Type     | Description                                                                                                                                        |
+| --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status          | string   | A string indicating the outcome of the request. Typically for successful operations.                                                               |
+| data            | object[] | Response data for trades                                                                                                                           |
+| data[].exchange | string   | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data[].product  | string   | Signifies if the order was either Intraday, Delivery or CO.                                                                                        |
+
+Possible values: , , , .
+data[].trading_symbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.
+Possible values: , , , .
+data[].transaction_type| string| Indicates whether its a buy or sell order.
+Possible values: , .
+data[].quantity| int32| The total quantity traded from this particular order
+data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed
+data[].order_id| string| Unique order ID assigned internally for the order placed
+data[].exchange_timestamp| string| User readable time at when the trade occurred
+data[].average_price| float| Price at which the traded quantity is traded
+data[].trade_id| string| Trade ID generated from exchange towards traded transaction
+data[].order_ref_id| string| Uniquely identifies an order for internal usage.
+data[].order_timestamp| string| User readable timestamp at which the order was placed
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
-
-  
-
 
 ## Examples​
 
@@ -7672,17 +6657,14 @@ Loading...
 
 [PreviousGet Order Book](/developer/api-documentation/get-order-book)[NextGet Order Trades](/developer/api-documentation/get-trades-by-order)
 
-
 ---
 
 ## [Get Order Trades | Upstox Developer API](https://upstox.com/developer/api-documentation/get-trades-by-order)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Order Trades
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Order Trades
 
 ## Get Order Trades​
 
@@ -7690,63 +6672,59 @@ API to retrieve the list of all trades executed for a specific order.To access t
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-order_id| true| string| The order ID for which the order to get order trades. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-  
+| Name     | Required | Type   | Description                                                                                                                                                                                  |
+| -------- | -------- | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| order_id | true     | string | The order ID for which the order to get order trades. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for trades  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data[].product| string| Signifies if the order was either Intraday, Delivery or CO.   
-Possible values: , , , .  
-data[].trading_symbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.   
-Possible values: , , , .  
-data[].transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .  
-data[].quantity| int32| The total quantity traded from this particular order  
-data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed  
-data[].order_id| string| Unique order ID assigned internally for the order placed  
-data[].exchange_timestamp| string| User readable time at when the trade occurred  
-data[].average_price| float| Price at which the traded quantity is traded  
-data[].trade_id| string| Trade ID generated from exchange towards traded transaction  
-data[].order_ref_id| string| Uniquely identifies an order for internal usage.  
-data[].order_timestamp| string| User readable timestamp at which the order was placed  
-  
+| Name            | Type     | Description                                                                                                                                        |
+| --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status          | string   | A string indicating the outcome of the request. Typically for successful operations.                                                               |
+| data            | object[] | Response data for trades                                                                                                                           |
+| data[].exchange | string   | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data[].product  | string   | Signifies if the order was either Intraday, Delivery or CO.                                                                                        |
+
+Possible values: , , , .
+data[].trading_symbol| string| Shows the trading symbol which could be a combination of symbol name, instrument, expiry date etc
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+data[].order_type| string| Type of order. It can be one of the following MARKET refers to market order LIMIT refers to Limit Order SL refers to Stop Loss Limit SL-M refers to Stop Loss Market.
+Possible values: , , , .
+data[].transaction_type| string| Indicates whether its a buy or sell order.
+Possible values: , .
+data[].quantity| int32| The total quantity traded from this particular order
+data[].exchange_order_id| string| Unique order ID assigned by the exchange for the order placed
+data[].order_id| string| Unique order ID assigned internally for the order placed
+data[].exchange_timestamp| string| User readable time at when the trade occurred
+data[].average_price| float| Price at which the traded quantity is traded
+data[].trade_id| string| Trade ID generated from exchange towards traded transaction
+data[].order_ref_id| string| Uniquely identifies an order for internal usage.
+data[].order_timestamp| string| User readable timestamp at which the order was placed
+
 Notice of Deprecation
 
 The lowercase field () is deprecated and will be removed in future versions. Use the snake_case versions for consistency.
 
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1023| **Order id is required** \- Please ensure you provide an order id.  
-UDAPI1010| **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted.  
-  
-  
-
+| Error code | Description                                                                                                |
+| ---------- | ---------------------------------------------------------------------------------------------------------- |
+| UDAPI1023  | **Order id is required** \- Please ensure you provide an order id.                                         |
+| UDAPI1010  | **Order id accepts only alphanumeric characters and '-'.** \- The order id you've provided isn't accepted. |
 
 ## Examples​
 
@@ -7756,17 +6734,14 @@ Loading...
 
 [PreviousGet Trades](/developer/api-documentation/get-trade-history)[NextGet Trade History](/developer/api-documentation/get-historical-trades)
 
-
 ---
 
 ## [Get Trade History | Upstox Developer API](https://upstox.com/developer/api-documentation/get-historical-trades)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Orders](/developer/api-documentation/orders)
-  * Get Trade History
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Orders](/developer/api-documentation/orders)
+- Get Trade History
 
 ## Get Trade History​
 
@@ -7778,87 +6753,82 @@ Currently this API will give you data only for last 3 financial years.
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-segment| false| string| Segment for which data is requested can be from the following options, If not provide, will consider all the segment.   
-EQ - Equity   
-FO - Futures and Options   
-COM - Commodity   
-CD - Currency Derivatives   
-MF - Mutual funds  
-start_date| true| string| Date from which data needs to be fetched. it should be within the last 3 financial years. Date format: .  
-end_date| true| string| Date till data needs to be fetched. it should be within the last 3 financial years. Date format: .  
-page_number| true| integer| Page number, the pages are starting from 1.  
-page_size| true| integer| Page size for pagination.  
-  
+| Name    | Required | Type   | Description                                                                                                           |
+| ------- | -------- | ------ | --------------------------------------------------------------------------------------------------------------------- |
+| segment | false    | string | Segment for which data is requested can be from the following options, If not provide, will consider all the segment. |
+
+EQ - Equity
+FO - Futures and Options
+COM - Commodity
+CD - Currency Derivatives
+MF - Mutual funds
+start_date| true| string| Date from which data needs to be fetched. it should be within the last 3 financial years. Date format: .
+end_date| true| string| Date till data needs to be fetched. it should be within the last 3 financial years. Date format: .
+page_number| true| integer| Page number, the pages are starting from 1.
+page_size| true| integer| Page size for pagination.
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-  * EQ
-  * FO
-  * COM
-  * CD
-  * MF
+- EQ
+- FO
+- COM
+- CD
+- MF
 
+| Name            | Type     | Description                                                                                                                                        |
+| --------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| status          | string   | A string indicating the outcome of the request. Typically for successful operations.                                                               |
+| data            | object[] | Response data for historical trade reports                                                                                                         |
+| data[].exchange | string   | Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange) |
+| data[].segment  | string   | Segment to which the order is associated.                                                                                                          |
 
+Possible values: , , , , .
+data[].option_type| string| Option type of the option contracts. Possible values: , .
+**Option type is available only in case of FO and CD segment.**
+data[].quantity| integer| Quantity with which the order was placed.
+data[].amount| float| Total amount at which order is bought/sold.
+data[].trade_id| string| Trade ID generated from exchange towards traded transaction
+data[].trade_date| string| The date on which the order was bought/sold
+data[].transaction_type| string| Indicates whether its a buy or sell order.
+Possible values: , .
+data[].scrip_name| string| Name of the scrip traded
+data[].strike_price| float| The strike price for the option.
+data[].expiry| string| Expiry date (for derivatives). Data format is .
+data[].price| float| Price at which the traded quantity is traded.
+data[].isin| string| This represents the standard ISIN for stocks listed on multiple exchanges.
+**ISIN is available in case of EQ and MF segment.**
+data[].symbol| string| Shows the trading symbol of the instrument.
+**Symbol is available in case of EQ and FO segment.**
+data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).
+**Instrument token is available in case of EQ and MF segment.**
+metadata| object| Meta data for historical trade data
+metadata.page| object| Meta data for page.
+metadata.page.page_number| integer| Page number for pagination
+metadata.page.page_size| integer| Page size
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for historical trade reports  
-data[].exchange| string| Exchange to which the order is associated. Valid exchanges can be found in the [Exchange Appendix](/developer/api-documentation/appendix/exchange)  
-data[].segment| string| Segment to which the order is associated.   
-Possible values: , , , , .  
-data[].option_type| string| Option type of the option contracts. Possible values: , .   
-**Option type is available only in case of FO and CD segment.**  
-data[].quantity| integer| Quantity with which the order was placed.  
-data[].amount| float| Total amount at which order is bought/sold.  
-data[].trade_id| string| Trade ID generated from exchange towards traded transaction  
-data[].trade_date| string| The date on which the order was bought/sold  
-data[].transaction_type| string| Indicates whether its a buy or sell order.   
-Possible values: , .  
-data[].scrip_name| string| Name of the scrip traded  
-data[].strike_price| float| The strike price for the option.  
-data[].expiry| string| Expiry date (for derivatives). Data format is .  
-data[].price| float| Price at which the traded quantity is traded.  
-data[].isin| string| This represents the standard ISIN for stocks listed on multiple exchanges.   
-**ISIN is available in case of EQ and MF segment.**  
-data[].symbol| string| Shows the trading symbol of the instrument.   
-**Symbol is available in case of EQ and FO segment.**  
-data[].instrument_token| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).   
-**Instrument token is available in case of EQ and MF segment.**  
-metadata| object| Meta data for historical trade data  
-metadata.page| object| Meta data for page.  
-metadata.page.page_number| integer| Page number for pagination  
-metadata.page.page_size| integer| Page size  
-  
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1066| **The segment is invalid** \- The provided segment value isn't recognized or accepted.  
-UDAPI1091| **The page_number is required** \- You need to specify the page number for the data you're trying to retrieve.  
-UDAPI1092| **The page_size is required** \- The page size, indicating the number of results per page, must be provided.  
-UDAPI1093| **The start_date and end_date exceed the financial year limit.** \- Ensure your date ranges lies within the last 3 financial years.  
-UDAPI1094| **end_date must be greater than or equal to start_date and Date should be in valid format:** \- Ensure your date ranges and formats are correct.  
-  
-  
-
+| Error code | Description                                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| UDAPI1066  | **The segment is invalid** \- The provided segment value isn't recognized or accepted.                                                           |
+| UDAPI1091  | **The page_number is required** \- You need to specify the page number for the data you're trying to retrieve.                                   |
+| UDAPI1092  | **The page_size is required** \- The page size, indicating the number of results per page, must be provided.                                     |
+| UDAPI1093  | **The start_date and end_date exceed the financial year limit.** \- Ensure your date ranges lies within the last 3 financial years.              |
+| UDAPI1094  | **end_date must be greater than or equal to start_date and Date should be in valid format:** \- Ensure your date ranges and formats are correct. |
 
 ## Examples​
 
@@ -7868,16 +6838,13 @@ Loading...
 
 [PreviousGet Order Trades](/developer/api-documentation/get-trades-by-order)[NextPortfolio](/developer/api-documentation/portfolio)
 
-
 ---
 
 ## [Portfolio | Upstox Developer API](https://upstox.com/developer/api-documentation/portfolio#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Portfolio
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Portfolio
 
 # Portfolio
 
@@ -7885,17 +6852,14 @@ Loading...
 
 [PreviousGet Trade History](/developer/api-documentation/get-historical-trades)[NextGet Positions](/developer/api-documentation/get-positions)
 
-
 ---
 
 ## [Convert Positions | Upstox Developer API](https://upstox.com/developer/api-documentation/convert-positions)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Portfolio](/developer/api-documentation/portfolio)
-  * Convert Positions
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Portfolio](/developer/api-documentation/portfolio)
+- Convert Positions
 
 ## Convert Positions​
 
@@ -7903,52 +6867,48 @@ API to convert your intraday positions into delivery trades or your margin trade
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Content-Type| true| string| Indicates the media type of the resource, set as .  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Content-Type  | true     | string | Indicates the media type of the resource, set as .                                                  |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Request Body​
 
-Name| Required| Type| Description  
----|---|---|---  
-instrument_token| true| string| Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-new_product| true| string| Indicates the new product to use for the convert positions.   
-Possible values: , , .  
-old_product| true| string| Indicates the old product to use for the convert positions.   
-Possible values: , , .  
-transaction_type| true| string| Indicates whether its a buy(b) or sell(s) order.   
-Possible values: , .  
-quantity| true| int32| Quantity with which the position to convert  
-  
+| Name             | Required | Type   | Description                                                                                                                                                   |
+| ---------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_token | true     | string | Key of the instrument. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| new_product      | true     | string | Indicates the new product to use for the convert positions.                                                                                                   |
+
+Possible values: , , .
+old_product| true| string| Indicates the old product to use for the convert positions.
+Possible values: , , .
+transaction_type| true| string| Indicates whether its a buy(b) or sell(s) order.
+Possible values: , .
+quantity| true| int32| Quantity with which the position to convert
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for convert position request  
-data.status| string| Status message for convert position request  
-  
+| Name        | Type   | Description                                                                          |
+| ----------- | ------ | ------------------------------------------------------------------------------------ |
+| status      | string | A string indicating the outcome of the request. Typically for successful operations. |
+| data        | object | Response data for convert position request                                           |
+| data.status | string | Status message for convert position request                                          |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1033| **Get position data failed** \- There was an issue retrieving the position data.  
-UDAPI1034| **Positions unavailable for given user id** \- No positions were found for the specified user ID.  
-UDAPI1035| **Positions unavailable for given instrument key or product** \- No positions match the provided instrument key or product details.  
-  
-  
-
+| Error code | Description                                                                                                                         |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1033  | **Get position data failed** \- There was an issue retrieving the position data.                                                    |
+| UDAPI1034  | **Positions unavailable for given user id** \- No positions were found for the specified user ID.                                   |
+| UDAPI1035  | **Positions unavailable for given instrument key or product** \- No positions match the provided instrument key or product details. |
 
 ## Examples​
 
@@ -7958,16 +6918,13 @@ Loading...
 
 [PreviousGet Positions](/developer/api-documentation/get-positions)[NextGet Holdings](/developer/api-documentation/get-holdings)
 
-
 ---
 
 ## [Trade Profit And Loss | Upstox Developer API](https://upstox.com/developer/api-documentation/trade-profit-and-loss#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Trade Profit And Loss
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Trade Profit And Loss
 
 # Trade Profit And Loss
 
@@ -7975,67 +6932,59 @@ Loading...
 
 [PreviousGet Holdings](/developer/api-documentation/get-holdings)[NextGet Report Meta Data](/developer/api-documentation/get-report-meta-data)
 
-
 ---
 
 ## [Get Profit And Loss Meta Data On Trades | Upstox Developer API](https://upstox.com/developer/api-documentation/get-report-meta-data)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
-  * Get Report Meta Data
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
+- Get Report Meta Data
 
 ## Get Report Meta Data​
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-from_date| false| string| Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-to_date| false| string| Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-segment| true| string| Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives  
-financial_year| true| string| Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-  
+| Name           | Required | Type   | Description                                                                                                                                                                                                                                                                                         |
+| -------------- | -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| from_date      | false    | string | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| to_date        | false    | string | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| segment        | true     | string | Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives                                                                                                                                             |
+| financial_year | true     | string | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for brokerage  
-data.trades_count| integer| Total count of trades in the trade wise P and L report  
-data.page_size_limit| integer| Maximum number of trades in a page of the trade wise P and L report API  
-  
+| Name                 | Type    | Description                                                                          |
+| -------------------- | ------- | ------------------------------------------------------------------------------------ |
+| status               | string  | A string indicating the outcome of the request. Typically for successful operations. |
+| data                 | object  | Response data for brokerage                                                          |
+| data.trades_count    | integer | Total count of trades in the trade wise P and L report                               |
+| data.page_size_limit | integer | Maximum number of trades in a page of the trade wise P and L report API              |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1067| **The 'segment' is required** \- You must provide the 'segment' for this operation.  
-UDAPI1066| **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.  
-UDAPI1070| **The financial_year is required** \- Please specify the 'financial_year' in your request.  
-UDAPI1074| **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.  
-UDAPI100051| **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.  
-UDAPI1075| **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct.  
-  
-  
-
+| Error code  | Description                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1067   | **The 'segment' is required** \- You must provide the 'segment' for this operation.                                                                       |
+| UDAPI1066   | **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.                                                                |
+| UDAPI1070   | **The financial_year is required** \- Please specify the 'financial_year' in your request.                                                                |
+| UDAPI1074   | **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.                                                      |
+| UDAPI100051 | **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.                                           |
+| UDAPI1075   | **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct. |
 
 ## Examples​
 
@@ -8045,83 +6994,75 @@ Loading...
 
 [PreviousTrade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)[NextGet Profit Loss Report](/developer/api-documentation/get-profit-and-loss-report)
 
-
 ---
 
 ## [Get Trade-wise Profit and Loss Report Data | Upstox Developer API](https://upstox.com/developer/api-documentation/get-profit-and-loss-report)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
-  * Get Profit Loss Report
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
+- Get Profit Loss Report
 
 ## Get Profit Loss Report​
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-from_date| false| string| Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-to_date| false| string| Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-segment| true| string| Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives  
-financial_year| true| string| Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-page_number| true| integer (int32)| Page Number, the pages are starting from 1  
-page_size| true| integer (int32)| Page size for pagination. The maximum page size value is obtained from P and L report metadata API.  
-  
+| Name           | Required | Type            | Description                                                                                                                                                                                                                                                                                         |
+| -------------- | -------- | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| from_date      | false    | string          | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| to_date        | false    | string          | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| segment        | true     | string          | Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives                                                                                                                                             |
+| financial_year | true     | string          | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| page_number    | true     | integer (int32) | Page Number, the pages are starting from 1                                                                                                                                                                                                                                                          |
+| page_size      | true     | integer (int32) | Page size for pagination. The maximum page size value is obtained from P and L report metadata API.                                                                                                                                                                                                 |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object[]| Response data for trade wise data details  
-data[].quantity| float| The quantity of stock traded  
-data[].isin| string| ISIN of the stock  
-data[].scrip_name| string| Name of the scrip traded  
-data[].trade_type| string| FUT - Futures OPT - Options EQ - Equity  
-data[].buy_date| string| The date on which the stock was bought  
-data[].buy_average| float| The average rate at which each quantity of the stock was bought  
-data[].sell_date| string| The date on which the stock was sold  
-data[].sell_average| float| The average rate at which each quantity of the stock was sold  
-data[].buy_amount| float| Total buy amount  
-data[].sell_amount| float| Total sell amount  
-metadata| object| Meta data for trade wise data details  
-metadata.page| object| Meta data for page.  
-metadata.page.page_number| int32| pageNumber for pagination  
-metadata.page.page_size| int32| Page size  
-  
+| Name                      | Type     | Description                                                                          |
+| ------------------------- | -------- | ------------------------------------------------------------------------------------ |
+| status                    | string   | A string indicating the outcome of the request. Typically for successful operations. |
+| data                      | object[] | Response data for trade wise data details                                            |
+| data[].quantity           | float    | The quantity of stock traded                                                         |
+| data[].isin               | string   | ISIN of the stock                                                                    |
+| data[].scrip_name         | string   | Name of the scrip traded                                                             |
+| data[].trade_type         | string   | FUT - Futures OPT - Options EQ - Equity                                              |
+| data[].buy_date           | string   | The date on which the stock was bought                                               |
+| data[].buy_average        | float    | The average rate at which each quantity of the stock was bought                      |
+| data[].sell_date          | string   | The date on which the stock was sold                                                 |
+| data[].sell_average       | float    | The average rate at which each quantity of the stock was sold                        |
+| data[].buy_amount         | float    | Total buy amount                                                                     |
+| data[].sell_amount        | float    | Total sell amount                                                                    |
+| metadata                  | object   | Meta data for trade wise data details                                                |
+| metadata.page             | object   | Meta data for page.                                                                  |
+| metadata.page.page_number | int32    | pageNumber for pagination                                                            |
+| metadata.page.page_size   | int32    | Page size                                                                            |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1067| **The 'segment' is required** \- You must provide the 'segment' for this operation.  
-UDAPI1066| **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.  
-UDAPI1070| **The financial_year is required** \- Please specify the 'financial_year' in your request.  
-UDAPI1074| **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.  
-UDAPI1071| **The page_number is required** \- You need to specify the page number for the data you're trying to retrieve.  
-UDAPI1072| **The page_size is required** \- The page size, indicating the number of results per page, must be provided.  
-UDAPI100051| **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.  
-UDAPI1075| **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct.  
-  
-  
-
+| Error code  | Description                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1067   | **The 'segment' is required** \- You must provide the 'segment' for this operation.                                                                       |
+| UDAPI1066   | **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.                                                                |
+| UDAPI1070   | **The financial_year is required** \- Please specify the 'financial_year' in your request.                                                                |
+| UDAPI1074   | **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.                                                      |
+| UDAPI1071   | **The page_number is required** \- You need to specify the page number for the data you're trying to retrieve.                                            |
+| UDAPI1072   | **The page_size is required** \- The page size, indicating the number of results per page, must be provided.                                              |
+| UDAPI100051 | **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.                                           |
+| UDAPI1075   | **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct. |
 
 ## Examples​
 
@@ -8131,79 +7072,71 @@ Loading...
 
 [PreviousGet Report Meta Data](/developer/api-documentation/get-report-meta-data)[NextGet Trades Charges](/developer/api-documentation/get-trade-charges)
 
-
 ---
 
 ## [Get Profit And Loss On Trades | Upstox Developer API](https://upstox.com/developer/api-documentation/get-trade-charges)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
-  * Get Trades Charges
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Trade Profit And Loss](/developer/api-documentation/trade-profit-and-loss)
+- Get Trades Charges
 
 ## Get Trades Charges​
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Authorization| true| string| Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token).  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name          | Required | Type   | Description                                                                                         |
+| ------------- | -------- | ------ | --------------------------------------------------------------------------------------------------- |
+| Authorization | true     | string | Requires the format where is obtained from the [Token API](/developer/api-documentation/get-token). |
+| Accept        | true     | string | Defines the content format the client expects, which should be set to .                             |
+
 ### Query Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-from_date| false| string| Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-to_date| false| string| Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format  
-segment| true| string| Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives  
-financial_year| true| string| Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-  
+| Name           | Required | Type   | Description                                                                                                                                                                                                                                                                                         |
+| -------------- | -------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| from_date      | false    | string | Date from which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| to_date        | false    | string | Date till which data needs to be fetched. from_date and to_date should fall under the same financial year as mentioned in financial_year attribute. Date in dd-mm-yyyy format                                                                                                                       |
+| segment        | true     | string | Segment for which data is requested can be from the following options EQ - Equity, FO - Futures and Options, COM - Commodity, CD - Currency Derivatives                                                                                                                                             |
+| financial_year | true     | string | Financial year for which data has been requested. Concatenation of last 2 digits of from year and to year Sample:for 2021-2022, financial_year will be 2122. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Response data for brokerage  
-data.charges_breakdown| object| Response data for charges details  
-data.charges_breakdown.total| float| Total charges for the user  
-data.charges_breakdown.brokerage| float| Brokerage charges for the order  
-data.charges_breakdown.taxes| object| Taxes levied on order  
-data.charges_breakdown.taxes.gst| float| GST charges  
-data.charges_breakdown.taxes.stt| float| STT charges  
-data.charges_breakdown.taxes.stamp_duty| float| Stamp duty charges  
-data.charges_breakdown.charges| object| Other charges levied  
-data.charges_breakdown.charges.transaction| float| transaction charges  
-data.charges_breakdown.charges.clearing| float| clearing charges  
-data.charges_breakdown.charges.ipft| float| IPF charges  
-data.charges_breakdown.charges.others| float| others charges  
-data.charges_breakdown.charges.sebi_turnover| float| SEBI turnover  
-data.charges_breakdown.charges.demat_transaction| float| demat transaction charges  
-  
+| Name                                             | Type   | Description                                                                          |
+| ------------------------------------------------ | ------ | ------------------------------------------------------------------------------------ |
+| status                                           | string | A string indicating the outcome of the request. Typically for successful operations. |
+| data                                             | object | Response data for brokerage                                                          |
+| data.charges_breakdown                           | object | Response data for charges details                                                    |
+| data.charges_breakdown.total                     | float  | Total charges for the user                                                           |
+| data.charges_breakdown.brokerage                 | float  | Brokerage charges for the order                                                      |
+| data.charges_breakdown.taxes                     | object | Taxes levied on order                                                                |
+| data.charges_breakdown.taxes.gst                 | float  | GST charges                                                                          |
+| data.charges_breakdown.taxes.stt                 | float  | STT charges                                                                          |
+| data.charges_breakdown.taxes.stamp_duty          | float  | Stamp duty charges                                                                   |
+| data.charges_breakdown.charges                   | object | Other charges levied                                                                 |
+| data.charges_breakdown.charges.transaction       | float  | transaction charges                                                                  |
+| data.charges_breakdown.charges.clearing          | float  | clearing charges                                                                     |
+| data.charges_breakdown.charges.ipft              | float  | IPF charges                                                                          |
+| data.charges_breakdown.charges.others            | float  | others charges                                                                       |
+| data.charges_breakdown.charges.sebi_turnover     | float  | SEBI turnover                                                                        |
+| data.charges_breakdown.charges.demat_transaction | float  | demat transaction charges                                                            |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1067| **The 'segment' is required** \- You must provide the 'segment' for this operation.  
-UDAPI1066| **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.  
-UDAPI1070| **The financial_year is required** \- Please specify the 'financial_year' in your request.  
-UDAPI1074| **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.  
-UDAPI100051| **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.  
-UDAPI1075| **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct.  
-  
-  
-
+| Error code  | Description                                                                                                                                               |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1067   | **The 'segment' is required** \- You must provide the 'segment' for this operation.                                                                       |
+| UDAPI1066   | **The 'segment' is invalid** \- The provided 'segment' value isn't recognized or accepted.                                                                |
+| UDAPI1070   | **The financial_year is required** \- Please specify the 'financial_year' in your request.                                                                |
+| UDAPI1074   | **The financial_year is invalid** \- The 'financial_year' you've provided isn't recognized or valid.                                                      |
+| UDAPI100051 | **Invalid financial year** \- The financial year you've entered doesn't match any recognized formats or values.                                           |
+| UDAPI1075   | **to_date must be greater than or equal to from_date and Date should be in valid format: dd-mm-yyyy** \- Ensure your date ranges and formats are correct. |
 
 ## Examples​
 
@@ -8213,16 +7146,13 @@ Loading...
 
 [PreviousGet Profit Loss Report](/developer/api-documentation/get-profit-and-loss-report)[NextHistorical Data](/developer/api-documentation/historical-data)
 
-
 ---
 
 ## [Historical Data | Upstox Developer API](https://upstox.com/developer/api-documentation/historical-data#docusaurus_skipToContent_fallback)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * Historical Data
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- Historical Data
 
 # Historical Data
 
@@ -8230,92 +7160,78 @@ Loading...
 
 [PreviousGet Trades Charges](/developer/api-documentation/get-trade-charges)[NextHistorical Candle Data](/developer/api-documentation/get-historical-candle-data)
 
-
 ---
 
 ## [Historical Candle Data | Upstox Developer API](https://upstox.com/developer/api-documentation/get-historical-candle-data)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Historical Data](/developer/api-documentation/historical-data)
-  * Historical Candle Data
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Historical Data](/developer/api-documentation/historical-data)
+- Historical Candle Data
 
 ## Historical Candle Data​
 
 API to retrieve OHLC (Open, High, Low, Close) data for instruments spanning multiple timeframes. Historical data is available for the following time durations:
 
-  * 1-minute: Retrieve the candles from the final month leading up to the endDate.
-  * 30-minute: Retrieve the candles from the past year up to the endDate.
-  * Daily: Retrieve data for the past year, concluding on the endDate.
-  * Weekly: Retrieve data from the previous ten years, ending on the endDate.
-  * Monthly: Retrieve data spanning the last ten years, up to the specified endDate.
-
-
+- 1-minute: Retrieve the candles from the final month leading up to the endDate.
+- 30-minute: Retrieve the candles from the past year up to the endDate.
+- Daily: Retrieve data for the past year, concluding on the endDate.
+- Weekly: Retrieve data from the previous ten years, ending on the endDate.
+- Monthly: Retrieve data spanning the last ten years, up to the specified endDate.
 
 NOTE
 
-  * Use the [Intraday API](/developer/api-documentation/get-intra-day-candle-data) to retrieve data specific to the current trading day.
-  * One-minute and 30-minute candle data are accessible solely for the preceding six months.
-  * It's important to note that parameter accepts only a single identifier per request; comma-separated values or multiple identifiers are not supported.
-
-
-
-  
-
+- Use the [Intraday API](/developer/api-documentation/get-intra-day-candle-data) to retrieve data specific to the current trading day.
+- One-minute and 30-minute candle data are accessible solely for the preceding six months.
+- It's important to note that parameter accepts only a single identifier per request; comma-separated values or multiple identifiers are not supported.
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name   | Required | Type   | Description                                                             |
+| ------ | -------- | ------ | ----------------------------------------------------------------------- |
+| Accept | true     | string | Defines the content format the client expects, which should be set to . |
+
 ### Path Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-instrument_key| true| string| The unique identifier for the financial instrument for which historical data is being queried. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-interval| true| string| Specifies the time frame of the candles.  
-Possible values: , , , , .  
-to_date| true| string| The ending date (inclusive) for the historical data range. Format: 'YYYY-MM-DD'.  
-from_date| false| string| The starting date for the historical data range. Format: 'YYYY-MM-DD'.  
-  
+| Name           | Required | Type   | Description                                                                                                                                                                                                                           |
+| -------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key | true     | string | The unique identifier for the financial instrument for which historical data is being queried. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| interval       | true     | string | Specifies the time frame of the candles.                                                                                                                                                                                              |
+
+Possible values: , , , , .
+to_date| true| string| The ending date (inclusive) for the historical data range. Format: 'YYYY-MM-DD'.
+from_date| false| string| The starting date for the historical data range. Format: 'YYYY-MM-DD'.
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Contains OHLC values for all instruments across various timeframes.  
-data.candles| array[]| Array of candle data, each presented as an array with sequential elements representing trading activity.  
-data.candle[0]| number| : Indicating the start time of the candle's timeframe.  
-data.candle[1]| number| : The opening price of the asset for the given timeframe.  
-data.candle[2]| number| : The highest price at which the asset traded during the timeframe.  
-data.candle[3]| number| : The lowest price at which the asset traded during the timeframe.  
-data.candle[4]| number| : The closing price of the asset for the given timeframe.  
-data.candle[5]| number| : The total amount of the asset that was traded during the timeframe.  
-data.candle[6]| number| : The total number of outstanding derivative contracts, such as options or futures.  
-  
+| Name           | Type    | Description                                                                                              |
+| -------------- | ------- | -------------------------------------------------------------------------------------------------------- |
+| status         | string  | A string indicating the outcome of the request. Typically for successful operations.                     |
+| data           | object  | Contains OHLC values for all instruments across various timeframes.                                      |
+| data.candles   | array[] | Array of candle data, each presented as an array with sequential elements representing trading activity. |
+| data.candle[0] | number  | : Indicating the start time of the candle's timeframe.                                                   |
+| data.candle[1] | number  | : The opening price of the asset for the given timeframe.                                                |
+| data.candle[2] | number  | : The highest price at which the asset traded during the timeframe.                                      |
+| data.candle[3] | number  | : The lowest price at which the asset traded during the timeframe.                                       |
+| data.candle[4] | number  | : The closing price of the asset for the given timeframe.                                                |
+| data.candle[5] | number  | : The total amount of the asset that was traded during the timeframe.                                    |
+| data.candle[6] | number  | : The total number of outstanding derivative contracts, such as options or futures.                      |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1021| **Instrument key is of invalid format** \- The provided instrument key doesn't conform to the expected format.  
-UDAPI1020| **Interval accepts one of (1minute,30minute,day,week,month)** \- Ensure the 'interval' is one of the specified values.  
-UDAPI1022| **to_date is required** \- You must specify the 'to_date' in your request.  
-UDAPI100011| **Invalid Instrument key** \- The instrument key you provided doesn't match any of the recognized keys in the system.  
-  
-  
-
+| Error code  | Description                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1021   | **Instrument key is of invalid format** \- The provided instrument key doesn't conform to the expected format.         |
+| UDAPI1020   | **Interval accepts one of (1minute,30minute,day,week,month)** \- Ensure the 'interval' is one of the specified values. |
+| UDAPI1022   | **to_date is required** \- You must specify the 'to_date' in your request.                                             |
+| UDAPI100011 | **Invalid Instrument key** \- The instrument key you provided doesn't match any of the recognized keys in the system.  |
 
 ## Examples​
 
@@ -8325,17 +7241,14 @@ Loading...
 
 [PreviousHistorical Data](/developer/api-documentation/historical-data)[NextIntraday Candle Data](/developer/api-documentation/get-intra-day-candle-data)
 
-
 ---
 
 ## [Intraday Candle Data | Upstox Developer API](https://upstox.com/developer/api-documentation/get-intra-day-candle-data)
 
-  * [](/developer/api-documentation/)
-  * [Developer API](/developer/api-documentation/open-api)
-  * [Historical Data](/developer/api-documentation/historical-data)
-  * Intraday Candle Data
-
-
+- [](/developer/api-documentation/)
+- [Developer API](/developer/api-documentation/open-api)
+- [Historical Data](/developer/api-documentation/historical-data)
+- Intraday Candle Data
 
 ## Intraday Candle Data​
 
@@ -8343,62 +7256,53 @@ API to retrieve OHLC (Open, High, Low, Close) values for instruments during the 
 
 NOTE
 
-  * It's important to note that parameter accepts only a single identifier per request; comma-separated values or multiple identifiers are not supported.
-  * A minor delay may be experienced in the delivery of the most recent candle data, attributable to CDN caching. For immediate access to the latest data, it is advisable to connect to the websocket endpoints.
-
-
-
-  
-
+- It's important to note that parameter accepts only a single identifier per request; comma-separated values or multiple identifiers are not supported.
+- A minor delay may be experienced in the delivery of the most recent candle data, attributable to CDN caching. For immediate access to the latest data, it is advisable to connect to the websocket endpoints.
 
 ### Header Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-Accept| true| string| Defines the content format the client expects, which should be set to .  
-  
+| Name   | Required | Type   | Description                                                             |
+| ------ | -------- | ------ | ----------------------------------------------------------------------- |
+| Accept | true     | string | Defines the content format the client expects, which should be set to . |
+
 ### Path Parameters​
 
-Name| Required| Type| Description  
----|---|---|---  
-instrument_key| true| string| The unique identifier for the financial instrument for which historical data is being queried. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern).  
-interval| true| string| Specifies the time frame of the candles.  
-Possible values: , .  
-  
+| Name           | Required | Type   | Description                                                                                                                                                                                                                           |
+| -------------- | -------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| instrument_key | true     | string | The unique identifier for the financial instrument for which historical data is being queried. For the regex pattern applicable to this field, see the [Field Pattern Appendix](/developer/api-documentation/appendix/field-pattern). |
+| interval       | true     | string | Specifies the time frame of the candles.                                                                                                                                                                                              |
+
+Possible values: , .
+
 **Responses**
 
-  * 200
-  * 4XX
+- 200
+- 4XX
 
-
-
-* * *
+---
 
 ### Response Body​
 
-Name| Type| Description  
----|---|---  
-status| string| A string indicating the outcome of the request. Typically for successful operations.  
-data| object| Contains OHLC values for all instruments across various timeframes.  
-data.candles| array[]| Array of candle data, each presented as an array with sequential elements representing trading activity.  
-data.candle[0]| number| : Indicating the start time of the candle's timeframe.  
-data.candle[1]| number| : The opening price of the asset for the given timeframe.  
-data.candle[2]| number| : The highest price at which the asset traded during the timeframe.  
-data.candle[3]| number| : The lowest price at which the asset traded during the timeframe.  
-data.candle[4]| number| : The closing price of the asset for the given timeframe.  
-data.candle[5]| number| : The total amount of the asset that was traded during the timeframe.  
-data.candle[6]| number| : The total number of outstanding derivative contracts, such as options or futures.  
-  
+| Name           | Type    | Description                                                                                              |
+| -------------- | ------- | -------------------------------------------------------------------------------------------------------- |
+| status         | string  | A string indicating the outcome of the request. Typically for successful operations.                     |
+| data           | object  | Contains OHLC values for all instruments across various timeframes.                                      |
+| data.candles   | array[] | Array of candle data, each presented as an array with sequential elements representing trading activity. |
+| data.candle[0] | number  | : Indicating the start time of the candle's timeframe.                                                   |
+| data.candle[1] | number  | : The opening price of the asset for the given timeframe.                                                |
+| data.candle[2] | number  | : The highest price at which the asset traded during the timeframe.                                      |
+| data.candle[3] | number  | : The lowest price at which the asset traded during the timeframe.                                       |
+| data.candle[4] | number  | : The closing price of the asset for the given timeframe.                                                |
+| data.candle[5] | number  | : The total amount of the asset that was traded during the timeframe.                                    |
+| data.candle[6] | number  | : The total number of outstanding derivative contracts, such as options or futures.                      |
+
 ### Error codes​
 
-Error code| Description  
----|---  
-UDAPI1021| **Instrument key is of invalid format** \- The provided instrument key doesn't conform to the expected format.  
-UDAPI1020| **Interval accepts one of (1minute,30minute,day,week,month)** \- Ensure the 'interval' is one of the specified values.  
-UDAPI100011| **Invalid Instrument key** \- The instrument key you provided doesn't match any of the recognized keys in the system.  
-  
-  
-
+| Error code  | Description                                                                                                            |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------- |
+| UDAPI1021   | **Instrument key is of invalid format** \- The provided instrument key doesn't conform to the expected format.         |
+| UDAPI1020   | **Interval accepts one of (1minute,30minute,day,week,month)** \- Ensure the 'interval' is one of the specified values. |
+| UDAPI100011 | **Invalid Instrument key** \- The instrument key you provided doesn't match any of the recognized keys in the system.  |
 
 ## Examples​
 
@@ -8408,6 +7312,4 @@ Loading...
 
 [PreviousHistorical Candle Data](/developer/api-documentation/get-historical-candle-data)[NextMarket Quote](/developer/api-documentation/market-quote)
 
-
 ---
-
