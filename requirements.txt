@@ -3,7 +3,7 @@ beautifulsoup4
 selenium
 pdfkit
 webdriver_manager
-fpdf 
+fpdf
 tqdm
 readability
 Pillow

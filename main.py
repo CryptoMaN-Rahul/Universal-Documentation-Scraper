@@ -115,7 +115,7 @@ class MarketDataFeedDocScraper:
     def process_code_blocks(self, content: Tag):
         """
 
-        :param content: Tag: 
+        :param content: Tag:
 
         """
         code_blocks = content.find_all(["pre", "code"])
@@ -136,7 +136,7 @@ class MarketDataFeedDocScraper:
     def is_nodejs_code(self, block: Tag) -> bool:
         """
 
-        :param block: Tag: 
+        :param block: Tag:
 
         """
         # This method checks if a code block is Node.js related
@@ -166,7 +166,7 @@ class MarketDataFeedDocScraper:
     def is_valid_doc_url(self, url: str) -> bool:
         """
 
-        :param url: str: 
+        :param url: str:
 
         """
         parsed = urlparse(url)
