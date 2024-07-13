@@ -197,8 +197,7 @@ class MarketDataFeedDocScraper:
 
 async def main():
     parser = argparse.ArgumentParser(
-        description=
-        "Scrape Market Data Feed API documentation and convert to Markdown")
+        description="Scrape Market Data Feed API documentation and convert to Markdown")
     parser.add_argument(
         "--url",
         default="https://upstox.com/developer/api-documentation",
