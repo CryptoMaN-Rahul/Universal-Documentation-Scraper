@@ -76,7 +76,7 @@ class MarketDataFeedDocDownloader:
     def extract_content(self, url, soup):
         """
 
-        :param url:
+        :param url: param soup:
         :param soup:
 
         """
@@ -103,7 +103,7 @@ class MarketDataFeedDocDownloader:
     def process_image(self, img, base_url):
         """
 
-        :param img:
+        :param img: param base_url:
         :param base_url:
 
         """
@@ -129,7 +129,7 @@ class MarketDataFeedDocDownloader:
     def find_links(self, url, soup):
         """
 
-        :param url:
+        :param url: param soup:
         :param soup:
 
         """
