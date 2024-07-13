@@ -22,7 +22,7 @@ This project is a web scraper designed to extract and compile the Upstox API doc
 1. Clone this repository:
 
 2. Install the required packages:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Usage
 
