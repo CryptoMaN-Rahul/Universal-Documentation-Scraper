@@ -10,8 +10,10 @@ from bs4 import BeautifulSoup, Tag
 import html2text
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+logging.basicConfig(level=logging.INFO,
+                    format="%(asctime)s - %(levelname)s - %(message)s")
 logger = logging.getLogger(__name__)
+
 
 class MarketDataFeedDocScraper:
     def __init__(self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30):
@@ -34,7 +36,7 @@ class MarketDataFeedDocScraper:
         async with aiohttp.ClientSession() as session:
             # Get initial links
             await self.get_initial_links(session)
-            
+
             # Recursively scrape each link
             while self.to_scrape:
                 url = self.to_scrape.pop(0)
@@ -47,15 +49,15 @@ class MarketDataFeedDocScraper:
         logger.info(f"Getting initial links from: {self.base_url}")
         async with session.get(self.base_url, timeout=self.timeout) as response:
             content = await response.text()
-        
+
         soup = BeautifulSoup(content, "html.parser")
         links = soup.find_all("a", href=True)
-        
+
         for link in links:
             full_url = urljoin(self.base_url, link["href"])
             if self.is_valid_doc_url(full_url) and full_url not in self.visited_urls:
                 self.to_scrape.append(full_url)
-        
+
         logger.info(f"Found {len(self.to_scrape)} initial links to scrape")
 
     async def process_url(self, url: str, session: aiohttp.ClientSession):
@@ -68,7 +70,7 @@ class MarketDataFeedDocScraper:
         try:
             async with session.get(url, timeout=self.timeout) as response:
                 content = await response.text()
-            
+
             soup = BeautifulSoup(content, "html.parser")
             await self.extract_content(url, soup)
             await self.find_links(url, soup)
@@ -77,21 +79,22 @@ class MarketDataFeedDocScraper:
 
     async def extract_content(self, url: str, soup: BeautifulSoup):
         # Find the main content area (adjust selectors as needed)
-        main_content = soup.find("main") or soup.find("article") or soup.find("div", class_="content")
-        
+        main_content = soup.find("main") or soup.find(
+            "article") or soup.find("div", class_="content")
+
         if not main_content:
             main_content = soup.find("body")
 
         if main_content:
             title = soup.find("title")
             title_text = title.text if title else "Untitled"
-            
+
             # Process code blocks to keep only Node.js related code
             self.process_code_blocks(main_content)
-            
+
             # Convert HTML to Markdown
             content_markdown = self.html_converter.handle(str(main_content))
-            
+
             self.content_list.append({
                 "url": url,
                 "title": title_text,
@@ -106,7 +109,8 @@ class MarketDataFeedDocScraper:
             # Check if the code block is Node.js related
             if self.is_nodejs_code(block):
                 # If it's Node.js, we keep it and add a label
-                block.insert(0, BeautifulSoup('<p><strong>Node.js Code:</strong></p>', 'html.parser'))
+                block.insert(0, BeautifulSoup(
+                    '<p><strong>Node.js Code:</strong></p>', 'html.parser'))
             else:
                 # If it's not Node.js, we remove the block
                 block.decompose()
@@ -115,7 +119,8 @@ class MarketDataFeedDocScraper:
         # This method checks if a code block is Node.js related
         # You may need to adjust this based on the specific structure of the documentation
         text = block.get_text().lower()
-        nodejs_indicators = ['node', 'npm', 'require(', 'module.exports', 'async/await', 'promise']
+        nodejs_indicators = [
+            'node', 'npm', 'require(', 'module.exports', 'async/await', 'promise']
         return any(indicator in text for indicator in nodejs_indicators)
 
     async def find_links(self, url: str, soup: BeautifulSoup):
@@ -137,17 +142,19 @@ class MarketDataFeedDocScraper:
 
     async def generate_markdown(self):
         markdown_content = "# Market Data Feed Documentation\n\n"
-        
+
         for item in self.content_list:
             markdown_content += f"## [{item['title']}]({item['url']})\n\n"
             markdown_content += item['content']
             markdown_content += "\n\n---\n\n"
 
-        markdown_path = os.path.join(self.output_dir, "market_data_feed_documentation.md")
+        markdown_path = os.path.join(
+            self.output_dir, "market_data_feed_documentation.md")
         with open(markdown_path, "w", encoding="utf-8") as md_file:
             md_file.write(markdown_content)
 
         logger.info(f"Markdown file saved to: {markdown_path}")
+
 
 async def main():
     parser = argparse.ArgumentParser(
