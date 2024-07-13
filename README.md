@@ -1,6 +1,5 @@
 
 
-```markdown
 # Universal Documentation Scraper
 
 This project is a versatile web scraper designed to extract and compile documentation from any given URL into a single Markdown file. It's particularly useful for creating offline copies of online documentation or for aggregating information from multiple pages into a single document.
@@ -25,8 +24,8 @@ This project is a versatile web scraper designed to extract and compile document
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/universal-doc-scraper.git
-   cd universal-doc-scraper
+   git clone https://github.com/CryptoMaN-Rahul/Universal-Documentation-Scraper
+   cd Universal-Documentation-Scraper
    ```
 
 2. Install the required packages:
