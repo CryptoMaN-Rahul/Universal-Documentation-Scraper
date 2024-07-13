@@ -17,6 +17,7 @@ logger = logging.getLogger(__name__)
 
 
 class MarketDataFeedDocScraper:
+    """ """
     def __init__(
         self, base_url: str, output_dir: str, max_pages: int = 100, timeout: int = 30
     ):
@@ -108,6 +109,11 @@ class MarketDataFeedDocScraper:
             logger.warning(f"Main content not found on {url}")
 
     def process_code_blocks(self, content: Tag):
+        """
+
+        :param content: Tag: 
+
+        """
         code_blocks = content.find_all(["pre", "code"])
         for block in code_blocks:
             # Check if the code block is Node.js related
@@ -124,6 +130,11 @@ class MarketDataFeedDocScraper:
                 block.decompose()
 
     def is_nodejs_code(self, block: Tag) -> bool:
+        """
+
+        :param block: Tag: 
+
+        """
         # This method checks if a code block is Node.js related
         # You may need to adjust this based on the specific structure of the documentation
         text = block.get_text().lower()
@@ -149,6 +160,11 @@ class MarketDataFeedDocScraper:
                 self.to_scrape.append(full_url)
 
     def is_valid_doc_url(self, url: str) -> bool:
+        """
+
+        :param url: str: 
+
+        """
         parsed = urlparse(url)
         base_parsed = urlparse(self.base_url)
         return (
