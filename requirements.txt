@@ -1,11 +1,3 @@
-requests
-beautifulsoup4
-selenium
-pdfkit
-webdriver_manager
-fpdf 
-tqdm
-readability
-Pillow
-cssutils
-xhtml2pdf
+aiohttp==3.8.4
+beautifulsoup4==4.10.0
+html2text==2020.1.16
